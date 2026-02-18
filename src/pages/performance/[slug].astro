@@ -2,6 +2,7 @@
 import { getCollection, render } from "astro:content";
 import ArticleLayout from "../../layouts/ArticleLayout.astro";
 import { categories } from "../../lib/categories";
+import { extractBilingual } from "../../lib/render-zh";
 
 export async function getStaticPaths() {
   const articles = await getCollection("performance");
@@ -13,8 +14,9 @@ export async function getStaticPaths() {
 
 const { article } = Astro.props;
 const { Content, headings } = await render(article);
+const bilingual = extractBilingual(article.body);
 ---
 
-<ArticleLayout article={article} category={categories.performance} headings={headings}>
+<ArticleLayout article={article} category={categories.performance} headings={headings} bilingual={bilingual}>
   <Content />
 </ArticleLayout>

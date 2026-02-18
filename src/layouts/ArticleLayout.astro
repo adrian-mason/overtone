@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 import type { CategoryConfig } from "../lib/categories";
+import type { BilingualContent, TocHeading } from "../lib/render-zh";
 
 interface Heading {
   readonly depth: number;
@@ -22,10 +23,14 @@ interface Props {
   };
   category: CategoryConfig;
   headings?: Heading[];
+  bilingual?: BilingualContent;
 }
 
-const { article, category, headings = [] } = Astro.props;
-const tocItems = headings.filter((h) => h.depth === 2 || h.depth === 3);
+const { article, category, headings = [], bilingual } = Astro.props;
+const tocItems: TocHeading[] = bilingual
+  ? bilingual.enHeadings
+  : headings.filter((h) => h.depth === 2 || h.depth === 3);
+const zhTocItems: TocHeading[] = bilingual ? bilingual.zhHeadings : [];
 const { title, description, date, featured, tags } = article.data;
 
 const formattedDate = date.toLocaleDateString("en-US", {
@@ -116,8 +121,9 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 200));
           style="left: max(1rem, calc((100vw - 56rem) / 2 - 15rem));"
           aria-label="Table of Contents"
         >
-          <p class="mb-3 text-xs font-bold uppercase tracking-widest text-gray-400">On this page</p>
-          <ul class="space-y-1.5">
+          <p id="toc-title" class="mb-3 text-xs font-bold uppercase tracking-widest text-gray-400">On this page</p>
+          {/* English TOC */}
+          <ul id="toc-en" class="space-y-1.5">
             {tocItems.map((h) => (
               <li style={h.depth === 3 ? "padding-left: 0.75rem;" : ""}>
                 <a
@@ -130,16 +136,61 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 200));
               </li>
             ))}
           </ul>
+          {/* Chinese TOC (hidden by default) */}
+          {zhTocItems.length > 0 && (
+            <ul id="toc-zh" class="space-y-1.5" style="display: none;">
+              {zhTocItems.map((h) => (
+                <li style={h.depth === 3 ? "padding-left: 0.75rem;" : ""}>
+                  <a
+                    href={`#${h.slug}`}
+                    class="toc-link-zh block text-gray-400 transition-colors hover:text-black"
+                    data-slug={h.slug}
+                  >
+                    {h.text}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          )}
         </nav>
       )}
 
       {/* Article body — neo-brutalist card */}
-      <div class="relative">
-        <div class="absolute inset-0 rounded-lg border-2 border-black bg-white" style="transform: rotate(0.5deg);" />
-        <div class="neo-card-sm relative p-8 md:p-12">
-          <div class="prose">
-            <slot />
-          </div>
+      <div id="paper-flip" class="relative" style="perspective: 1800px;">
+        {/* Back paper — subtle tilt */}
+        <div
+          id="paper-back"
+          class="absolute inset-0 rounded-lg border-2 border-black transition-all duration-300"
+          style={`transform: rotate(0.1deg); background-color: ${bilingual ? "#fffbeb" : "white"};`}
+        />
+
+        {/* Front card */}
+        <div
+          id="paper-card"
+          class="neo-card-sm relative p-8 md:p-12"
+          style="transform-origin: right center; transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;"
+        >
+          {/* Sticker tab — top right corner */}
+          {bilingual && (
+            <button
+              id="paper-sticker"
+              class="absolute -right-3 -top-3 z-10 cursor-pointer rounded border-2 border-black bg-amber-50 px-2.5 py-1 text-xs font-bold shadow-[2px_2px_0_0_black] transition-all hover:-translate-y-0.5 hover:shadow-[3px_3px_0_0_black] active:translate-y-0 active:shadow-[1px_1px_0_0_black]"
+              style="transform: rotate(3deg);"
+              title="点击翻到中文"
+            >
+              中文
+            </button>
+          )}
+          {bilingual ? (
+            <>
+              <div id="content-en" class="prose" set:html={bilingual.enHtml} />
+              <div id="content-zh" class="prose" style="display: none;" set:html={bilingual.zhHtml} />
+            </>
+          ) : (
+            <div class="prose">
+              <slot />
+            </div>
+          )}
         </div>
       </div>
 
@@ -346,6 +397,79 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 200));
     );
 
     headings.forEach((h) => observer.observe(h));
+  }
+
+  // Bilingual paper flip
+  const contentEn = document.getElementById("content-en");
+  const contentZh = document.getElementById("content-zh");
+  const paperCard = document.getElementById("paper-card");
+  const paperBack = document.getElementById("paper-back");
+  const paperSticker = document.getElementById("paper-sticker");
+  const paperFlip = document.getElementById("paper-flip");
+  const tocEn = document.getElementById("toc-en");
+  const tocZh = document.getElementById("toc-zh");
+  const tocTitle = document.getElementById("toc-title");
+
+  if (paperSticker && contentEn && contentZh && paperCard && paperBack) {
+    let currentLang = "en";
+    let isAnimating = false;
+
+    const doFlip = () => {
+      if (isAnimating) return;
+      isAnimating = true;
+
+      // Page turn — lift and rotate from right edge
+      paperCard.style.transform = "rotateY(-80deg) scale(0.95)";
+      paperCard.style.opacity = "0.3";
+
+      setTimeout(() => {
+        if (currentLang === "en") {
+          contentEn.style.display = "none";
+          contentZh.style.display = "block";
+          paperBack.style.backgroundColor = "white";
+          paperBack.style.transform = "rotate(-0.2deg)";
+          paperCard.style.backgroundColor = "#fffbeb";
+          paperCard.style.borderColor = "#fbbf24";
+          paperSticker.textContent = "EN";
+          paperSticker.style.backgroundColor = "white";
+          paperSticker.title = "Switch to English";
+          if (tocEn) tocEn.style.display = "none";
+          if (tocZh) tocZh.style.display = "";
+          if (tocTitle) tocTitle.textContent = "本页目录";
+          currentLang = "zh";
+        } else {
+          contentZh.style.display = "none";
+          contentEn.style.display = "block";
+          paperBack.style.backgroundColor = "#fffbeb";
+          paperBack.style.transform = "rotate(0.1deg)";
+          paperCard.style.backgroundColor = "";
+          paperCard.style.borderColor = "";
+          paperSticker.textContent = "中文";
+          paperSticker.style.backgroundColor = "#fffbeb";
+          paperSticker.title = "点击翻到中文";
+          if (tocZh) tocZh.style.display = "none";
+          if (tocEn) tocEn.style.display = "";
+          if (tocTitle) tocTitle.textContent = "On this page";
+          currentLang = "en";
+        }
+
+        // Page turn back
+        paperCard.style.transform = "rotateY(0deg) scale(1)";
+        paperCard.style.opacity = "1";
+
+        // Scroll to card top
+        if (paperFlip) {
+          const rect = paperFlip.getBoundingClientRect();
+          if (rect.top < 0) {
+            paperFlip.scrollIntoView({ behavior: "smooth", block: "start" });
+          }
+        }
+
+        setTimeout(() => { isAnimating = false; }, 500);
+      }, 450);
+    };
+
+    paperSticker.addEventListener("click", doFlip);
   }
 
   // Heading anchor links
