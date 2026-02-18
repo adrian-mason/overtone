@@ -1,0 +1,185 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import type { CategoryConfig } from "../lib/categories";
+
+interface Props {
+  article: {
+    id: string;
+    data: {
+      title: string;
+      description: string;
+      date: Date;
+      featured: boolean;
+      tags: string[];
+    };
+  };
+  category: CategoryConfig;
+}
+
+const { article, category } = Astro.props;
+const { title, description, date } = article.data;
+
+const formattedDate = date.toLocaleDateString("en-US", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+---
+
+<BaseLayout title={`${title} — Overtone`} description={description}>
+  {/* Dot grid background */}
+  <div
+    class="fixed inset-0 -z-10"
+    style="background-image: radial-gradient(circle, #d1d5db 1px, transparent 1px); background-size: 24px 24px;"
+  >
+  </div>
+
+  <article class="mx-auto max-w-2xl px-6 py-12">
+    {/* Breadcrumb */}
+    <a
+      href={`/${category.slug}`}
+      class="inline-flex items-center gap-1 text-sm text-gray-500 transition-colors hover:text-gray-900"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+      </svg>
+      Back to Articles
+    </a>
+
+    {/* Category tag */}
+    <div class="mt-6">
+      <span
+        class="inline-block rounded-md px-3 py-1 text-xs font-medium"
+        style={`background-color: ${category.iconBg}; color: ${category.iconColor};`}
+      >
+        {category.title}
+      </span>
+    </div>
+
+    {/* Title */}
+    <h1 class="mt-4 font-caveat text-4xl font-bold leading-tight text-gray-900 sm:text-5xl">
+      {title}
+    </h1>
+
+    {/* Date */}
+    <div class="mt-3 flex items-center gap-2 text-sm text-gray-400">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+      </svg>
+      <time datetime={date.toISOString()}>{formattedDate}</time>
+    </div>
+
+    {/* Article body */}
+    <div class="prose mt-8">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .prose {
+    --tw-prose-font: "Noto Serif", serif;
+    font-family: var(--tw-prose-font);
+    font-size: 1.0625rem;
+    line-height: 1.8;
+    color: #374151;
+  }
+
+  .prose :where(h2) {
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    font-size: 1.375rem;
+    margin-top: 2em;
+    margin-bottom: 0.75em;
+    color: #111827;
+  }
+
+  .prose :where(h3) {
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    color: #111827;
+  }
+
+  .prose :where(p) {
+    margin-top: 0;
+    margin-bottom: 1.25em;
+  }
+
+  .prose :where(a) {
+    color: #3b82f6;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .prose :where(strong) {
+    font-weight: 700;
+    color: #111827;
+  }
+
+  .prose :where(ul) {
+    list-style: disc;
+    padding-left: 1.5em;
+    margin-bottom: 1.25em;
+  }
+
+  .prose :where(ol) {
+    list-style: decimal;
+    padding-left: 1.5em;
+    margin-bottom: 1.25em;
+  }
+
+  .prose :where(li) {
+    margin-bottom: 0.375em;
+  }
+
+  .prose :where(blockquote) {
+    border-left: 3px solid #d1d5db;
+    padding-left: 1em;
+    font-style: italic;
+    color: #6b7280;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+  }
+
+  .prose :where(code) {
+    font-size: 0.875em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    background-color: #f3f4f6;
+    padding: 0.125em 0.375em;
+    border-radius: 0.25rem;
+    color: #1f2937;
+  }
+
+  .prose :where(pre) {
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+    padding: 1rem 1.25rem;
+    overflow-x: auto;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+  }
+
+  .prose :where(pre code) {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    font-size: 0.8125rem;
+    line-height: 1.7;
+  }
+
+  .prose :where(hr) {
+    border-color: #e5e7eb;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .prose :where(img) {
+    border-radius: 0.75rem;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+  }
+</style>
