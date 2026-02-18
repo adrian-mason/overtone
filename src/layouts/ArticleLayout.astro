@@ -17,7 +17,7 @@ interface Props {
 }
 
 const { article, category } = Astro.props;
-const { title, description, date } = article.data;
+const { title, description, date, featured, tags } = article.data;
 
 const formattedDate = date.toLocaleDateString("en-US", {
   year: "numeric",
@@ -27,77 +27,111 @@ const formattedDate = date.toLocaleDateString("en-US", {
 ---
 
 <BaseLayout title={`${title} — Overtone`} description={description}>
-  {/* Dot grid background */}
   <div
-    class="fixed inset-0 -z-10"
-    style="background-image: radial-gradient(circle, #d1d5db 1px, transparent 1px); background-size: 24px 24px;"
+    class="min-h-screen"
+    style={`background-color: ${category.bgColor};`}
   >
-  </div>
+    {/* Dot grid overlay */}
+    <div class="dot-grid pointer-events-none fixed inset-0"></div>
 
-  <article class="mx-auto max-w-2xl px-6 py-12">
-    {/* Breadcrumb */}
-    <a
-      href={`/${category.slug}`}
-      class="inline-flex items-center gap-1 text-sm text-gray-500 transition-colors hover:text-gray-900"
-    >
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
-      </svg>
-      Back to Articles
-    </a>
-
-    {/* Category tag — sketchy pill */}
-    <div class="mt-6">
-      <span
-        class="sketch-pill inline-block px-3 py-1 text-xs font-medium"
-        style={`background-color: ${category.iconBg}; color: ${category.iconColor}; border-color: ${category.iconColor};`}
+    <article class="relative z-10 mx-auto max-w-4xl space-y-8 p-8">
+      {/* Back link */}
+      <a
+        href={`/${category.slug}`}
+        class="inline-flex items-center gap-2 text-xl hover:underline"
       >
-        {category.title}
-      </span>
-    </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7" /><path d="M19 12H5" /></svg>
+        Back to {category.title}
+      </a>
 
-    {/* Title */}
-    <h1 class="mt-4 font-caveat text-4xl font-bold leading-tight text-gray-900 sm:text-5xl">
-      {title}
-    </h1>
+      {/* Article header */}
+      <div class="space-y-4">
+        {/* Category + Featured badges */}
+        <div class="flex items-center gap-3">
+          <span
+            class="neo-badge px-3 py-1"
+            style={`background-color: ${category.featuredBg}; color: ${category.iconColor};`}
+          >
+            {category.title}
+          </span>
+          {featured && (
+            <span
+              class="neo-badge px-3 py-1"
+              style={`background-color: ${category.featuredBg};`}
+            >
+              Featured
+            </span>
+          )}
+        </div>
 
-    {/* Date */}
-    <div class="mt-3 flex items-center gap-2 text-sm text-gray-400">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-      </svg>
-      <time datetime={date.toISOString()}>{formattedDate}</time>
-    </div>
+        {/* Title */}
+        <h1 class="text-5xl font-bold leading-tight md:text-7xl">
+          {title}
+        </h1>
 
-    {/* Article body */}
-    <div class="prose mt-8">
-      <slot />
-    </div>
-  </article>
+        {/* Date + Tags */}
+        <div class="flex flex-wrap items-center gap-4 text-lg text-gray-500">
+          <div class="flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M3 10h18" /></svg>
+            <time datetime={date.toISOString()}>{formattedDate}</time>
+          </div>
+          {tags.length > 0 && (
+            <div class="flex flex-wrap gap-2">
+              {tags.map((tag) => (
+                <span class="rounded-full border-2 border-black bg-white px-3 py-0.5 text-sm font-bold">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Article body — neo-brutalist card */}
+      <div class="relative">
+        <div class="absolute inset-0 rounded-lg border-2 border-black bg-white" style="transform: rotate(0.5deg);" />
+        <div class="neo-card-sm relative p-8 md:p-12">
+          <div class="prose">
+            <slot />
+          </div>
+        </div>
+      </div>
+
+      {/* Footer — back to category */}
+      <div class="flex justify-center pt-4">
+        <a href={`/${category.slug}`} class="group relative">
+          <div class="absolute inset-0 rounded-full border-2 border-black bg-white transition-transform group-hover:translate-x-1 group-hover:translate-y-1" />
+          <div class="neo-pill relative flex items-center gap-3 px-8 py-4 text-xl font-bold">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7" /><path d="M19 12H5" /></svg>
+            <span>More {category.title}</span>
+          </div>
+        </a>
+      </div>
+    </article>
+  </div>
 </BaseLayout>
 
 <style>
   .prose {
-    --tw-prose-font: "Noto Serif", serif;
-    font-family: var(--tw-prose-font);
+    font-family: "Merriweather", serif;
     font-size: 1.0625rem;
     line-height: 1.8;
     color: #374151;
   }
 
   .prose :where(h2) {
-    font-family: "Noto Serif", serif;
+    font-family: "Architects Daughter", sans-serif;
     font-weight: 700;
-    font-size: 1.375rem;
+    font-size: 1.75rem;
     margin-top: 2em;
     margin-bottom: 0.75em;
     color: #111827;
   }
 
   .prose :where(h3) {
-    font-family: "Noto Serif", serif;
+    font-family: "Architects Daughter", sans-serif;
     font-weight: 700;
-    font-size: 1.125rem;
+    font-size: 1.375rem;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
     color: #111827;
@@ -136,7 +170,7 @@ const formattedDate = date.toLocaleDateString("en-US", {
   }
 
   .prose :where(blockquote) {
-    border-left: 3px solid #d1d5db;
+    border-left: 3px solid black;
     padding-left: 1em;
     font-style: italic;
     color: #6b7280;
@@ -150,13 +184,14 @@ const formattedDate = date.toLocaleDateString("en-US", {
     background-color: #f3f4f6;
     padding: 0.125em 0.375em;
     border-radius: 0.25rem;
+    border: 1px solid #e5e7eb;
     color: #1f2937;
   }
 
   .prose :where(pre) {
     background-color: #f9fafb;
-    border: 1px solid #e5e7eb;
-    border-radius: 0.75rem;
+    border: 2px solid black;
+    border-radius: 8px;
     padding: 1rem 1.25rem;
     overflow-x: auto;
     margin-top: 1.25em;
@@ -167,18 +202,21 @@ const formattedDate = date.toLocaleDateString("en-US", {
     background-color: transparent;
     padding: 0;
     border-radius: 0;
+    border: none;
     font-size: 0.8125rem;
     line-height: 1.7;
   }
 
   .prose :where(hr) {
-    border-color: #e5e7eb;
+    border-color: black;
+    border-style: dashed;
     margin-top: 2em;
     margin-bottom: 2em;
   }
 
   .prose :where(img) {
-    border-radius: 0.75rem;
+    border: 2px solid black;
+    border-radius: 8px;
     margin-top: 1.25em;
     margin-bottom: 1.25em;
   }

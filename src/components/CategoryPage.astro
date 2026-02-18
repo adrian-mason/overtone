@@ -42,49 +42,37 @@ const serializedArticles = sortedArticles.map((a) => ({
     style={`background-color: ${category.bgColor};`}
   >
     {/* Dot grid overlay */}
-    <div
-      class="fixed inset-0 -z-0 pointer-events-none"
-      style="background-image: radial-gradient(circle, rgba(0,0,0,0.06) 1px, transparent 1px); background-size: 24px 24px;"
-    >
-    </div>
+    <div class="dot-grid pointer-events-none fixed inset-0"></div>
 
-    <div class="relative z-10 mx-auto max-w-3xl px-6 py-16">
-      {/* Breadcrumb */}
+    <div class="relative z-10 mx-auto max-w-5xl p-8 space-y-8">
+      {/* Back link */}
       <a
         href="/#paths"
-        class="inline-flex items-center gap-1 text-sm text-gray-500 transition-colors hover:text-gray-900"
+        class="inline-flex items-center gap-2 text-xl hover:underline"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
-        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7" /><path d="M19 12H5" /></svg>
         Back to Interests
       </a>
 
       {/* Header */}
-      <div class="mt-8 flex items-start gap-4">
-        <div
-          class="sketch-circle mt-2 flex h-12 w-12 shrink-0 items-center justify-center"
-          style={`background-color: ${category.iconBg};`}
-        >
-          <CategoryIcon category={category.collection} class="h-6 w-6" style={`color: ${category.iconColor};`} />
-        </div>
-        <h1 class="font-caveat text-5xl font-bold text-gray-900 sm:text-6xl md:text-7xl">
+      <div class="flex items-center gap-4">
+        <CategoryIcon category={category.collection} class="h-12 w-12" style={`color: ${category.iconColor};`} />
+        <h1 class="text-5xl font-bold md:text-7xl">
           {category.title}
         </h1>
       </div>
-      <p class="mt-3 text-lg text-gray-500">
+      <div class="text-2xl text-gray-600">
         {category.description}
-      </p>
+      </div>
 
       {/* Search + Article List (React island) */}
-      <div class="mt-10">
-        <ArticleSearch
-          client:load
-          articles={serializedArticles}
-          categorySlug={category.slug}
-          featuredBg="#FEF9C3"
-        />
-      </div>
+      <ArticleSearch
+        client:load
+        articles={serializedArticles}
+        categorySlug={category.slug}
+        featuredBg={category.featuredBg}
+        hoverColor={category.hoverColor}
+      />
     </div>
   </div>
 </BaseLayout>

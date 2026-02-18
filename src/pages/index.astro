@@ -4,139 +4,148 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 <BaseLayout title="Overtone — Adrian's Digital Garden">
   {/* Dot grid background */}
-  <div
-    class="fixed inset-0 -z-10"
-    style="background-image: radial-gradient(circle, #d1d5db 1px, transparent 1px); background-size: 24px 24px;"
-  >
-  </div>
+  <div class="dot-grid pointer-events-none fixed inset-0 -z-10"></div>
 
   {/* Hero Section */}
-  <section class="relative flex min-h-screen flex-col items-center justify-center px-6">
-    <div class="relative flex flex-col items-center">
-      {/* "Hi, I'm" line */}
-      <div class="flex items-baseline gap-3">
-        <span class="font-caveat text-7xl font-bold text-gray-900 sm:text-[7rem] md:text-[9rem]">Hi,</span>
-        <span class="font-caveat text-7xl font-bold text-gray-900 sm:text-[7rem] md:text-[9rem]">I'm</span>
-      </div>
-
-      {/* Avatar + "Adrian" row — tight overlap with line above */}
-      <div class="relative -mt-6 flex items-center sm:-mt-10 md:-mt-16">
-        {/* Placeholder avatar — sketchy circle */}
-        <div class="sketch-circle -mr-2 h-20 w-20 shrink-0 overflow-hidden bg-gray-100 sm:-mr-4 sm:h-32 sm:w-32 md:h-40 md:w-40">
-          <div class="flex h-full w-full items-center justify-center text-3xl text-gray-400 sm:text-5xl md:text-7xl">
+  <section class="relative flex min-h-screen flex-col items-center justify-center p-8">
+    <div class="mx-auto w-full max-w-4xl space-y-12 text-center">
+      {/* Avatar */}
+      <div class="relative mx-auto h-48 w-48">
+        <div class="absolute inset-4 overflow-hidden rounded-full border-2 border-black bg-gray-100">
+          <div class="flex h-full w-full items-center justify-center text-5xl text-gray-400">
             ✎
           </div>
         </div>
-        <span class="font-caveat text-7xl font-bold text-gray-900 sm:text-[7rem] md:text-[9rem]">Adrian</span>
-        {/* Yellow sparkle */}
-        <svg
-          class="absolute -top-1 right-0 h-7 w-7 text-amber-400 sm:-top-2 sm:right-2 sm:h-9 sm:w-9 md:h-11 md:w-11"
-          viewBox="0 0 24 24"
-          fill="currentColor"
-        >
-          <path d="M12 2l1.5 5.5L19 9l-5.5 1.5L12 16l-1.5-5.5L5 9l5.5-1.5L12 2z" />
-          <path d="M18 14l.75 2.25L21 17l-2.25.75L18 20l-.75-2.25L15 17l2.25-.75L18 14z" opacity="0.7" />
-        </svg>
+        {/* Sparkle — top-right */}
+        <div class="absolute -right-12 -top-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-yellow-400 fill-yellow-100">
+            <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" />
+            <path d="M20 2v4" /><path d="M22 4h-4" />
+            <circle cx="4" cy="20" r="2" />
+          </svg>
+        </div>
       </div>
 
-      {/* Description — overlaps tightly with title, like in the design */}
-      <p class="-mt-2 max-w-xl text-center font-noto-serif text-lg leading-relaxed text-gray-500 sm:-mt-4 sm:text-xl">
-        I analyze systems, listen to centuries-old music,
-        and dream about electric sheep.
-        <br />
-        Welcome to my digital garden.
-      </p>
-    </div>
+      {/* Title */}
+      <h1 class="text-6xl font-bold tracking-tight text-black md:text-8xl">
+        Hi, I'm Adrian.
+      </h1>
 
-    {/* Identity pills — sketchy borders */}
-    <div class="mt-10 flex flex-wrap justify-center gap-4 sm:mt-12">
-      <a href="#paths" class="sketch-pill bg-white px-7 py-3 text-base font-medium transition-shadow hover:shadow-md">
-        ⚡ Performance Engineer
-      </a>
-      <a href="#paths" class="sketch-pill bg-white px-7 py-3 text-base font-medium transition-shadow hover:shadow-md">
-        🎵 Classical Lover
-      </a>
-      <a href="#paths" class="sketch-pill bg-white px-7 py-3 text-base font-medium transition-shadow hover:shadow-md">
-        ✨ AI Enthusiast
-      </a>
+      {/* Subtitle */}
+      <div class="mx-auto max-w-2xl text-2xl leading-relaxed text-gray-700 md:text-4xl">
+        I analyze systems, listen to centuries-old music, and dream about electric sheep. Welcome to my digital garden.
+      </div>
+
+      {/* Role Badges — paper effect with double borders */}
+      <div class="flex flex-wrap justify-center gap-4">
+        <div class="relative min-w-[150px]">
+          <div class="absolute inset-0 rounded-lg border-2 border-black bg-white paper-rotate-1"></div>
+          <div class="absolute inset-0 rounded-lg border-2 border-black paper-rotate-2"></div>
+          <div class="relative z-10 flex h-full flex-col justify-center p-6">
+            <div class="flex items-center justify-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2" /></svg>
+              <span class="text-lg font-bold">Performance Engineer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative min-w-[150px]">
+          <div class="absolute inset-0 rounded-lg border-2 border-black bg-white paper-rotate-2"></div>
+          <div class="absolute inset-0 rounded-lg border-2 border-black paper-rotate-1"></div>
+          <div class="relative z-10 flex h-full flex-col justify-center p-6">
+            <div class="flex items-center justify-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13" /><circle cx="6" cy="18" r="3" /><circle cx="18" cy="16" r="3" /></svg>
+              <span class="text-lg font-bold">Classical Lover</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative min-w-[150px]">
+          <div class="absolute inset-0 rounded-lg border-2 border-black bg-white paper-rotate-1"></div>
+          <div class="absolute inset-0 rounded-lg border-2 border-black paper-rotate-2"></div>
+          <div class="relative z-10 flex h-full flex-col justify-center p-6">
+            <div class="flex items-center justify-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8" /><rect width="16" height="12" x="4" y="8" rx="2" /><path d="M2 14h2" /><path d="M20 14h2" /><path d="M15 13v2" /><path d="M9 13v2" /></svg>
+              <span class="text-lg font-bold">AI Enthusiast</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     {/* Scroll indicator */}
-    <a href="#paths" class="absolute bottom-10 text-gray-400 transition-colors hover:text-gray-600">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-      </svg>
-    </a>
+    <div class="absolute bottom-12 left-1/2 -translate-x-1/2 opacity-50">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="animate-bounce"><path d="M12 5v14" /><path d="m19 12-7 7-7-7" /></svg>
+    </div>
   </section>
 
   {/* Pick a Path Section */}
-  <section id="paths" class="flex min-h-screen flex-col items-center justify-center px-6 py-20">
-    <div class="mx-auto w-full max-w-6xl">
-      <div class="text-center">
-        <h2 class="font-caveat text-6xl font-bold text-gray-900 sm:text-7xl md:text-8xl">
+  <section id="paths" class="relative flex min-h-screen flex-col items-center justify-center p-8">
+    <div class="dot-grid pointer-events-none absolute inset-0 -z-10"></div>
+    <div class="mx-auto w-full max-w-[1600px] space-y-12 text-center">
+      <div>
+        <h2 class="relative mb-4 inline-block text-5xl font-bold md:text-7xl">
           Pick a Path
+          {/* Wavy dashed underline */}
+          <svg class="absolute -bottom-4 left-0 h-6 w-full text-black" viewBox="0 0 200 20" preserveAspectRatio="none">
+            <path d="M5,10 Q50,15 100,5 T195,10" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="4 2" />
+          </svg>
         </h2>
-        <p class="mt-3 text-lg text-gray-500">
+        <div class="mt-4 text-xl text-gray-600 md:text-2xl">
           Where would you like to start?
-        </p>
+        </div>
       </div>
 
-      <div class="mt-14 grid gap-8 sm:mt-20 sm:grid-cols-3 sm:gap-10">
+      <div class="grid grid-cols-1 gap-8 px-4 md:grid-cols-3 xl:gap-12">
         {/* Performance Card */}
-        <a
-          href="/performance"
-          class="sketch-box sketch-tilt-1 group flex flex-col items-center p-10 text-center sm:p-12"
-        >
-          <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-full border-2 border-[#3B82F6] bg-[#DBEAFE]">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#3B82F6]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
+        <a href="/performance" class="group relative">
+          <div class="neo-card card-tilt-1 relative flex flex-col items-center space-y-6 p-8 text-center">
+            <div class="rounded-full border-2 border-black bg-blue-100 p-6">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v2" /><path d="M12 2v2" /><path d="M17 20v2" /><path d="M17 2v2" /><path d="M2 12h2" /><path d="M2 17h2" /><path d="M2 7h2" /><path d="M20 12h2" /><path d="M20 17h2" /><path d="M20 7h2" /><path d="M7 20v2" /><path d="M7 2v2" /><rect x="4" y="4" width="16" height="16" rx="2" /><rect x="8" y="8" width="8" height="8" rx="1" /></svg>
+            </div>
+            <h3 class="text-3xl font-bold">Performance Analysis</h3>
+            <div class="text-xl leading-snug text-gray-600">
+              Deep dives into system optimization, flame graphs, and latency hunting.
+            </div>
+            <div class="inline-flex items-center gap-2 border-b-2 border-black/20 pb-1 text-lg font-bold transition-colors group-hover:border-black">
+              <span>Explore</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+            </div>
           </div>
-          <h3 class="text-xl font-bold text-gray-900">Performance Analysis</h3>
-          <p class="mt-3 flex-1 text-sm leading-relaxed text-gray-500">
-            Deep dives into system optimization, flame graphs, and latency hunting.
-          </p>
-          <span class="mt-8 inline-flex items-center text-sm text-gray-400 transition-colors group-hover:text-gray-900">
-            Explore <span class="ml-1">→</span>
-          </span>
         </a>
 
         {/* Classical Card */}
-        <a
-          href="/classical"
-          class="sketch-box-alt sketch-tilt-2 group flex flex-col items-center p-10 text-center sm:p-12"
-        >
-          <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-full border-2 border-[#F59E0B] bg-[#FEF3C7]">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#F59E0B]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-            </svg>
+        <a href="/classical" class="group relative">
+          <div class="neo-card card-tilt-2 relative flex flex-col items-center space-y-6 p-8 text-center">
+            <div class="rounded-full border-2 border-black bg-yellow-100 p-6">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="2" /></svg>
+            </div>
+            <h3 class="text-3xl font-bold">Classical Records</h3>
+            <div class="text-xl leading-snug text-gray-600">
+              Reviews of timeless recordings. From Bach to Mahler.
+            </div>
+            <div class="inline-flex items-center gap-2 border-b-2 border-black/20 pb-1 text-lg font-bold transition-colors group-hover:border-black">
+              <span>Explore</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+            </div>
           </div>
-          <h3 class="text-xl font-bold text-gray-900">Classical Records</h3>
-          <p class="mt-3 flex-1 text-sm leading-relaxed text-gray-500">
-            Reviews of timeless recordings. From Bach to Mahler.
-          </p>
-          <span class="mt-8 inline-flex items-center text-sm text-gray-400 transition-colors group-hover:text-gray-900">
-            Explore <span class="ml-1">→</span>
-          </span>
         </a>
 
         {/* AI Card */}
-        <a
-          href="/ai"
-          class="sketch-box-v3 sketch-tilt-3 group flex flex-col items-center p-10 text-center sm:p-12"
-        >
-          <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-full border-2 border-[#A855F7] bg-[#F3E8FF]">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#A855F7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-            </svg>
+        <a href="/ai" class="group relative">
+          <div class="neo-card card-tilt-3 relative flex flex-col items-center space-y-6 p-8 text-center">
+            <div class="rounded-full border-2 border-black bg-red-100 p-6">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z" /><path d="M9 13a4.5 4.5 0 0 0 3-4" /><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5" /><path d="M3.477 10.896a4 4 0 0 1 .585-.396" /><path d="M6 18a4 4 0 0 1-1.967-.516" /><path d="M12 13h4" /><path d="M12 18h6a2 2 0 0 1 2 2v1" /><path d="M12 8h8" /><path d="M16 8V5a2 2 0 0 1 2-2" /><circle cx="16" cy="13" r=".5" /><circle cx="18" cy="3" r=".5" /><circle cx="20" cy="21" r=".5" /><circle cx="20" cy="8" r=".5" /></svg>
+            </div>
+            <h3 class="text-3xl font-bold">Artificial Intelligence</h3>
+            <div class="text-xl leading-snug text-gray-600">
+              Exploring the frontier of LLMs, agents, and generative art.
+            </div>
+            <div class="inline-flex items-center gap-2 border-b-2 border-black/20 pb-1 text-lg font-bold transition-colors group-hover:border-black">
+              <span>Explore</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+            </div>
           </div>
-          <h3 class="text-xl font-bold text-gray-900">Artificial Intelligence</h3>
-          <p class="mt-3 flex-1 text-sm leading-relaxed text-gray-500">
-            Exploring the frontier of LLMs, agents, and generative art.
-          </p>
-          <span class="mt-8 inline-flex items-center text-sm text-gray-400 transition-colors group-hover:text-gray-900">
-            Explore <span class="ml-1">→</span>
-          </span>
         </a>
       </div>
     </div>

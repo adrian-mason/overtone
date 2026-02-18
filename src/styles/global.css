@@ -1,96 +1,120 @@
 @import "tailwindcss";
 
 @theme {
-  --font-caveat: "Caveat", cursive;
-  --font-noto-serif: "Noto Serif", serif;
+  --font-architects: "Architects Daughter", sans-serif;
+  --font-merriweather: "Merriweather", serif;
 }
 
 /*
-  Hand-drawn / sketchy aesthetic
-  Uses irregular border-radius to simulate pen-drawn rectangles.
-  Default shadows + subtle rotations give depth and dynamism.
-  Tailwind can't do this — needs custom CSS.
+  Neo-brutalist design system
+  Extracted from the original Faces design HTML.
+  Key tokens: 2px solid black borders, solid black offset shadows,
+  standard border-radius (8px/12px), paper rotation effects.
 */
 
-/* Primary sketch border — used on cards, buttons, inputs */
-.sketch-box {
-  border: 2px solid #2a2a2a;
-  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+/* Dot grid background — used on most pages */
+.dot-grid {
+  background-image: radial-gradient(rgb(0, 0, 0) 1px, transparent 1px);
+  background-size: 20px 20px;
+  opacity: 0.1;
+}
+
+/* Neo-brutalist card — default state */
+.neo-card {
   background: white;
-  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.08);
+  border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-/* Alternate sketch border — variation for visual rhythm */
-.sketch-box-alt {
-  border: 2px solid #2a2a2a;
-  border-radius: 15px 225px 15px 255px / 255px 15px 225px 15px;
+.neo-card:hover {
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+}
+
+/* Neo-brutalist card — article cards (rounded-lg) */
+.neo-card-sm {
   background: white;
-  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.08);
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-/* Third variation */
-.sketch-box-v3 {
-  border: 2px solid #2a2a2a;
-  border-radius: 225px 15px 255px 15px / 15px 255px 15px 225px;
+.neo-card-sm:hover {
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
+}
+
+/* Neo-brutalist pill button */
+.neo-pill {
   background: white;
-  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.08);
+  border: 2px solid black;
+  border-radius: 9999px;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-/* Sketch pill — for tag-like elements */
-.sketch-pill {
-  border: 2px solid #2a2a2a;
-  border-radius: 255px 25px 225px 25px / 25px 225px 25px 255px;
+.neo-pill:hover {
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
+  transform: translate(2px, 2px);
 }
 
-/* Sketch circle — for icon containers */
-.sketch-circle {
-  border: 2px solid transparent;
-  border-radius: 60% 40% 55% 45% / 45% 55% 40% 60%;
+/* Neo-brutalist input */
+.neo-input {
+  background: white;
+  border: 2px solid black;
+  border-radius: 8px;
 }
 
-/* Sketch input */
-.sketch-input {
-  border: 2px solid #2a2a2a;
-  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
-}
-
-.sketch-input:focus {
-  border-color: #555;
+.neo-input:focus {
   outline: none;
 }
 
-/* Hand-drawn underline effect */
-.sketch-underline {
-  text-decoration: underline;
-  text-decoration-style: wavy;
-  text-underline-offset: 4px;
-  text-decoration-thickness: 1.5px;
+/* Featured badge */
+.neo-badge {
+  border: 2px solid black;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 700;
+  transform: rotate(-3deg);
 }
 
-/* Card tilt variations — scattered sticky-note feel */
-.sketch-tilt-1 {
-  transform: rotate(-1.5deg);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.sketch-tilt-1:hover {
-  transform: rotate(0deg) translateY(-2px);
-  box-shadow: 6px 8px 0 rgba(0, 0, 0, 0.1);
-}
-
-.sketch-tilt-2 {
+/* Paper rotation effects for role badges */
+.paper-rotate-1 {
   transform: rotate(1deg);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.sketch-tilt-2:hover {
-  transform: rotate(0deg) translateY(-2px);
-  box-shadow: 6px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-.sketch-tilt-3 {
+.paper-rotate-2 {
   transform: rotate(-0.5deg);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.sketch-tilt-3:hover {
-  transform: rotate(0deg) translateY(-2px);
-  box-shadow: 6px 8px 0 rgba(0, 0, 0, 0.1);
+
+/* Card tilt for Pick-a-Path */
+.card-tilt-1 {
+  transform: rotate(-1deg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-tilt-1:hover {
+  transform: rotate(0deg) scale(1.05);
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.card-tilt-2 {
+  transform: rotate(1deg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-tilt-2:hover {
+  transform: rotate(0deg) scale(1.05);
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.card-tilt-3 {
+  transform: rotate(-1deg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-tilt-3:hover {
+  transform: rotate(0deg) scale(1.05);
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
 }
