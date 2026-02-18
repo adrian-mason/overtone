@@ -1,0 +1,35 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Overtone — Adrian's Digital Garden">
+  <main class="flex min-h-screen flex-col items-center justify-center px-6">
+    <h1 class="font-caveat text-6xl font-bold text-gray-900">
+      Hi, I'm Adrian
+    </h1>
+    <p class="mt-4 max-w-lg text-center text-lg leading-relaxed text-gray-600">
+      I analyze systems, listen to centuries-old music, and dream about electric sheep.
+      Welcome to my digital garden.
+    </p>
+    <div class="mt-10 flex gap-4">
+      <a
+        href="/performance"
+        class="rounded-full border border-gray-200 px-5 py-2.5 text-sm transition-shadow hover:shadow-md"
+      >
+        <span class="mr-1.5">⚡</span> Performance Engineer
+      </a>
+      <a
+        href="/classical"
+        class="rounded-full border border-gray-200 px-5 py-2.5 text-sm transition-shadow hover:shadow-md"
+      >
+        <span class="mr-1.5">🎵</span> Classical Lover
+      </a>
+      <a
+        href="/ai"
+        class="rounded-full border border-gray-200 px-5 py-2.5 text-sm transition-shadow hover:shadow-md"
+      >
+        <span class="mr-1.5">✨</span> AI Enthusiast
+      </a>
+    </div>
+  </main>
+</BaseLayout>
