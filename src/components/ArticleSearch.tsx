@@ -32,7 +32,8 @@ export default function ArticleSearch({
     () =>
       new Fuse([...articles], {
         keys: ["title", "description", "tags"],
-        threshold: 0.4,
+        threshold: 0.3,
+        ignoreLocation: true,
       }),
     [articles],
   );
@@ -50,7 +51,7 @@ export default function ArticleSearch({
       {/* Search bar — neo-brutalist with paper rotation effect */}
       <div className="relative">
         <div
-          className="absolute inset-0 rounded-lg border-2 border-black bg-white"
+          className="pointer-events-none absolute inset-0 rounded-lg border-2 border-black bg-white"
           style={{ transform: "rotate(1deg)" }}
         />
         <div className="relative flex items-center gap-3 rounded-lg border-2 border-black bg-white p-4">
