@@ -2,9 +2,16 @@
 import BaseLayout from "./BaseLayout.astro";
 import type { CategoryConfig } from "../lib/categories";
 
+interface Heading {
+  readonly depth: number;
+  readonly slug: string;
+  readonly text: string;
+}
+
 interface Props {
   article: {
     id: string;
+    body?: string;
     data: {
       title: string;
       description: string;
@@ -14,9 +21,11 @@ interface Props {
     };
   };
   category: CategoryConfig;
+  headings?: Heading[];
 }
 
-const { article, category } = Astro.props;
+const { article, category, headings = [] } = Astro.props;
+const tocItems = headings.filter((h) => h.depth === 2 || h.depth === 3);
 const { title, description, date, featured, tags } = article.data;
 
 const formattedDate = date.toLocaleDateString("en-US", {
@@ -24,6 +33,9 @@ const formattedDate = date.toLocaleDateString("en-US", {
   month: "long",
   day: "numeric",
 });
+
+const wordCount = (article.body ?? "").split(/\s+/).filter(Boolean).length;
+const readingMinutes = Math.max(1, Math.round(wordCount / 200));
 ---
 
 <BaseLayout title={`${title} — Overtone`} description={description}>
@@ -31,6 +43,15 @@ const formattedDate = date.toLocaleDateString("en-US", {
     class="min-h-screen"
     style={`background-color: ${category.bgColor};`}
   >
+    {/* Reading progress bar */}
+    <div class="fixed left-0 top-0 z-50 h-1 w-full">
+      <div
+        id="reading-progress"
+        class="h-full origin-left scale-x-0 transition-none"
+        style={`background-color: ${category.iconColor};`}
+      />
+    </div>
+
     {/* Dot grid overlay */}
     <div class="dot-grid pointer-events-none fixed inset-0"></div>
 
@@ -61,11 +82,16 @@ const formattedDate = date.toLocaleDateString("en-US", {
           {title}
         </h1>
 
-        {/* Date + Tags */}
+        {/* Date + Reading time + Tags */}
         <div class="flex flex-wrap items-center gap-4 text-lg text-gray-500">
           <div class="flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4" /><path d="M16 2v4" /><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M3 10h18" /></svg>
             <time datetime={date.toISOString()}>{formattedDate}</time>
+          </div>
+          <span class="text-gray-300">|</span>
+          <div class="flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
+            <span>{readingMinutes} min read</span>
           </div>
           {tags.length > 0 && (
             <div class="flex flex-wrap gap-2">
@@ -81,6 +107,31 @@ const formattedDate = date.toLocaleDateString("en-US", {
           )}
         </div>
       </div>
+
+      {/* Table of Contents — desktop sidebar */}
+      {tocItems.length > 2 && (
+        <nav
+          id="toc"
+          class="fixed top-24 hidden max-h-[70vh] w-56 overflow-y-auto text-sm xl:block"
+          style="left: max(1rem, calc((100vw - 56rem) / 2 - 15rem));"
+          aria-label="Table of Contents"
+        >
+          <p class="mb-3 text-xs font-bold uppercase tracking-widest text-gray-400">On this page</p>
+          <ul class="space-y-1.5">
+            {tocItems.map((h) => (
+              <li style={h.depth === 3 ? "padding-left: 0.75rem;" : ""}>
+                <a
+                  href={`#${h.slug}`}
+                  class="toc-link block text-gray-400 transition-colors hover:text-black"
+                  data-slug={h.slug}
+                >
+                  {h.text}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )}
 
       {/* Article body — neo-brutalist card */}
       <div class="relative">
@@ -103,15 +154,47 @@ const formattedDate = date.toLocaleDateString("en-US", {
         </a>
       </div>
     </article>
+
+    {/* Back to top button */}
+    <button
+      id="back-to-top"
+      class="fixed bottom-8 right-8 z-50 hidden h-12 w-12 items-center justify-center rounded-full border-2 border-black bg-white shadow-[3px_3px_0_0_black] transition-all hover:-translate-y-0.5 hover:shadow-[4px_4px_0_0_black] active:translate-y-0 active:shadow-[1px_1px_0_0_black]"
+      aria-label="Back to top"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6" /></svg>
+    </button>
   </div>
 </BaseLayout>
 
-<style>
+<style is:global>
   .prose {
     font-family: "Merriweather", serif;
     font-size: 1.0625rem;
     line-height: 1.8;
     color: #374151;
+  }
+
+  .prose :where(h2),
+  .prose :where(h3) {
+    position: relative;
+  }
+
+  .prose :where(h2) .heading-anchor,
+  .prose :where(h3) .heading-anchor {
+    position: absolute;
+    left: -1.5em;
+    top: 0;
+    color: #d1d5db;
+    text-decoration: none;
+    font-weight: 400;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+  }
+
+  .prose :where(h2):hover .heading-anchor,
+  .prose :where(h3):hover .heading-anchor {
+    opacity: 1;
+    color: #9ca3af;
   }
 
   .prose :where(h2) {
@@ -216,3 +299,62 @@ const formattedDate = date.toLocaleDateString("en-US", {
     margin-bottom: 1.25em;
   }
 </style>
+
+<script>
+  const bar = document.getElementById("reading-progress");
+  const topBtn = document.getElementById("back-to-top");
+
+  window.addEventListener("scroll", () => {
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+    // Progress bar
+    if (bar) {
+      const progress = docHeight > 0 ? Math.min(scrollTop / docHeight, 1) : 0;
+      bar.style.transform = `scaleX(${progress})`;
+    }
+
+    // Back to top visibility
+    if (topBtn) {
+      topBtn.style.display = scrollTop > window.innerHeight ? "flex" : "none";
+    }
+  }, { passive: true });
+
+  topBtn?.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  // TOC active section tracking
+  const tocLinks = document.querySelectorAll<HTMLAnchorElement>(".toc-link");
+  if (tocLinks.length > 0) {
+    const headings = Array.from(tocLinks).map((link) =>
+      document.getElementById(link.dataset.slug ?? "")
+    ).filter(Boolean) as HTMLElement[];
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          const link = document.querySelector(`.toc-link[data-slug="${entry.target.id}"]`);
+          if (!link) continue;
+          if (entry.isIntersecting) {
+            tocLinks.forEach((l) => { l.style.color = ""; l.style.fontWeight = ""; });
+            link.setAttribute("style", "color: #111827; font-weight: 700;");
+          }
+        }
+      },
+      { rootMargin: "-80px 0px -70% 0px" }
+    );
+
+    headings.forEach((h) => observer.observe(h));
+  }
+
+  // Heading anchor links
+  document.querySelectorAll(".prose h2[id], .prose h3[id]").forEach((heading) => {
+    const anchor = document.createElement("a");
+    anchor.href = `#${heading.id}`;
+    anchor.className = "heading-anchor";
+    anchor.setAttribute("aria-hidden", "true");
+    anchor.textContent = "#";
+    heading.prepend(anchor);
+  });
+</script>
