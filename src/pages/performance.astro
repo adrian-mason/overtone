@@ -1,0 +1,9 @@
+---
+import { getCollection } from "astro:content";
+import CategoryPage from "../components/CategoryPage.astro";
+import { categories } from "../lib/categories";
+
+const articles = await getCollection("performance");
+---
+
+<CategoryPage category={categories.performance} articles={articles} />

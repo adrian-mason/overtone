@@ -1,0 +1,90 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CategoryIcon from "./CategoryIcon.astro";
+import ArticleSearch from "./ArticleSearch.tsx";
+import type { CategoryConfig } from "../lib/categories";
+
+interface ArticleEntry {
+  id: string;
+  data: {
+    title: string;
+    description: string;
+    date: Date;
+    featured: boolean;
+    tags: string[];
+  };
+}
+
+interface Props {
+  category: CategoryConfig;
+  articles: ArticleEntry[];
+}
+
+const { category, articles } = Astro.props;
+
+const sortedArticles = [...articles].sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime(),
+);
+
+const serializedArticles = sortedArticles.map((a) => ({
+  id: a.id,
+  title: a.data.title,
+  description: a.data.description,
+  date: a.data.date.toISOString(),
+  featured: a.data.featured,
+  tags: a.data.tags,
+}));
+---
+
+<BaseLayout title={`${category.title} — Overtone`} description={category.description}>
+  <div
+    class="min-h-screen"
+    style={`background-color: ${category.bgColor};`}
+  >
+    {/* Dot grid overlay */}
+    <div
+      class="fixed inset-0 -z-0 pointer-events-none"
+      style="background-image: radial-gradient(circle, rgba(0,0,0,0.06) 1px, transparent 1px); background-size: 24px 24px;"
+    >
+    </div>
+
+    <div class="relative z-10 mx-auto max-w-2xl px-6 py-12">
+      {/* Breadcrumb */}
+      <a
+        href="/#paths"
+        class="inline-flex items-center gap-1 text-sm text-gray-500 transition-colors hover:text-gray-900"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+        </svg>
+        Back to Interests
+      </a>
+
+      {/* Header */}
+      <div class="mt-6 flex items-center gap-3">
+        <div
+          class="flex h-10 w-10 items-center justify-center rounded-full"
+          style={`background-color: ${category.iconBg};`}
+        >
+          <CategoryIcon category={category.collection} class="h-5 w-5" style={`color: ${category.iconColor};`} />
+        </div>
+        <h1 class="font-caveat text-4xl font-bold text-gray-900 sm:text-5xl">
+          {category.title}
+        </h1>
+      </div>
+      <p class="mt-3 text-gray-500">
+        {category.description}
+      </p>
+
+      {/* Search + Article List (React island) */}
+      <div class="mt-8">
+        <ArticleSearch
+          client:load
+          articles={serializedArticles}
+          categorySlug={category.slug}
+          featuredBg="#FEF9C3"
+        />
+      </div>
+    </div>
+  </div>
+</BaseLayout>
