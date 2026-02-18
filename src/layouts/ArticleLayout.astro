@@ -46,11 +46,11 @@ const formattedDate = date.toLocaleDateString("en-US", {
       Back to Articles
     </a>
 
-    {/* Category tag */}
+    {/* Category tag — sketchy pill */}
     <div class="mt-6">
       <span
-        class="inline-block rounded-md px-3 py-1 text-xs font-medium"
-        style={`background-color: ${category.iconBg}; color: ${category.iconColor};`}
+        class="sketch-pill inline-block px-3 py-1 text-xs font-medium"
+        style={`background-color: ${category.iconBg}; color: ${category.iconColor}; border-color: ${category.iconColor};`}
       >
         {category.title}
       </span>

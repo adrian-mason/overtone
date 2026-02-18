@@ -61,18 +61,18 @@ const serializedArticles = sortedArticles.map((a) => ({
       </a>
 
       {/* Header */}
-      <div class="mt-6 flex items-center gap-3">
+      <div class="mt-6 flex items-start gap-3">
         <div
-          class="flex h-10 w-10 items-center justify-center rounded-full"
+          class="sketch-circle mt-2 flex h-10 w-10 shrink-0 items-center justify-center"
           style={`background-color: ${category.iconBg};`}
         >
           <CategoryIcon category={category.collection} class="h-5 w-5" style={`color: ${category.iconColor};`} />
         </div>
-        <h1 class="font-caveat text-4xl font-bold text-gray-900 sm:text-5xl">
+        <h1 class="font-caveat text-5xl font-bold text-gray-900 sm:text-6xl">
           {category.title}
         </h1>
       </div>
-      <p class="mt-3 text-gray-500">
+      <p class="mt-2 text-gray-500">
         {category.description}
       </p>
 

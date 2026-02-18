@@ -17,6 +17,13 @@ interface Props {
   readonly initialCount?: number;
 }
 
+/* Three sketch border-radius variations for visual rhythm */
+const sketchVariants = [
+  "255px 15px 225px 15px / 15px 225px 15px 255px",
+  "15px 225px 15px 255px / 255px 15px 225px 15px",
+  "225px 15px 255px 15px / 15px 255px 15px 225px",
+];
+
 export default function ArticleSearch({
   articles,
   categorySlug,
@@ -45,7 +52,7 @@ export default function ArticleSearch({
 
   return (
     <div>
-      {/* Search box */}
+      {/* Search box — sketchy border */}
       <div className="relative mb-8">
         <svg
           className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-gray-400"
@@ -66,23 +73,27 @@ export default function ArticleSearch({
           placeholder="Search articles..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          className="w-full rounded-lg border border-gray-200 bg-white py-3 pl-12 pr-4 text-sm outline-none transition-shadow placeholder:text-gray-400 focus:border-gray-300 focus:shadow-sm"
+          className="sketch-input w-full bg-white py-3 pl-12 pr-4 text-sm outline-none transition-shadow placeholder:text-gray-400"
           style={{ fontFamily: "'Noto Serif', serif" }}
         />
       </div>
 
       {/* Article list */}
       <div className="flex flex-col gap-4">
-        {visible.map((article) => (
+        {visible.map((article, index) => (
           <a
             key={article.id}
             href={`/${categorySlug}/${article.id}`}
-            className="group rounded-xl border border-gray-200 bg-white p-5 transition-shadow hover:shadow-md sm:p-6"
+            className="group bg-white p-5 transition-shadow hover:shadow-md sm:p-6"
+            style={{
+              border: "2px solid #2a2a2a",
+              borderRadius: sketchVariants[index % sketchVariants.length],
+            }}
           >
             <div className="flex items-start justify-between gap-4">
               <div className="min-w-0 flex-1">
                 <h3
-                  className="text-xl font-bold leading-tight text-gray-900 sm:text-2xl"
+                  className="text-2xl font-bold leading-tight text-gray-900 sm:text-3xl"
                   style={{ fontFamily: "'Caveat', cursive" }}
                 >
                   {article.title}
@@ -93,8 +104,12 @@ export default function ArticleSearch({
               </div>
               {article.featured && (
                 <span
-                  className="shrink-0 rounded-md px-2.5 py-1 text-xs font-medium text-gray-700"
-                  style={{ backgroundColor: featuredBg }}
+                  className="shrink-0 px-2.5 py-1 text-xs font-medium text-gray-700"
+                  style={{
+                    backgroundColor: featuredBg,
+                    border: "1.5px solid #2a2a2a",
+                    borderRadius: "255px 25px 225px 25px / 25px 225px 25px 255px",
+                  }}
                 >
                   Featured
                 </span>
@@ -123,12 +138,16 @@ export default function ArticleSearch({
         </p>
       )}
 
-      {/* Show more button */}
+      {/* Show more button — sketchy pill */}
       {!isSearching && !showAll && hiddenCount > 0 && (
         <div className="mt-8 text-center">
           <button
             onClick={() => setShowAll(true)}
-            className="rounded-full border border-gray-300 bg-white px-6 py-2.5 text-sm text-gray-600 transition-shadow hover:shadow-md"
+            className="bg-white px-6 py-2.5 text-sm text-gray-600 transition-shadow hover:shadow-md"
+            style={{
+              border: "2px solid #2a2a2a",
+              borderRadius: "255px 25px 225px 25px / 25px 225px 25px 255px",
+            }}
           >
             ↓ Show All Articles (+{hiddenCount} more)
           </button>

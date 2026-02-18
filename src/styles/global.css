@@ -4,3 +4,61 @@
   --font-caveat: "Caveat", cursive;
   --font-noto-serif: "Noto Serif", serif;
 }
+
+/*
+  Hand-drawn / sketchy aesthetic
+  Uses irregular border-radius to simulate pen-drawn rectangles.
+  Tailwind can't do this — needs custom CSS.
+*/
+
+/* Primary sketch border — used on cards, buttons, inputs */
+.sketch-box {
+  border: 2px solid #2a2a2a;
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  background: white;
+}
+
+/* Alternate sketch border — variation for visual rhythm */
+.sketch-box-alt {
+  border: 2px solid #2a2a2a;
+  border-radius: 15px 225px 15px 255px / 255px 15px 225px 15px;
+  background: white;
+}
+
+/* Third variation */
+.sketch-box-v3 {
+  border: 2px solid #2a2a2a;
+  border-radius: 225px 15px 255px 15px / 15px 255px 15px 225px;
+  background: white;
+}
+
+/* Sketch pill — for tag-like elements */
+.sketch-pill {
+  border: 2px solid #2a2a2a;
+  border-radius: 255px 25px 225px 25px / 25px 225px 25px 255px;
+}
+
+/* Sketch circle — for icon containers */
+.sketch-circle {
+  border: 2px solid transparent;
+  border-radius: 60% 40% 55% 45% / 45% 55% 40% 60%;
+}
+
+/* Sketch input */
+.sketch-input {
+  border: 2px solid #2a2a2a;
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+}
+
+.sketch-input:focus {
+  border-color: #555;
+  outline: none;
+}
+
+/* Hand-drawn underline effect */
+.sketch-underline {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1.5px;
+}
