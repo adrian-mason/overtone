@@ -8,6 +8,7 @@
 /*
   Hand-drawn / sketchy aesthetic
   Uses irregular border-radius to simulate pen-drawn rectangles.
+  Default shadows + subtle rotations give depth and dynamism.
   Tailwind can't do this — needs custom CSS.
 */
 
@@ -16,6 +17,7 @@
   border: 2px solid #2a2a2a;
   border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
   background: white;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.08);
 }
 
 /* Alternate sketch border — variation for visual rhythm */
@@ -23,6 +25,7 @@
   border: 2px solid #2a2a2a;
   border-radius: 15px 225px 15px 255px / 255px 15px 225px 15px;
   background: white;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.08);
 }
 
 /* Third variation */
@@ -30,6 +33,7 @@
   border: 2px solid #2a2a2a;
   border-radius: 225px 15px 255px 15px / 15px 255px 15px 225px;
   background: white;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.08);
 }
 
 /* Sketch pill — for tag-like elements */
@@ -61,4 +65,32 @@
   text-decoration-style: wavy;
   text-underline-offset: 4px;
   text-decoration-thickness: 1.5px;
+}
+
+/* Card tilt variations — scattered sticky-note feel */
+.sketch-tilt-1 {
+  transform: rotate(-1.5deg);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.sketch-tilt-1:hover {
+  transform: rotate(0deg) translateY(-2px);
+  box-shadow: 6px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.sketch-tilt-2 {
+  transform: rotate(1deg);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.sketch-tilt-2:hover {
+  transform: rotate(0deg) translateY(-2px);
+  box-shadow: 6px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.sketch-tilt-3 {
+  transform: rotate(-0.5deg);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.sketch-tilt-3:hover {
+  transform: rotate(0deg) translateY(-2px);
+  box-shadow: 6px 8px 0 rgba(0, 0, 0, 0.1);
 }

@@ -19,11 +19,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         <span class="font-caveat text-7xl font-bold text-gray-900 sm:text-[7rem] md:text-[9rem]">I'm</span>
       </div>
 
-      {/* Avatar + "Adrian" row */}
-      <div class="relative -mt-4 flex items-center sm:-mt-8 md:-mt-12">
+      {/* Avatar + "Adrian" row — tight overlap with line above */}
+      <div class="relative -mt-6 flex items-center sm:-mt-10 md:-mt-16">
         {/* Placeholder avatar — sketchy circle */}
-        <div class="sketch-circle -mr-2 h-20 w-20 shrink-0 overflow-hidden bg-gray-100 sm:-mr-3 sm:h-28 sm:w-28 md:h-36 md:w-36">
-          <div class="flex h-full w-full items-center justify-center text-3xl text-gray-400 sm:text-5xl md:text-6xl">
+        <div class="sketch-circle -mr-2 h-20 w-20 shrink-0 overflow-hidden bg-gray-100 sm:-mr-4 sm:h-32 sm:w-32 md:h-40 md:w-40">
+          <div class="flex h-full w-full items-center justify-center text-3xl text-gray-400 sm:text-5xl md:text-7xl">
             ✎
           </div>
         </div>
@@ -38,24 +38,25 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           <path d="M18 14l.75 2.25L21 17l-2.25.75L18 20l-.75-2.25L15 17l2.25-.75L18 14z" opacity="0.7" />
         </svg>
       </div>
+
+      {/* Description — overlaps tightly with title, like in the design */}
+      <p class="-mt-2 max-w-xl text-center font-noto-serif text-lg leading-relaxed text-gray-500 sm:-mt-4 sm:text-xl">
+        I analyze systems, listen to centuries-old music,
+        and dream about electric sheep.
+        <br />
+        Welcome to my digital garden.
+      </p>
     </div>
 
-    <p class="mt-2 max-w-lg text-center text-base leading-relaxed text-gray-500 sm:mt-3 sm:text-lg">
-      I analyze systems, listen to centuries-old music,
-      and dream about electric sheep.
-      <br />
-      Welcome to my digital garden.
-    </p>
-
     {/* Identity pills — sketchy borders */}
-    <div class="mt-8 flex flex-wrap justify-center gap-3 sm:mt-10">
-      <a href="#paths" class="sketch-pill bg-white px-6 py-2.5 text-sm font-medium transition-shadow hover:shadow-md">
+    <div class="mt-10 flex flex-wrap justify-center gap-4 sm:mt-12">
+      <a href="#paths" class="sketch-pill bg-white px-7 py-3 text-base font-medium transition-shadow hover:shadow-md">
         ⚡ Performance Engineer
       </a>
-      <a href="#paths" class="sketch-pill bg-white px-6 py-2.5 text-sm font-medium transition-shadow hover:shadow-md">
+      <a href="#paths" class="sketch-pill bg-white px-7 py-3 text-base font-medium transition-shadow hover:shadow-md">
         🎵 Classical Lover
       </a>
-      <a href="#paths" class="sketch-pill bg-white px-6 py-2.5 text-sm font-medium transition-shadow hover:shadow-md">
+      <a href="#paths" class="sketch-pill bg-white px-7 py-3 text-base font-medium transition-shadow hover:shadow-md">
         ✨ AI Enthusiast
       </a>
     </div>
@@ -69,8 +70,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   </section>
 
   {/* Pick a Path Section */}
-  <section id="paths" class="flex min-h-screen flex-col items-center justify-center px-6">
-    <div class="mx-auto w-full max-w-5xl">
+  <section id="paths" class="flex min-h-screen flex-col items-center justify-center px-6 py-20">
+    <div class="mx-auto w-full max-w-6xl">
       <div class="text-center">
         <h2 class="font-caveat text-6xl font-bold text-gray-900 sm:text-7xl md:text-8xl">
           Pick a Path
@@ -80,22 +81,22 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         </p>
       </div>
 
-      <div class="mt-12 grid gap-6 sm:mt-16 sm:grid-cols-3 sm:gap-8">
+      <div class="mt-14 grid gap-8 sm:mt-20 sm:grid-cols-3 sm:gap-10">
         {/* Performance Card */}
         <a
           href="/performance"
-          class="sketch-box group flex flex-col items-center p-8 text-center transition-shadow hover:shadow-lg sm:p-10"
+          class="sketch-box sketch-tilt-1 group flex flex-col items-center p-10 text-center sm:p-12"
         >
-          <div class="mb-5 flex h-14 w-14 items-center justify-center rounded-full border-2 border-[#3B82F6] bg-[#DBEAFE]">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#3B82F6]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-full border-2 border-[#3B82F6] bg-[#DBEAFE]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#3B82F6]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             </svg>
           </div>
           <h3 class="text-xl font-bold text-gray-900">Performance Analysis</h3>
-          <p class="mt-2 flex-1 text-sm leading-relaxed text-gray-500">
+          <p class="mt-3 flex-1 text-sm leading-relaxed text-gray-500">
             Deep dives into system optimization, flame graphs, and latency hunting.
           </p>
-          <span class="mt-6 inline-flex items-center text-sm text-gray-400 transition-colors group-hover:text-gray-900">
+          <span class="mt-8 inline-flex items-center text-sm text-gray-400 transition-colors group-hover:text-gray-900">
             Explore <span class="ml-1">→</span>
           </span>
         </a>
@@ -103,18 +104,18 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         {/* Classical Card */}
         <a
           href="/classical"
-          class="sketch-box-alt group flex flex-col items-center p-8 text-center transition-shadow hover:shadow-lg sm:p-10"
+          class="sketch-box-alt sketch-tilt-2 group flex flex-col items-center p-10 text-center sm:p-12"
         >
-          <div class="mb-5 flex h-14 w-14 items-center justify-center rounded-full border-2 border-[#F59E0B] bg-[#FEF3C7]">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#F59E0B]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-full border-2 border-[#F59E0B] bg-[#FEF3C7]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#F59E0B]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
             </svg>
           </div>
           <h3 class="text-xl font-bold text-gray-900">Classical Records</h3>
-          <p class="mt-2 flex-1 text-sm leading-relaxed text-gray-500">
+          <p class="mt-3 flex-1 text-sm leading-relaxed text-gray-500">
             Reviews of timeless recordings. From Bach to Mahler.
           </p>
-          <span class="mt-6 inline-flex items-center text-sm text-gray-400 transition-colors group-hover:text-gray-900">
+          <span class="mt-8 inline-flex items-center text-sm text-gray-400 transition-colors group-hover:text-gray-900">
             Explore <span class="ml-1">→</span>
           </span>
         </a>
@@ -122,18 +123,18 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         {/* AI Card */}
         <a
           href="/ai"
-          class="sketch-box-v3 group flex flex-col items-center p-8 text-center transition-shadow hover:shadow-lg sm:p-10"
+          class="sketch-box-v3 sketch-tilt-3 group flex flex-col items-center p-10 text-center sm:p-12"
         >
-          <div class="mb-5 flex h-14 w-14 items-center justify-center rounded-full border-2 border-[#A855F7] bg-[#F3E8FF]">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-[#A855F7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-full border-2 border-[#A855F7] bg-[#F3E8FF]">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#A855F7]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
             </svg>
           </div>
           <h3 class="text-xl font-bold text-gray-900">Artificial Intelligence</h3>
-          <p class="mt-2 flex-1 text-sm leading-relaxed text-gray-500">
+          <p class="mt-3 flex-1 text-sm leading-relaxed text-gray-500">
             Exploring the frontier of LLMs, agents, and generative art.
           </p>
-          <span class="mt-6 inline-flex items-center text-sm text-gray-400 transition-colors group-hover:text-gray-900">
+          <span class="mt-8 inline-flex items-center text-sm text-gray-400 transition-colors group-hover:text-gray-900">
             Explore <span class="ml-1">→</span>
           </span>
         </a>
