@@ -83,6 +83,19 @@ html {
   transform: rotate(-3deg);
 }
 
+/* Hand-drawn tag pill */
+.neo-tag {
+  border: 2px solid black;
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  font-weight: 700;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.neo-tag:hover {
+  background-color: black;
+  color: white;
+}
+
 /* Paper rotation effects for role badges */
 .paper-rotate-1 {
   transform: rotate(1deg);
