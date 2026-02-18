@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme {
   --font-architects: "Architects Daughter", sans-serif;
   --font-merriweather: "Merriweather", serif;
