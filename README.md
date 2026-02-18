@@ -1,43 +1,82 @@
-# Astro Starter Kit: Minimal
+# Overtone
+
+Adrian's digital garden. Three domains: Performance Engineering, Classical Records, AI Thoughts.
+
+**Stack**: Astro + TypeScript + Tailwind CSS + React islands, deployed to Cloudflare Pages.
+
+## Development
 
 ```sh
-pnpm create astro@latest -- --template minimal
+pnpm install
+pnpm dev          # http://localhost:4321
+pnpm build        # output → ./dist/
+pnpm preview      # preview production build
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Project Structure
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```
+src/
+├── content/              # Markdown articles (Astro Content Collections)
+│   ├── performance/
+│   ├── classical/
+│   └── ai/
+├── components/           # Astro + React components
+├── layouts/              # BaseLayout, ArticleLayout
+├── lib/                  # Shared types and config
+├── pages/                # Routes
+│   ├── index.astro       # Landing page
+│   ├── performance.astro # Category list
+│   ├── classical.astro
+│   ├── ai.astro
+│   ├── contact.astro
+│   ├── 404.astro
+│   ├── rss.xml.ts        # RSS feed
+│   └── [category]/[slug].astro  # Article detail
+└── styles/global.css     # Tailwind entry
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Deploy to Cloudflare Pages
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### Option A: Git integration (recommended)
 
-Any static assets, like images, can be placed in the `public/` directory.
+1. Push this repo to GitHub/GitLab
+2. Go to [Cloudflare Dashboard](https://dash.cloudflare.com/) → Pages → Create a project
+3. Connect your repository
+4. Set build configuration:
+   - **Build command**: `pnpm build`
+   - **Build output directory**: `dist`
+   - **Node.js version**: `20` (set via environment variable `NODE_VERSION=20`)
+5. Deploy
 
-## 🧞 Commands
+Cloudflare Pages will auto-deploy on every push to `main`.
 
-All commands are run from the root of the project, from a terminal:
+### Option B: Direct upload via CLI
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+```sh
+# Install wrangler globally (if not already)
+pnpm add -g wrangler
 
-## 👀 Want to learn more?
+# Login to Cloudflare
+wrangler login
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+# Build the site
+pnpm build
+
+# Deploy
+wrangler pages deploy dist --project-name=overtone
+```
+
+### Custom domain
+
+After the first deploy, add your domain in Cloudflare Pages settings:
+- Pages project → Custom domains → Add `overtone.dev`
+- Update DNS: CNAME `overtone.dev` → `overtone.pages.dev`
+
+### Environment notes
+
+- **Output mode**: Static (no SSR, no adapter needed)
+- **Build output**: `dist/`
+- **No `wrangler.toml` required** — Cloudflare Pages handles static site hosting natively
+- **Sitemap**: auto-generated at `/sitemap-index.xml`
+- **RSS**: available at `/rss.xml`
