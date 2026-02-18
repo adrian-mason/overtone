@@ -1,0 +1,126 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { categories } from "../../lib/categories";
+import type { CategoryConfig } from "../../lib/categories";
+
+interface ArticleWithCategory {
+  readonly id: string;
+  readonly data: {
+    readonly title: string;
+    readonly description: string;
+    readonly date: Date;
+    readonly featured: boolean;
+    readonly tags: string[];
+  };
+  readonly category: CategoryConfig;
+}
+
+export async function getStaticPaths() {
+  const [performance, classical, ai] = await Promise.all([
+    getCollection("performance"),
+    getCollection("classical"),
+    getCollection("ai"),
+  ]);
+
+  const tagMap = new Map<string, ArticleWithCategory[]>();
+
+  const addArticles = (
+    articles: typeof performance,
+    category: CategoryConfig,
+  ) => {
+    for (const article of articles) {
+      for (const tag of article.data.tags) {
+        const existing = tagMap.get(tag) ?? [];
+        tagMap.set(tag, [...existing, { ...article, category }]);
+      }
+    }
+  };
+
+  addArticles(performance, categories.performance);
+  addArticles(classical, categories.classical);
+  addArticles(ai, categories.ai);
+
+  return [...tagMap.entries()].map(([tag, articles]) => ({
+    params: { tag },
+    props: {
+      tag,
+      articles: [...articles].sort(
+        (a, b) => b.data.date.getTime() - a.data.date.getTime(),
+      ),
+    },
+  }));
+}
+
+const { tag, articles } = Astro.props;
+---
+
+<BaseLayout title={`#${tag} — Overtone`} description={`Articles tagged "${tag}"`}>
+  <div class="min-h-screen bg-white">
+    <div class="dot-grid pointer-events-none fixed inset-0"></div>
+
+    <div class="relative z-10 mx-auto max-w-4xl space-y-8 p-8">
+      {/* Back link */}
+      <a
+        href="/"
+        class="inline-flex items-center gap-2 text-xl hover:underline"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7" /><path d="M19 12H5" /></svg>
+        Back to Home
+      </a>
+
+      {/* Tag header */}
+      <div class="space-y-2">
+        <h1 class="text-5xl font-bold md:text-7xl">
+          #{tag}
+        </h1>
+        <p class="text-lg text-gray-500">
+          {articles.length} {articles.length === 1 ? "article" : "articles"}
+        </p>
+      </div>
+
+      {/* Article list */}
+      <div class="space-y-4">
+        {articles.map((article: ArticleWithCategory) => (
+          <a
+            href={`/${article.category.slug}/${article.id}`}
+            class="group relative block"
+          >
+            <div class="absolute inset-0 rounded-lg border-2 border-black bg-white transition-transform group-hover:translate-x-1 group-hover:translate-y-1" />
+            <div class="neo-card-sm relative flex items-start gap-4 p-6">
+              <div class="flex-1 space-y-2">
+                <div class="flex items-center gap-3">
+                  <span
+                    class="neo-badge px-3 py-1 text-sm"
+                    style={`background-color: ${article.category.featuredBg}; color: ${article.category.iconColor};`}
+                  >
+                    {article.category.title}
+                  </span>
+                  {article.data.featured && (
+                    <span class="neo-badge bg-[#FEF9C3] px-3 py-1 text-sm">
+                      Featured
+                    </span>
+                  )}
+                </div>
+                <h2 class="text-2xl font-bold group-hover:underline">
+                  {article.data.title}
+                </h2>
+                <p class="text-gray-500">{article.data.description}</p>
+                <time
+                  datetime={article.data.date.toISOString()}
+                  class="text-sm text-gray-400"
+                >
+                  {article.data.date.toLocaleDateString("en-US", {
+                    year: "numeric",
+                    month: "long",
+                    day: "numeric",
+                  })}
+                </time>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+</BaseLayout>

@@ -78,9 +78,12 @@ const formattedDate = date.toLocaleDateString("en-US", {
           {tags.length > 0 && (
             <div class="flex flex-wrap gap-2">
               {tags.map((tag) => (
-                <span class="rounded-full border-2 border-black bg-white px-3 py-0.5 text-sm font-bold">
+                <a
+                  href={`/tags/${tag}`}
+                  class="rounded-full border-2 border-black bg-white px-3 py-0.5 text-sm font-bold transition-colors hover:bg-black hover:text-white"
+                >
                   {tag}
-                </span>
+                </a>
               ))}
             </div>
           )}
