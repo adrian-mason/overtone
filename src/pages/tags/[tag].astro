@@ -103,6 +103,9 @@ const { tag, articles } = Astro.props;
                 <h2 class="text-2xl font-bold group-hover:underline">
                   {article.data.title}
                 </h2>
+                {article.data.subtitle && (
+                  <p class="text-lg text-gray-500">{article.data.subtitle}</p>
+                )}
                 <p class="text-gray-500">{article.data.description}</p>
                 <time
                   datetime={article.data.date.toISOString()}

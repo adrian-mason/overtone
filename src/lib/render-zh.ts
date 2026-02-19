@@ -61,8 +61,17 @@ function renderTokensWithHighlighter(
   highlighter: Highlighter,
 ): string {
   const renderer = new marked.Renderer();
+
+  renderer.heading = ({ text, depth }: Tokens.Heading) => {
+    const id = slugify(text);
+    return `<h${depth} id="${id}">${text}</h${depth}>\n`;
+  };
+
   renderer.code = ({ text, lang }: Tokens.Code) => {
     const language = lang ?? "";
+    if (language === "mermaid") {
+      return `<pre class="mermaid">${text}</pre>`;
+    }
     try {
       if (language && highlighter.getLoadedLanguages().includes(language)) {
         return highlighter.codeToHtml(text, {

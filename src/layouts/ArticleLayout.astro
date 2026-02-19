@@ -15,6 +15,7 @@ interface Props {
     body?: string;
     data: {
       title: string;
+      subtitle?: string;
       description: string;
       date: Date;
       featured: boolean;
@@ -31,7 +32,7 @@ const tocItems: TocHeading[] = bilingual
   ? bilingual.enHeadings
   : headings.filter((h) => h.depth === 2 || h.depth === 3);
 const zhTocItems: TocHeading[] = bilingual ? bilingual.zhHeadings : [];
-const { title, description, date, featured, tags } = article.data;
+const { title, subtitle, description, date, featured, tags } = article.data;
 
 const formattedDate = date.toLocaleDateString("en-US", {
   year: "numeric",
@@ -79,10 +80,13 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 200));
           </span>
         )}
 
-        {/* Title */}
+        {/* Title + Subtitle */}
         <h1 class="text-5xl font-bold leading-tight md:text-7xl">
           {title}
         </h1>
+        {subtitle && (
+          <p class="text-2xl text-gray-500 md:text-3xl">{subtitle}</p>
+        )}
 
         {/* Date + Reading time + Tags */}
         <div class="flex flex-wrap items-center gap-4 text-lg text-gray-500">
@@ -408,6 +412,35 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 200));
 </style>
 
 <script>
+  // Mermaid diagram rendering — render EN blocks first, then clone SVGs to ZH
+  const enMermaid = document.querySelectorAll("#content-en pre.mermaid");
+  const zhMermaid = document.querySelectorAll("#content-zh pre.mermaid");
+  const allMermaid = document.querySelectorAll("pre.mermaid");
+  if (allMermaid.length > 0) {
+    // Decode HTML entities (e.g. &gt; → >) but preserve <br/> tags for mermaid line breaks
+    allMermaid.forEach((pre) => {
+      pre.innerHTML = pre.innerHTML
+        .replace(/&gt;/g, ">")
+        .replace(/&lt;/g, "<")
+        .replace(/&amp;/g, "&");
+    });
+    const script = document.createElement("script");
+    script.src = "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js";
+    script.onload = () => {
+      (window as any).mermaid.initialize({ startOnLoad: false, theme: "neutral" });
+      const toRender = enMermaid.length > 0 ? enMermaid : allMermaid;
+      (window as any).mermaid.run({ nodes: toRender }).then(() => {
+        // Clone rendered EN SVGs into ZH blocks (same content, avoids hidden-element issue)
+        if (enMermaid.length > 0 && zhMermaid.length === enMermaid.length) {
+          zhMermaid.forEach((zhPre, i) => {
+            zhPre.innerHTML = enMermaid[i].innerHTML;
+          });
+        }
+      });
+    };
+    document.head.appendChild(script);
+  }
+
   // Wrap tables in scrollable containers for mobile
   document.querySelectorAll(".prose table").forEach((table) => {
     const wrapper = document.createElement("div");

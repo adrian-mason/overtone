@@ -4,6 +4,7 @@ import Fuse from "fuse.js";
 interface Article {
   readonly id: string;
   readonly title: string;
+  readonly subtitle?: string;
   readonly description: string;
   readonly date: string;
   readonly featured: boolean;
@@ -103,6 +104,9 @@ export default function ArticleSearch({
                   >
                     {article.title}
                   </h3>
+                  {article.subtitle && (
+                    <p className="text-lg text-gray-500">{article.subtitle}</p>
+                  )}
                   {article.featured && (
                     <span
                       className="neo-badge shrink-0 px-3 py-1"

@@ -29,6 +29,7 @@ const sortedArticles = [...articles].sort(
 const serializedArticles = sortedArticles.map((a) => ({
   id: a.id,
   title: a.data.title,
+  subtitle: a.data.subtitle,
   description: a.data.description,
   date: a.data.date.toISOString(),
   featured: a.data.featured,
