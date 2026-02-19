@@ -8,11 +8,16 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <div class="mx-auto w-full max-w-4xl space-y-12 text-center">
       {/* Avatar */}
       <div class="relative mx-auto h-48 w-48">
+        {/* Hand-drawn decorative circle — slow rotation */}
+        <svg class="absolute inset-0 h-full w-full animate-spin-slow" viewBox="0 0 100 100">
+          <path d="M10,50 Q25,25 50,10 T90,50 T50,90 T10,50" fill="none" stroke="black" stroke-width="2" />
+          <path d="M12,52 Q27,27 52,12 T92,52 T52,92 T12,52" fill="none" stroke="black" stroke-width="2" class="opacity-50" />
+        </svg>
         <div class="absolute inset-4 overflow-hidden rounded-full border-2 border-black bg-gray-100">
-          <img src="/photo.png" alt="Adrian" class="h-full w-full object-cover" />
+          <img src="/photo.png" alt="Adrian" class="h-full w-full object-cover grayscale contrast-125" />
         </div>
         {/* Sparkle — top-right */}
-        <div class="absolute -right-12 -top-4">
+        <div class="sparkle-hover absolute -right-12 -top-4 cursor-pointer">
           <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-yellow-400 fill-yellow-100">
             <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" />
             <path d="M20 2v4" /><path d="M22 4h-4" />
