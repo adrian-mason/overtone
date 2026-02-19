@@ -324,11 +324,10 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 200));
 
   .prose :where(table) {
     width: 100%;
+    min-width: 500px;
     border-collapse: collapse;
     border: 2px solid black;
     border-radius: 8px;
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
     font-size: 0.9375rem;
     overflow: hidden;
   }
@@ -409,6 +408,17 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 200));
 </style>
 
 <script>
+  // Wrap tables in scrollable containers for mobile
+  document.querySelectorAll(".prose table").forEach((table) => {
+    const wrapper = document.createElement("div");
+    wrapper.style.overflowX = "auto";
+    wrapper.style.marginTop = "1.25em";
+    wrapper.style.marginBottom = "1.25em";
+    wrapper.style.webkitOverflowScrolling = "touch";
+    table.parentNode!.insertBefore(wrapper, table);
+    wrapper.appendChild(table);
+  });
+
   const bar = document.getElementById("reading-progress");
   const topBtn = document.getElementById("back-to-top");
 
