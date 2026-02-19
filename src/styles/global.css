@@ -16,12 +16,6 @@ html {
   standard border-radius (8px/12px), paper rotation effects.
 */
 
-/* Dot grid background — used on most pages */
-.dot-grid {
-  background-image: radial-gradient(rgb(0, 0, 0) 1px, transparent 1px);
-  background-size: 20px 20px;
-  opacity: 0.1;
-}
 
 /* Neo-brutalist card — default state */
 .neo-card {
