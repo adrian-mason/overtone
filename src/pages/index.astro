@@ -85,9 +85,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <div>
         <h2 class="relative mb-4 inline-block text-5xl font-bold md:text-7xl">
           Pick a Path
-          {/* Wavy dashed underline */}
+          {/* Wavy dashed underline — slow drift */}
           <svg class="absolute -bottom-4 left-0 h-6 w-full text-black" viewBox="0 0 200 20" preserveAspectRatio="none">
-            <path d="M5,10 Q50,15 100,5 T195,10" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="4 2" />
+            <path d="M5,10 Q50,15 100,5 T195,10" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="4 2" class="wave-drift" />
           </svg>
         </h2>
         <div class="mt-4 text-xl text-gray-600 md:text-2xl">

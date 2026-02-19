@@ -130,6 +130,16 @@ html {
   box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
 }
 
+/* Wave drift — very slow dash flow along the path */
+@keyframes wave-drift {
+  from { stroke-dashoffset: 0; }
+  to { stroke-dashoffset: -24; }
+}
+
+.wave-drift {
+  animation: wave-drift 12s linear infinite;
+}
+
 /* Sparkle hover — twinkle on hover */
 .sparkle-hover svg {
   transition: transform 0.3s ease;
