@@ -194,6 +194,33 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 200));
         </div>
       </div>
 
+      {/* Comments section */}
+      <section class="comments-section mt-12">
+        <h2 class="font-architects text-2xl font-bold mb-6"
+            style="transform: rotate(-1deg);">
+          Leave a comment ✎
+        </h2>
+        <div class="neo-card-sm p-6 md:p-8">
+          <script
+            src="https://giscus.app/client.js"
+            data-repo="adrian-mason/overtone"
+            data-repo-id="R_kgDORThQUQ"
+            data-category="Comments"
+            data-category-id="DIC_kwDORThQUc4C2wKi"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="bottom"
+            data-theme="light"
+            data-lang="en"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async>
+          </script>
+        </div>
+      </section>
+
       {/* Footer — back to category */}
       <div class="flex justify-center pt-4">
         <a href={`/${category.slug}`} class="group relative">
@@ -296,6 +323,39 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 200));
 
   .prose :where(li) {
     margin-bottom: 0.375em;
+  }
+
+  .prose :where(table) {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    font-size: 0.9375rem;
+    overflow: hidden;
+  }
+
+  .prose :where(thead) {
+    background-color: #f9fafb;
+    border-bottom: 2px solid black;
+  }
+
+  .prose :where(th) {
+    padding: 0.625rem 1rem;
+    text-align: left;
+    font-weight: 700;
+    color: #111827;
+    white-space: nowrap;
+  }
+
+  .prose :where(td) {
+    padding: 0.5rem 1rem;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  .prose :where(tbody tr:hover) {
+    background-color: #f9fafb;
   }
 
   .prose :where(blockquote) {
@@ -410,6 +470,16 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 200));
   const tocZh = document.getElementById("toc-zh");
   const tocTitle = document.getElementById("toc-title");
 
+  const setGiscusLang = (lang: string) => {
+    const iframe = document.querySelector<HTMLIFrameElement>("iframe.giscus-frame");
+    if (iframe?.contentWindow) {
+      iframe.contentWindow.postMessage(
+        { giscus: { setConfig: { lang } } },
+        "https://giscus.app"
+      );
+    }
+  };
+
   if (paperSticker && contentEn && contentZh && paperCard && paperBack) {
     let currentLang = "en";
     let isAnimating = false;
@@ -436,6 +506,7 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 200));
           if (tocEn) tocEn.style.display = "none";
           if (tocZh) tocZh.style.display = "";
           if (tocTitle) tocTitle.textContent = "本页目录";
+          setGiscusLang("zh-CN");
           currentLang = "zh";
         } else {
           contentZh.style.display = "none";
@@ -450,6 +521,7 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 200));
           if (tocZh) tocZh.style.display = "none";
           if (tocEn) tocEn.style.display = "";
           if (tocTitle) tocTitle.textContent = "On this page";
+          setGiscusLang("en");
           currentLang = "en";
         }
 

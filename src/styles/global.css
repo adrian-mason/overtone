@@ -135,3 +135,9 @@ html {
   transform: rotate(0deg) scale(1.05);
   box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
 }
+
+/* Giscus comment iframe — full width inside neo card */
+.giscus,
+.giscus-frame {
+  width: 100% !important;
+}

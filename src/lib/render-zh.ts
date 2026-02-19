@@ -1,4 +1,6 @@
 import { marked, type Tokens } from "marked";
+import { createHighlighter, type Highlighter } from "shiki";
+import DOMPurify from "isomorphic-dompurify";
 
 const ZH_SEPARATOR = "<!-- zh -->";
 
@@ -37,7 +39,53 @@ function extractHeadings(tokens: Tokens.Generic[]): TocHeading[] {
   return headings;
 }
 
-export function extractBilingual(body: string | undefined): BilingualContent | undefined {
+let highlighterPromise: Promise<Highlighter> | null = null;
+
+function getHighlighter(): Promise<Highlighter> {
+  if (!highlighterPromise) {
+    highlighterPromise = createHighlighter({
+      themes: ["github-light"],
+      langs: [
+        "c", "cpp", "rust", "go", "python", "java",
+        "javascript", "typescript", "bash", "shell",
+        "json", "yaml", "toml", "sql", "html", "css",
+        "diff", "markdown",
+      ],
+    });
+  }
+  return highlighterPromise;
+}
+
+function renderTokensWithHighlighter(
+  tokens: Tokens.Generic[],
+  highlighter: Highlighter,
+): string {
+  const renderer = new marked.Renderer();
+  renderer.code = ({ text, lang }: Tokens.Code) => {
+    const language = lang ?? "";
+    try {
+      if (language && highlighter.getLoadedLanguages().includes(language)) {
+        return highlighter.codeToHtml(text, {
+          lang: language,
+          theme: "github-light",
+        });
+      }
+    } catch {
+      // fall through to plain text
+    }
+    const escaped = text
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+    return `<pre><code>${escaped}</code></pre>`;
+  };
+
+  return marked.parser(tokens, { renderer });
+}
+
+export async function extractBilingual(
+  body: string | undefined,
+): Promise<BilingualContent | undefined> {
   if (!body) return undefined;
   const idx = body.indexOf(ZH_SEPARATOR);
   if (idx === -1) return undefined;
@@ -46,12 +94,13 @@ export function extractBilingual(body: string | undefined): BilingualContent | u
   const zhMarkdown = body.slice(idx + ZH_SEPARATOR.length).trim();
   if (zhMarkdown.length === 0) return undefined;
 
+  const highlighter = await getHighlighter();
   const enTokens = marked.lexer(enMarkdown);
   const zhTokens = marked.lexer(zhMarkdown);
 
   return {
-    enHtml: marked.parser(enTokens),
-    zhHtml: marked.parser(zhTokens),
+    enHtml: DOMPurify.sanitize(renderTokensWithHighlighter(enTokens, highlighter)),
+    zhHtml: DOMPurify.sanitize(renderTokensWithHighlighter(zhTokens, highlighter)),
     enHeadings: extractHeadings(enTokens),
     zhHeadings: extractHeadings(zhTokens),
   };
