@@ -71,8 +71,7 @@ The shift from predicting the next token to orchestrating complex workflows is n
 
 ---
 
-*Source: Andrej Karpathy, "[1hr Talk] Intro to Large Language Models"*
-*https://www.youtube.com/watch?v=7xTGNNLPyMI*
+*Source: Andrej Karpathy, ["[1hr Talk] Intro to Large Language Models"](https://www.youtube.com/watch?v=7xTGNNLPyMI)*
 
 <!-- zh -->
 
@@ -140,5 +139,4 @@ The shift from predicting the next token to orchestrating complex workflows is n
 
 ---
 
-*来源：Andrej Karpathy，《大型语言模型入门》*
-*https://www.youtube.com/watch?v=7xTGNNLPyMI*
+*来源：Andrej Karpathy，[《大型语言模型入门》](https://www.youtube.com/watch?v=7xTGNNLPyMI)*
