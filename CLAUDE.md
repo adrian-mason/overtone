@@ -31,6 +31,9 @@ featured: boolean
 tags: string[]
 ```
 
+## Markdown 写作规范
+- **加粗文本中禁止使用全角括号**：`**「术语」（Term）**` 会导致解析器输出原始星号，必须改用半角括号：`**「术语」(Term)**`
+
 ## 代码规范
 - 严格 TypeScript，不使用 any
 - 组件使用 .astro 文件，需要客户端交互时用 React islands
