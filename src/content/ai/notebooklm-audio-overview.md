@@ -4,7 +4,7 @@ subtitle: "Inside NotebookLM's Audio Overview"
 description: "How Google's NotebookLM turns documents into realistic podcast conversations — and what it reveals about the future of how we absorb information."
 date: 2026-02-21
 featured: false
-tags: ["AI", "Google", "NotebookLM", "Audio"]
+tags: ["AI", "Google", "NotebookLM", "Podcast", "Product"]
 ---
 
 Imagine uploading your PhD thesis — dense with equations and jargon — and getting back a lively, curious podcast conversation about it. Not a robotic summary, but two hosts genuinely riffing on your ideas, finding the surprising angles, making it sound like the kind of thing you'd actually want to listen to on a commute. That's what NotebookLM's Audio Overview does. And the more you learn about how it works, the more interesting it gets.
