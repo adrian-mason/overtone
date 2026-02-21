@@ -73,11 +73,14 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       </div>
     </div>
 
-    {/* Scroll indicator — hidden on small screens to avoid overlap with badges */}
-    <a href="#paths" class="absolute bottom-12 left-1/2 hidden -translate-x-1/2 opacity-50 transition-opacity hover:opacity-100 md:block">
+  </section>
+
+  {/* Scroll indicator — sits at the boundary between hero and paths */}
+  <div class="relative z-10 -my-4 flex justify-center">
+    <a href="#paths" class="opacity-50 transition-opacity hover:opacity-100">
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="animate-bounce"><path d="M12 5v14" /><path d="m19 12-7 7-7-7" /></svg>
     </a>
-  </section>
+  </div>
 
   {/* Pick a Path Section */}
   <section id="paths" class="relative flex min-h-screen flex-col items-center justify-center p-8">
