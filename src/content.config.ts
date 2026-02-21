@@ -26,4 +26,9 @@ const ai = defineCollection({
   schema: articleSchema,
 });
 
-export const collections = { performance, classical, ai };
+const life = defineCollection({
+  loader: glob({ pattern: "**/*.md", base: "src/content/life" }),
+  schema: articleSchema,
+});
+
+export const collections = { performance, classical, ai, life };

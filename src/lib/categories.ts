@@ -7,7 +7,7 @@ export interface CategoryConfig {
   readonly iconColor: string;
   readonly hoverColor: string;
   readonly featuredBg: string;
-  readonly collection: "performance" | "classical" | "ai";
+  readonly collection: "performance" | "classical" | "ai" | "life";
 }
 
 export const categories: Record<string, CategoryConfig> = {
@@ -45,5 +45,17 @@ export const categories: Record<string, CategoryConfig> = {
     hoverColor: "#9333EA",
     featuredBg: "#F3E8FF",
     collection: "ai",
+  },
+  life: {
+    slug: "life",
+    title: "Life",
+    description:
+      "No flame graph captures it. No recording preserves it. No model predicts it. Yet here we are.",
+    bgColor: "#fefcfa",
+    iconBg: "#fce7f3",
+    iconColor: "#ec4899",
+    hoverColor: "#db2777",
+    featuredBg: "#fce7f3",
+    collection: "life",
   },
 } as const;

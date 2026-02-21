@@ -99,7 +99,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         {/* Performance Card */}
         <a href="/performance" class="group relative">
           <div class="neo-card card-tilt-1 relative flex flex-col items-center space-y-6 p-8 text-center">
-            <div class="rounded-full border-2 border-black bg-blue-100 p-6">
+            <div data-egg="performance" class="rounded-full border-2 border-black bg-blue-100 p-6">
               <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v2" /><path d="M12 2v2" /><path d="M17 20v2" /><path d="M17 2v2" /><path d="M2 12h2" /><path d="M2 17h2" /><path d="M2 7h2" /><path d="M20 12h2" /><path d="M20 17h2" /><path d="M20 7h2" /><path d="M7 20v2" /><path d="M7 2v2" /><rect x="4" y="4" width="16" height="16" rx="2" /><rect x="8" y="8" width="8" height="8" rx="1" /></svg>
             </div>
             <h3 class="text-3xl font-bold">Performance Analysis</h3>
@@ -116,7 +116,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         {/* Classical Card */}
         <a href="/classical" class="group relative">
           <div class="neo-card card-tilt-2 relative flex flex-col items-center space-y-6 p-8 text-center">
-            <div class="rounded-full border-2 border-black bg-yellow-100 p-6">
+            <div data-egg="classical" class="rounded-full border-2 border-black bg-yellow-100 p-6">
               <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="2" /></svg>
             </div>
             <h3 class="text-3xl font-bold">Classical Records</h3>
@@ -133,7 +133,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         {/* AI Card */}
         <a href="/ai" class="group relative">
           <div class="neo-card card-tilt-3 relative flex flex-col items-center space-y-6 p-8 text-center">
-            <div class="rounded-full border-2 border-black bg-red-100 p-6">
+            <div data-egg="ai" class="rounded-full border-2 border-black bg-red-100 p-6">
               <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z" /><path d="M9 13a4.5 4.5 0 0 0 3-4" /><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5" /><path d="M3.477 10.896a4 4 0 0 1 .585-.396" /><path d="M6 18a4 4 0 0 1-1.967-.516" /><path d="M12 13h4" /><path d="M12 18h6a2 2 0 0 1 2 2v1" /><path d="M12 8h8" /><path d="M16 8V5a2 2 0 0 1 2-2" /><circle cx="16" cy="13" r=".5" /><circle cx="18" cy="3" r=".5" /><circle cx="20" cy="21" r=".5" /><circle cx="20" cy="8" r=".5" /></svg>
             </div>
             <h3 class="text-3xl font-bold">Artificial Intelligence</h3>
@@ -147,8 +147,142 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           </div>
         </a>
       </div>
+
+      {/* Hidden Life Card — revealed by Easter egg */}
+      <div id="life-card" class="hidden px-4">
+        <a href="/life" class="group relative mx-auto block max-w-xl">
+          <div class="neo-card relative flex flex-col items-center space-y-6 p-8 text-center">
+            <div class="rounded-full border-2 border-black p-6" style="background: conic-gradient(from 180deg, #DBEAFE, #F3E8FF, #FEF3C7, #DBEAFE);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 7h8" />
+                <path d="M8 7L4 13h16L16 7" />
+                <path d="M4 13l8 8 8-8" />
+                <path d="M12 7v6" />
+                <path d="M12 1v2.5" />
+                <path d="M5 1.5l1.5 1.5" />
+                <path d="M19 1.5l-1.5 1.5" />
+              </svg>
+            </div>
+            <h3 class="text-3xl font-bold text-gray-900">Life</h3>
+            <div class="text-xl leading-snug text-gray-600">
+              The latency you can't optimize away. The recording that plays once. The training data you leave behind.
+            </div>
+            <div class="inline-flex items-center gap-2 border-b-2 border-black/20 pb-1 text-lg font-bold transition-colors group-hover:border-black">
+              <span>Reflect</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
   </section>
+
+  {/* Easter Egg Script */}
+  <script>
+    const SEQUENCE = ["classical", "performance", "ai"];
+    const TIMEOUT_MS = 5000;
+    const SESSION_KEY = "life-unlocked";
+
+    let progress: number = 0;
+    let timer: ReturnType<typeof setTimeout> | null = null;
+
+    function resetSequence() {
+      progress = 0;
+      if (timer) {
+        clearTimeout(timer);
+        timer = null;
+      }
+    }
+
+    function revealCard(animate: boolean) {
+      const card = document.getElementById("life-card");
+      if (!card) return;
+
+      card.classList.remove("hidden");
+
+      if (animate) {
+        card.style.opacity = "0";
+        card.style.transform = "translateY(2rem)";
+        card.style.transition = "opacity 600ms ease-out, transform 600ms ease-out";
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            card.style.opacity = "1";
+            card.style.transform = "translateY(0)";
+          });
+        });
+      }
+
+      sessionStorage.setItem(SESSION_KEY, "1");
+    }
+
+    function pulseIcon(el: HTMLElement) {
+      el.style.transition = "transform 200ms ease-out";
+      el.style.transform = "scale(1.15)";
+      setTimeout(() => {
+        el.style.transform = "scale(1)";
+      }, 200);
+    }
+
+    function hideCard() {
+      const card = document.getElementById("life-card");
+      if (!card || card.classList.contains("hidden")) return;
+
+      card.style.transition = "opacity 400ms ease-in, transform 400ms ease-in";
+      card.style.opacity = "0";
+      card.style.transform = "translateY(2rem)";
+
+      setTimeout(() => {
+        card.classList.add("hidden");
+        card.style.removeProperty("opacity");
+        card.style.removeProperty("transform");
+        card.style.removeProperty("transition");
+      }, 400);
+
+      sessionStorage.removeItem(SESSION_KEY);
+    }
+
+    function isCardVisible(): boolean {
+      const card = document.getElementById("life-card");
+      return !!card && !card.classList.contains("hidden");
+    }
+
+    // Check sessionStorage on load
+    if (sessionStorage.getItem(SESSION_KEY)) {
+      revealCard(false);
+    }
+
+    // Listen for clicks on egg icons
+    document.querySelectorAll<HTMLElement>("[data-egg]").forEach((el) => {
+      el.addEventListener("click", (e) => {
+        const clicked = el.dataset.egg;
+        const expected = SEQUENCE[progress];
+
+        if (clicked === expected) {
+          e.stopPropagation();
+          e.preventDefault();
+
+          pulseIcon(el);
+          progress++;
+
+          if (timer) clearTimeout(timer);
+
+          if (progress >= SEQUENCE.length) {
+            resetSequence();
+            if (isCardVisible()) {
+              hideCard();
+            } else {
+              revealCard(true);
+            }
+          } else {
+            timer = setTimeout(resetSequence, TIMEOUT_MS);
+          }
+        } else {
+          resetSequence();
+          // Wrong click — let normal navigation proceed
+        }
+      });
+    });
+  </script>
 
   {/* Let's Talk Section */}
   <section id="contact" class="relative flex min-h-screen flex-col items-center justify-center p-8">
