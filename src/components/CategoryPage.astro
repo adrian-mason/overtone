@@ -22,9 +22,12 @@ interface Props {
 
 const { category, articles } = Astro.props;
 
-const sortedArticles = [...articles].sort(
-  (a, b) => b.data.date.getTime() - a.data.date.getTime(),
-);
+const sortedArticles = [...articles].sort((a, b) => {
+  if (a.data.featured !== b.data.featured) {
+    return a.data.featured ? -1 : 1;
+  }
+  return b.data.date.getTime() - a.data.date.getTime();
+});
 
 const serializedArticles = sortedArticles.map((a) => ({
   id: a.id,
