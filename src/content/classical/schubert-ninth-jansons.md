@@ -1,6 +1,8 @@
 ---
 title: "The Weight of Heavenly Length"
 subtitle: "Jansons and the BRSO's Schubert Ninth"
+zh_title: "天国之长的重量"
+zh_subtitle: "扬颂斯与巴伐利亚广播交响乐团的舒伯特第九"
 cover: "/covers/schubert-ninth-jansons-sketch.webp"
 description: "A study of Mariss Jansons' final-years recording of Schubert's Symphony No. 9 with the Bavarian Radio Symphony Orchestra — rhythm, fidelity, and the rarest kind of document."
 date: 2026-02-20
