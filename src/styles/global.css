@@ -6,6 +6,7 @@ html {
 
 @theme {
   --font-architects: "Architects Daughter", sans-serif;
+  --font-caveat: "Caveat", cursive;
   --font-merriweather: "Merriweather", serif;
 }
 
@@ -235,9 +236,9 @@ html {
 
 /* Border glow — fires simultaneously with shimmer */
 @keyframes life-border-glow {
-  0%   { box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1); }
-  30%  { box-shadow: 0 0 0 5px rgba(236, 72, 153, 0.22), 0 0 28px 10px rgba(245, 158, 11, 0.12), 4px 4px 0px 0px rgba(0, 0, 0, 1); }
-  100% { box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1); }
+  0%   { box-shadow: 4px 4px 0px 0px rgba(160, 115, 55, 0.5); }
+  30%  { box-shadow: 0 0 0 5px rgba(236, 72, 153, 0.22), 0 0 28px 10px rgba(245, 158, 11, 0.12), 4px 4px 0px 0px rgba(160, 115, 55, 0.5); }
+  100% { box-shadow: 4px 4px 0px 0px rgba(160, 115, 55, 0.5); }
 }
 
 .life-glow-anim {
@@ -261,12 +262,16 @@ html {
   --life-angle: 540deg;
 }
 
-/* Life card hover — upward lift instead of shadow-only */
-#life-card .neo-card {
+/* Life card — warm parchment variant of neo-card */
+.neo-card-life {
+  background: #fffcf7;
+  border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 4px 4px 0px 0px rgba(160, 115, 55, 0.5);
   transition: box-shadow 0.25s ease, transform 0.25s ease;
 }
 
-#life-card .neo-card:hover {
+.neo-card-life:hover {
   transform: translateY(-5px);
-  box-shadow: 5px 10px 0px 0px rgba(0, 0, 0, 0.85);
+  box-shadow: 5px 10px 0px 0px rgba(160, 115, 55, 0.4);
 }
