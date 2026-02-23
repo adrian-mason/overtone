@@ -5,7 +5,7 @@ html {
 }
 
 @theme {
-  --font-architects: "Architects Daughter", sans-serif;
+  --font-architects: "Architects Daughter", "Ma Shan Zheng", sans-serif;
   --font-caveat: "Caveat", cursive;
   --font-merriweather: "Merriweather", serif;
 }
