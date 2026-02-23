@@ -4,7 +4,7 @@ subtitle: "How eBPF Profiling Works Without DWARF at Runtime"
 zh_title: "没有帧指针？不是问题"
 zh_subtitle: "eBPF 性能分析如何在运行时绕过 DWARF"
 description: "A deep dive into the opentelemetry-ebpf-profiler codebase — DWARF pre-compilation, three-level map hierarchies, tail call chains, and the engineering decisions behind production-grade continuous profiling."
-date: 2026-02-19
+date: 2026-02-19T10:00:00
 featured: true
 tags: ["BPF", "OTEL", "Profiling"]
 ---

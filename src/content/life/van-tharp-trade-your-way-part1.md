@@ -4,7 +4,7 @@ subtitle: "Reading Notes · Trade Your Way to Financial Freedom — Part One"
 zh_title: "圣杯，从来不在市场里"
 zh_subtitle: "读书笔记 · 《通向财务自由之路》第一部分"
 description: "Van K. Tharp opens with a confrontational claim: most traders fail not for lack of a good system, but because they've never examined themselves. Notes on trading psychology, cognitive biases, and the R-multiple."
-date: 2026-02-23
+date: 2026-02-23T09:00:00
 featured: false
 tags: ["Reading", "Investing", "Psychology"]
 ---

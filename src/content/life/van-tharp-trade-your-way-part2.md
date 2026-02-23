@@ -4,7 +4,7 @@ subtitle: "Reading Notes · Trade Your Way to Financial Freedom — Part Two"
 zh_title: "放弃预测，拥抱期望值"
 zh_subtitle: "读书笔记 · 《通向财务自由之路》第二部分"
 description: "Van Tharp turns the question around: instead of predicting markets, build systems with measurable statistical edges. Notes on system philosophy, macro context, and why expectancy — not win rate — is the only number that matters."
-date: 2026-02-23
+date: 2026-02-23T10:00:00
 featured: false
 tags: ["Reading", "Investing", "Psychology"]
 ---

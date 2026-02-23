@@ -4,7 +4,7 @@ subtitle: "They're the New Operating System"
 zh_title: "LLM 不只是模型"
 zh_subtitle: "它们是新一代操作系统"
 description: "Distilling Andrej Karpathy's framework — dual-file architecture, three-stage training, System 1/2 cognition, and the LLM-as-OS thesis — into a technical argument about where large language models are heading."
-date: 2026-02-20
+date: 2026-02-20T14:00:00
 featured: true
 tags: ["LLM", "AI", "Karpathy"]
 ---

@@ -4,7 +4,7 @@ subtitle: "Unified On/Off-CPU Profiling with Blocked Samples"
 zh_title: "当 perf 两眼一抹黑"
 zh_subtitle: "用 Blocked Samples 统一 On/Off-CPU 性能分析"
 description: "Blocked Samples hooks the Linux scheduler to emit synthetic Off-CPU samples alongside perf's On-CPU data — giving bperf unified profiles and BCOZ causal what-if analysis, all at 1.6% overhead."
-date: 2026-02-21
+date: 2026-02-21T09:00:00
 featured: true
 tags: ["Profiling", "OffCPU", "OSDI", "BPF"]
 ---

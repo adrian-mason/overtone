@@ -4,7 +4,7 @@ subtitle: "A Global Survey of Sandbox Technology and Regulation"
 zh_title: "让 AI 自由奔跑的无形围墙"
 zh_subtitle: "沙盒技术与监管的全球扫描"
 description: "From gVisor to Firecracker, from the EU AI Act to Singapore's GenA.I. Sandbox — how the race to contain autonomous AI agents is reshaping the infrastructure of intelligence itself."
-date: 2026-02-22
+date: 2026-02-22T10:00:00
 featured: true
 tags: ["AI", "Security", "Infrastructure", "Agents"]
 ---

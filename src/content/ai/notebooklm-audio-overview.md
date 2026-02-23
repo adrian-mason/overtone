@@ -4,7 +4,7 @@ subtitle: "Inside NotebookLM's Audio Overview"
 zh_title: "当 AI 学会了对话"
 zh_subtitle: "深入 NotebookLM 的音频概览功能"
 description: "How Google's NotebookLM turns documents into realistic podcast conversations — and what it reveals about the future of how we absorb information."
-date: 2026-02-21
+date: 2026-02-21T10:00:00
 featured: false
 tags: ["AI", "Google", "NotebookLM", "Podcast", "Product"]
 ---

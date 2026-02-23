@@ -4,7 +4,7 @@ subtitle: "Lessons from Granola"
 zh_title: "打造真正让人爱用的 AI 产品"
 zh_subtitle: "从 Granola 学到的事"
 description: "How Granola's philosophy of restraint, radical simplicity, and augmentation over replacement created a meeting tool users call life-changing."
-date: 2026-02-20
+date: 2026-02-20T09:30:00
 featured: false
 tags: ["AI", "Product", "Startup"]
 ---

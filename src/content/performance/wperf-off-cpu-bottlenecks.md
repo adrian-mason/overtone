@@ -4,7 +4,7 @@ subtitle: "How wPerf Finds the Bottlenecks Your Profiler Can't See"
 zh_title: "火焰图之外"
 zh_subtitle: "wPerf 如何找到你的分析器看不见的瓶颈"
 description: "wPerf uses graph theory — wait-for graphs, Knot detection, and cascaded redistribution — to find Off-CPU bottlenecks that duration-based profilers miss entirely."
-date: 2026-02-20
+date: 2026-02-20T09:00:00
 featured: true
 tags: ["Profiling", "OffCPU", "OSDI"]
 ---

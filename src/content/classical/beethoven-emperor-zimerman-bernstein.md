@@ -5,7 +5,7 @@ zh_title: "最后的皇帝"
 zh_subtitle: "齐默尔曼、伯恩斯坦，与一张本不该存在的录音"
 cover: "/covers/beethoven-emperor-sketch.webp"
 description: "The 1989 Zimerman–Bernstein recording of Beethoven's Emperor Concerto — a collaboration interrupted by death, preserved by Deutsche Grammophon, and still unmatched in its balance of heroism and intimacy."
-date: 2026-02-20
+date: 2026-02-20T10:00:00
 featured: true
 tags: ["Beethoven", "Concerto", "Bernstein"]
 ---
