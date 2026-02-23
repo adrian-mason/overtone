@@ -154,8 +154,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       {/* Hidden Life Card — revealed by Easter egg */}
       <div id="life-card" class="hidden px-4">
         <a href="/life" class="group relative mx-auto block max-w-xl">
-          <div class="neo-card relative flex flex-col items-center space-y-6 p-8 text-center">
-            <div class="rounded-full border-2 border-black p-6" style="background: conic-gradient(from 180deg, #DBEAFE, #F3E8FF, #FEF3C7, #DBEAFE);">
+          <div class="neo-card relative flex flex-col items-center space-y-6 overflow-hidden p-8 text-center">
+            <div id="life-shimmer"></div>
+            <div class="life-icon-ring rounded-full border-2 border-black p-6">
               <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#ec4899" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M8 7h8" />
                 <path d="M8 7L4 13h16L16 7" />
@@ -172,7 +173,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
             </div>
             <div class="inline-flex items-center gap-2 border-b-2 border-black/20 pb-1 text-lg font-bold transition-colors group-hover:border-black">
               <span>Reflect</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="transition-transform group-hover:translate-x-1"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
             </div>
           </div>
         </a>
@@ -197,6 +198,13 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       }
     }
 
+    // Step glow colors: classical (gold) → performance (blue) → ai (purple)
+    const STEP_GLOWS = [
+      "0 0 0 5px rgba(245, 158, 11, 0.45)",
+      "0 0 0 5px rgba(59, 130, 246, 0.45)",
+      "0 0 0 5px rgba(168, 85, 247, 0.45)",
+    ];
+
     function revealCard(animate: boolean) {
       const card = document.getElementById("life-card");
       if (!card) return;
@@ -204,42 +212,70 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       card.classList.remove("hidden");
 
       if (animate) {
-        card.style.opacity = "0";
-        card.style.transform = "translateY(2rem)";
-        card.style.transition = "opacity 600ms ease-out, transform 600ms ease-out";
-        requestAnimationFrame(() => {
-          requestAnimationFrame(() => {
-            card.style.opacity = "1";
-            card.style.transform = "translateY(0)";
-          });
-        });
+        const link = card.querySelector<HTMLElement>("a");
+        if (!link) return;
+
+        link.classList.remove("life-reveal-anim");
+        void link.offsetWidth; // force reflow
+        link.classList.add("life-reveal-anim");
+
+        link.addEventListener("animationend", (e) => {
+          if (e.animationName !== "life-unroll") return;
+          link.classList.remove("life-reveal-anim");
+
+          // 大放异彩: shimmer + border glow fire simultaneously
+          const shimmer = document.getElementById("life-shimmer");
+          if (shimmer) {
+            shimmer.classList.add("life-shimmer-run");
+            shimmer.addEventListener("animationend", () => {
+              shimmer.classList.remove("life-shimmer-run");
+            }, { once: true });
+          }
+
+          const inner = card.querySelector<HTMLElement>(".neo-card");
+          if (inner) {
+            inner.classList.add("life-glow-anim");
+            inner.addEventListener("animationend", () => {
+              inner.classList.remove("life-glow-anim");
+            }, { once: true });
+          }
+        }, { once: true });
       }
 
       sessionStorage.setItem(SESSION_KEY, "1");
     }
 
-    function pulseIcon(el: HTMLElement) {
-      el.style.transition = "transform 200ms ease-out";
-      el.style.transform = "scale(1.15)";
-      setTimeout(() => {
-        el.style.transform = "scale(1)";
-      }, 200);
+    function pulseIcon(el: HTMLElement, step: number) {
+      el.classList.remove("pulse-spring-anim");
+      void el.offsetWidth; // force reflow to restart animation
+      el.classList.add("pulse-spring-anim");
+      el.addEventListener("animationend", () => {
+        el.classList.remove("pulse-spring-anim");
+      }, { once: true });
+
+      // Colored glow ring indicating step progress
+      if (step < STEP_GLOWS.length) {
+        el.style.boxShadow = STEP_GLOWS[step];
+        el.style.transition = "box-shadow 0.35s ease";
+        setTimeout(() => {
+          el.style.removeProperty("box-shadow");
+        }, 480);
+      }
     }
 
     function hideCard() {
       const card = document.getElementById("life-card");
       if (!card || card.classList.contains("hidden")) return;
 
-      card.style.transition = "opacity 400ms ease-in, transform 400ms ease-in";
-      card.style.opacity = "0";
-      card.style.transform = "translateY(2rem)";
+      const link = card.querySelector<HTMLElement>("a");
+      if (!link) return;
 
-      setTimeout(() => {
+      link.classList.remove("life-reveal-anim");
+      link.classList.add("life-hide-anim");
+      link.addEventListener("animationend", () => {
         card.classList.add("hidden");
-        card.style.removeProperty("opacity");
-        card.style.removeProperty("transform");
-        card.style.removeProperty("transition");
-      }, 400);
+        link.classList.remove("life-hide-anim");
+      }, { once: true });
 
       sessionStorage.removeItem(SESSION_KEY);
     }
@@ -264,7 +300,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           e.stopPropagation();
           e.preventDefault();
 
-          pulseIcon(el);
+          pulseIcon(el, progress);
           progress++;
 
           if (timer) clearTimeout(timer);

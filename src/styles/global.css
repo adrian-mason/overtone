@@ -170,3 +170,103 @@ html {
 .giscus-frame {
   width: 100% !important;
 }
+
+/* ─── Easter Egg: Life Card ──────────────────────────────────────────────── */
+
+/* Spring bounce — icon pulse on each correct step */
+@keyframes pulse-spring {
+  0%   { transform: scale(1); }
+  35%  { transform: scale(1.22); }
+  65%  { transform: scale(0.94); }
+  82%  { transform: scale(1.06); }
+  100% { transform: scale(1); }
+}
+
+.pulse-spring-anim {
+  animation: pulse-spring 380ms cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+/* Reveal — scroll unrolls left to right (card stays in place, clip moves) */
+@keyframes life-unroll {
+  from { clip-path: inset(0 100% 0 0 round 12px); }
+  to   { clip-path: inset(0 0%   0 0 round 12px); }
+}
+
+.life-reveal-anim {
+  animation: life-unroll 1500ms cubic-bezier(0.28, 0.8, 0.2, 1) forwards;
+}
+
+/* Hide — scroll rolls back right to left */
+@keyframes life-roll-back {
+  from { clip-path: inset(0 0%   0 0 round 12px); }
+  to   { clip-path: inset(0 100% 0 0 round 12px); }
+}
+
+.life-hide-anim {
+  animation: life-roll-back 560ms cubic-bezier(0.55, 0, 1, 0.45) forwards;
+}
+
+/* 大放异彩 — shimmer sweeps across card surface after unroll completes */
+#life-shimmer {
+  position: absolute;
+  inset: 0;
+  width: 55%;
+  background: linear-gradient(
+    108deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.0) 15%,
+    rgba(255, 255, 255, 0.88) 50%,
+    rgba(255, 255, 255, 0.0) 85%,
+    transparent 100%
+  );
+  pointer-events: none;
+  z-index: 10;
+  transform: translateX(-160%);
+}
+
+@keyframes life-shimmer-sweep {
+  from { transform: translateX(-160%); }
+  to   { transform: translateX(320%); }
+}
+
+.life-shimmer-run {
+  animation: life-shimmer-sweep 800ms cubic-bezier(0.4, 0, 0.6, 1) forwards;
+}
+
+/* Border glow — fires simultaneously with shimmer */
+@keyframes life-border-glow {
+  0%   { box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1); }
+  30%  { box-shadow: 0 0 0 5px rgba(236, 72, 153, 0.22), 0 0 28px 10px rgba(245, 158, 11, 0.12), 4px 4px 0px 0px rgba(0, 0, 0, 1); }
+  100% { box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1); }
+}
+
+.life-glow-anim {
+  animation: life-border-glow 1000ms ease-out forwards;
+}
+
+/* Life icon ring — animatable conic-gradient via CSS @property */
+@property --life-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 180deg;
+}
+
+.life-icon-ring {
+  --life-angle: 180deg;
+  background: conic-gradient(from var(--life-angle), #dbeafe, #f3e8ff, #fef3c7, #dbeafe);
+  transition: --life-angle 3s linear;
+}
+
+.group:hover .life-icon-ring {
+  --life-angle: 540deg;
+}
+
+/* Life card hover — upward lift instead of shadow-only */
+#life-card .neo-card {
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+#life-card .neo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 10px 0px 0px rgba(0, 0, 0, 0.85);
+}
