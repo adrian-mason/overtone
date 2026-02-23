@@ -4,6 +4,8 @@ import { glob } from "astro/loaders";
 const articleSchema = z.object({
   title: z.string(),
   subtitle: z.string().optional(),
+  zh_title: z.string().optional(),
+  zh_subtitle: z.string().optional(),
   cover: z.string().optional(),
   description: z.string(),
   date: z.coerce.date(),

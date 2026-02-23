@@ -1,6 +1,8 @@
 ---
 title: "The Island That Won't Let Go"
 subtitle: "My Ys VIII Platinum Journey"
+zh_title: "那座岛，还没放开我"
+zh_subtitle: "《伊苏8：丹娜的陨泪》白金通关记"
 description: "I got the platinum. I've done everything there is to do on Seiren Island. And I still can't stop thinking about it."
 date: 2026-02-22
 featured: false

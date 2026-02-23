@@ -16,6 +16,8 @@ interface Props {
     data: {
       title: string;
       subtitle?: string;
+      zh_title?: string;
+      zh_subtitle?: string;
       cover?: string;
       description: string;
       date: Date;
@@ -33,7 +35,7 @@ const tocItems: TocHeading[] = bilingual
   ? bilingual.enHeadings
   : headings.filter((h) => h.depth === 2 || h.depth === 3);
 const zhTocItems: TocHeading[] = bilingual ? bilingual.zhHeadings : [];
-const { title, subtitle, cover, description, date, featured, tags } = article.data;
+const { title, subtitle, zh_title, zh_subtitle, cover, description, date, featured, tags } = article.data;
 
 const formattedDate = date.toLocaleDateString("en-US", {
   year: "numeric",
@@ -85,10 +87,14 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 200));
           {/* Title + Subtitle + Meta */}
           <div class="min-w-0 flex-1 space-y-4">
             <h1 class="text-5xl font-bold leading-tight md:text-7xl">
-              {title}
+              <span id="title-en">{title}</span>
+              {zh_title && <span id="title-zh" style="display:none;">{zh_title}</span>}
             </h1>
-            {subtitle && (
-              <p class="text-2xl text-gray-500 md:text-3xl">{subtitle}</p>
+            {(subtitle || zh_subtitle) && (
+              <p class="text-2xl text-gray-500 md:text-3xl">
+                <span id="subtitle-en">{subtitle}</span>
+                {zh_subtitle && <span id="subtitle-zh" style="display:none;">{zh_subtitle}</span>}
+              </p>
             )}
 
             {/* Date + Reading time + Tags */}
@@ -528,6 +534,10 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 200));
   const tocEn = document.getElementById("toc-en");
   const tocZh = document.getElementById("toc-zh");
   const tocTitle = document.getElementById("toc-title");
+  const titleEn = document.getElementById("title-en");
+  const titleZh = document.getElementById("title-zh");
+  const subtitleEn = document.getElementById("subtitle-en");
+  const subtitleZh = document.getElementById("subtitle-zh");
 
   const setGiscusLang = (lang: string) => {
     const iframe = document.querySelector<HTMLIFrameElement>("iframe.giscus-frame");
@@ -565,6 +575,8 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 200));
           if (tocEn) tocEn.style.display = "none";
           if (tocZh) tocZh.style.display = "";
           if (tocTitle) tocTitle.textContent = "本页目录";
+          if (titleZh) { titleEn!.style.display = "none"; titleZh.style.display = ""; }
+          if (subtitleZh) { if (subtitleEn) subtitleEn.style.display = "none"; subtitleZh.style.display = ""; }
           setGiscusLang("zh-CN");
           currentLang = "zh";
         } else {
@@ -580,6 +592,8 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 200));
           if (tocZh) tocZh.style.display = "none";
           if (tocEn) tocEn.style.display = "";
           if (tocTitle) tocTitle.textContent = "On this page";
+          if (titleZh) { titleZh.style.display = "none"; titleEn!.style.display = ""; }
+          if (subtitleZh) { subtitleZh.style.display = "none"; if (subtitleEn) subtitleEn.style.display = ""; }
           setGiscusLang("en");
           currentLang = "en";
         }
