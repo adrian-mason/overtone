@@ -4,7 +4,7 @@ zh_title: "白金通关《十三机兵防卫圈》之后，我有点缓不过来
 description: "A post-platinum meditation on what makes 13 Sentinels: Aegis Rim one of the most cohesive narrative experiences in any medium — and why I'd erase my memory of it in a heartbeat."
 date: 2026-02-24T10:00:00
 featured: false
-tags: ["Visual Novel", "Sci-fi", "Strategy"]
+tags: ["Visual Novel", "Sci-fi", "Strategy", "Game"]
 ---
 
 The trophy notification popped. The platinum sound chimed. I put down my controller and just… sat there for a moment.
