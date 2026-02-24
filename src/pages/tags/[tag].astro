@@ -17,10 +17,11 @@ interface ArticleWithCategory {
 }
 
 export async function getStaticPaths() {
-  const [performance, classical, ai] = await Promise.all([
+  const [performance, classical, ai, life] = await Promise.all([
     getCollection("performance"),
     getCollection("classical"),
     getCollection("ai"),
+    getCollection("life"),
   ]);
 
   const tagMap = new Map<string, ArticleWithCategory[]>();
@@ -40,6 +41,7 @@ export async function getStaticPaths() {
   addArticles(performance, categories.performance);
   addArticles(classical, categories.classical);
   addArticles(ai, categories.ai);
+  addArticles(life, categories.life);
 
   return [...tagMap.entries()].map(([tag, articles]) => ({
     params: { tag },
