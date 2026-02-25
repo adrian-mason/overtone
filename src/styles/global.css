@@ -262,6 +262,11 @@ html {
   --life-angle: 540deg;
 }
 
+/* Life category badge — rainbow conic gradient matching the homepage icon ring */
+.neo-badge-life {
+  background: conic-gradient(from 180deg, #dbeafe, #f3e8ff, #fef3c7, #dbeafe);
+}
+
 /* Life card — champagne gold variant of neo-card */
 .neo-card-life {
   background: #fdf8ef;
