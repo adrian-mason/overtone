@@ -55,7 +55,7 @@ export const categories: Record<string, CategoryConfig> = {
     iconBg: "#f2e0a0",
     iconColor: "#c9952b",
     hoverColor: "#9b7020",
-    featuredBg: "#f2e0a0",
+    featuredBg: "#fef3c4",
     collection: "life",
   },
 } as const;
