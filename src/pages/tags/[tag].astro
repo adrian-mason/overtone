@@ -92,7 +92,7 @@ const { tag, articles } = Astro.props;
                 <div class="flex items-center gap-3">
                   <span
                     class={`neo-badge px-3 py-1 text-sm${article.category.collection === "life" ? " neo-badge-life" : ""}`}
-                    style={article.category.collection === "life" ? "color: black;" : `background-color: ${article.category.featuredBg}; color: black;`}
+                    style={article.category.collection === "life" ? `color: ${article.category.iconColor};` : `background-color: ${article.category.featuredBg}; color: black;`}
                   >
                     {article.category.title}
                   </span>
