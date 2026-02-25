@@ -237,7 +237,7 @@ html {
 /* Border glow — fires simultaneously with shimmer */
 @keyframes life-border-glow {
   0%   { box-shadow: 4px 4px 0px 0px rgba(160, 115, 55, 0.5); }
-  30%  { box-shadow: 0 0 0 5px rgba(236, 72, 153, 0.22), 0 0 28px 10px rgba(245, 158, 11, 0.12), 4px 4px 0px 0px rgba(160, 115, 55, 0.5); }
+  30%  { box-shadow: 0 0 0 5px rgba(139, 115, 85, 0.22), 0 0 28px 10px rgba(107, 91, 69, 0.12), 4px 4px 0px 0px rgba(160, 115, 55, 0.5); }
   100% { box-shadow: 4px 4px 0px 0px rgba(160, 115, 55, 0.5); }
 }
 
