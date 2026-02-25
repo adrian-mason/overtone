@@ -51,7 +51,7 @@ export const categories: Record<string, CategoryConfig> = {
     title: "Life",
     description:
       "No flame graph captures it. No recording preserves it. No model predicts it. Yet here we are.",
-    bgColor: "#fefcfa",
+    bgColor: "#fffcf7",
     iconBg: "#fce7f3",
     iconColor: "#ec4899",
     hoverColor: "#db2777",
