@@ -83,18 +83,24 @@ const { category, class: className = "h-6 w-6", style } = Astro.props;
       style={style}
       fill="none"
       viewBox="0 0 24 24"
-      stroke="currentColor"
       stroke-width="1.5"
       stroke-linecap="round"
       stroke-linejoin="round"
     >
-      <path d="M8 7h8" />
-      <path d="M8 7L4 13h16L16 7" />
-      <path d="M4 13l8 8 8-8" />
-      <path d="M12 7v6" />
-      <path d="M12 1v2.5" />
-      <path d="M5 1.5l1.5 1.5" />
-      <path d="M19 1.5l-1.5 1.5" />
+      <defs>
+        <linearGradient id="life-icon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%"   stop-color="#dbeafe" />
+          <stop offset="50%"  stop-color="#f3e8ff" />
+          <stop offset="100%" stop-color="#fef3c7" />
+        </linearGradient>
+      </defs>
+      <path stroke="url(#life-icon-grad)" d="M8 7h8" />
+      <path stroke="url(#life-icon-grad)" d="M8 7L4 13h16L16 7" />
+      <path stroke="url(#life-icon-grad)" d="M4 13l8 8 8-8" />
+      <path stroke="url(#life-icon-grad)" d="M12 7v6" />
+      <path stroke="url(#life-icon-grad)" d="M12 1v2.5" />
+      <path stroke="url(#life-icon-grad)" d="M5 1.5l1.5 1.5" />
+      <path stroke="url(#life-icon-grad)" d="M19 1.5l-1.5 1.5" />
     </svg>
   )
 }
