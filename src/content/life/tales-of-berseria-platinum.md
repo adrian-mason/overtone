@@ -1,5 +1,6 @@
 ---
 title: "Eighty Hours with a Monster"
+zh_title: "愤怒的 80 小时——Tales of Berseria 白金手记"
 description: "Tales of Berseria made me root for the villain, platinumed it anyway, and emerged genuinely changed. Here's why the remaster matters."
 date: 2026-02-25T10:00:00
 featured: false
@@ -75,18 +76,6 @@ The remaster is a genuine opportunity for the game to find the audience it deser
 The trophy notification at 2 AM felt like something. That's rarer than it should be.
 
 <!-- zh -->
-
----
-title: "愤怒的 80 小时——Tales of Berseria 白金手记"
-description: "从 Zestiria 的逃跑者到 Berseria 的白金猎人——我用 80 小时跟着一个坏人走完了这段复仇，它值得。"
-date: 2026-02-25T10:00:00
-featured: false
-tags:
-  - Game
-  - JRPG
-  - Action RPG
-  - Story Rich
----
 
 明天 Tales of Berseria Remastered 就上线了。
 
