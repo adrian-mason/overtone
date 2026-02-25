@@ -237,7 +237,7 @@ html {
 /* Border glow — fires simultaneously with shimmer */
 @keyframes life-border-glow {
   0%   { box-shadow: 4px 4px 0px 0px rgba(160, 115, 55, 0.5); }
-  30%  { box-shadow: 0 0 0 5px rgba(139, 115, 85, 0.22), 0 0 28px 10px rgba(107, 91, 69, 0.12), 4px 4px 0px 0px rgba(160, 115, 55, 0.5); }
+  30%  { box-shadow: 0 0 0 5px rgba(201, 149, 43, 0.28), 0 0 28px 10px rgba(201, 149, 43, 0.15), 4px 4px 0px 0px rgba(180, 135, 40, 0.5); }
   100% { box-shadow: 4px 4px 0px 0px rgba(160, 115, 55, 0.5); }
 }
 
@@ -262,16 +262,16 @@ html {
   --life-angle: 540deg;
 }
 
-/* Life card — warm parchment variant of neo-card */
+/* Life card — champagne gold variant of neo-card */
 .neo-card-life {
-  background: #fffcf7;
+  background: #fdf8ef;
   border: 2px solid black;
   border-radius: 12px;
-  box-shadow: 4px 4px 0px 0px rgba(160, 115, 55, 0.5);
+  box-shadow: 4px 4px 0px 0px rgba(180, 135, 40, 0.5);
   transition: box-shadow 0.25s ease, transform 0.25s ease;
 }
 
 .neo-card-life:hover {
   transform: translateY(-5px);
-  box-shadow: 5px 10px 0px 0px rgba(160, 115, 55, 0.4);
+  box-shadow: 5px 10px 0px 0px rgba(180, 135, 40, 0.4);
 }
