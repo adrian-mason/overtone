@@ -1,6 +1,8 @@
 ---
-title: "I Just Platinumed 13 Sentinels: Aegis Rim and Now I Don't Know What to Do With My Life"
-zh_title: "白金通关《十三机兵防卫圈》之后，我有点缓不过来"
+title: "I Just Platinumed 13 Sentinels: Aegis Rim"
+subtitle: "and Now I Don't Know What to Do With My Life"
+zh_title: "白金通关《十三机兵防卫圈》之后"
+zh_subtitle: "我有点缓不过来"
 description: "A post-platinum meditation on what makes 13 Sentinels: Aegis Rim one of the most cohesive narrative experiences in any medium — and why I'd erase my memory of it in a heartbeat."
 date: 2026-02-24T10:00:00
 featured: false
