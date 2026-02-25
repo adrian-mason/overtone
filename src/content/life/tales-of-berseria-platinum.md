@@ -1,6 +1,3 @@
-
-
-```markdown
 ---
 title: "Eighty Hours with a Monster"
 description: "Tales of Berseria made me root for the villain, platinumed it anyway, and emerged genuinely changed. Here's why the remaster matters."
@@ -76,12 +73,9 @@ A game can have real flaws and real ambition simultaneously. Berseria took a fra
 The remaster is a genuine opportunity for the game to find the audience it deserved in 2017. If you played Zestiria and bounced off the Shepherd's relentless optimism — I understand, I did too — Berseria is not that. If you've played other JRPGs and found the genre's relationship with darkness a bit aestheticized and consequence-free, this is worth your time. If you've already played it and skipped the platinum: the true ending earns the account manager sessions.
 
 The trophy notification at 2 AM felt like something. That's rarer than it should be.
-```
-
 
 <!-- zh -->
 
-```markdown
 ---
 title: "愤怒的 80 小时——Tales of Berseria 白金手记"
 description: "从 Zestiria 的逃跑者到 Berseria 的白金猎人——我用 80 小时跟着一个坏人走完了这段复仇，它值得。"
@@ -217,4 +211,3 @@ Velvet 在游戏世界里的官方头衔是「灾厄之王」(Lord of Calamity)�
 这个故事关于愤怒，关于失去某样东西之后你会变成什么人，关于当你的目标达到时你还剩下什么。
 
 它值得 80 小时。
-```
