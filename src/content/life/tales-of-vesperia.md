@@ -1,5 +1,6 @@
 ---
-title: "Tales of Vesperia and the Rare Joy of a Party You Actually Miss When It's Over"
+title: "Tales of Vesperia"
+subtitle: "and the Rare Joy of a Party You Actually Miss When It's Over"
 zh_title: "那群让我舍不得告别的旅伴"
 description: "A deeply personal JRPG about chosen family, vigilante justice, and the friendships that grow in the space between cutscenes."
 date: 2026-02-25T10:00:00
