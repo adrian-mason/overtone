@@ -9,8 +9,6 @@ featured: false
 tags: ["Reading", "Investing", "Psychology"]
 ---
 
----
-
 There is a thought experiment buried in Chapter Nine of this book that should permanently alter the way any serious trader thinks about entry signals. Tharp took a trading system and replaced its entry logic with a coin flip — literally random, no analysis whatsoever, fifty-fifty long or short. He then applied a trailing stop set at three times the Average True Range and sized each position at one percent of equity. The result: across every single test run, the system was profitable.
 
 Let that sit for a moment. A system that decides market direction by chance, and yet makes money consistently. The implication is not that entry signals are useless — it is that they are far less important than almost everyone believes, and that the real work of system design lies elsewhere.

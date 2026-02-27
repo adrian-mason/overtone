@@ -9,8 +9,6 @@ featured: false
 tags: ["Reading", "Investing", "Psychology"]
 ---
 
----
-
 If Part One of this book was an invitation to look inward, Part Two is the turn outward — toward the market, toward probability, and toward the structural architecture of a trading system. But do not mistake "outward" for conventional. Tharp does not hand you a set of indicators, a chart pattern, or a proprietary entry signal. What he hands you is something more durable and more demanding: a framework for thinking about trading systems from first principles.
 
 The central argument of Part Two can be stated plainly: the difference between a profitable trader and a losing one is not the quality of their market predictions. It is the mathematical structure of their system — specifically, whether that system generates positive expectancy over a large sample of trades, and whether the trader survives long enough to let the mathematics work.

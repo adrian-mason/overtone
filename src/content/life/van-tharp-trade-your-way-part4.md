@@ -9,8 +9,6 @@ featured: false
 tags: ["Reading", "Investing", "Psychology"]
 ---
 
----
-
 There is a question that separates professional traders from everyone else. It is not "what should I buy?" or "when should I enter?" or even "where should I place my stop?" Those questions matter, and Parts One through Three of this book addressed them carefully. But the question that ultimately determines whether a trader compounds wealth or eventually goes broke is simpler and less glamorous than any of them:
 
 **How much?**
