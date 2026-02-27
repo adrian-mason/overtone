@@ -13,6 +13,8 @@ I finished Ys VIII: Lacrimosa of Dana three days ago. I got the platinum. I've d
 
 This isn't really a review. Reviews have scores and structured analysis and professional distance. I don't have any of that right now. What I have is this hollow feeling in my chest that opened up the moment the credits rolled, and a desperate urge to talk about a video game with anyone who will listen.
 
+---
+
 ## How I Even Got Here
 
 I picked this up on PS5 mostly on a whim. The screenshots looked gorgeous — lush jungles, ancient ruins, that shimmering coastline — and I'd heard people online call it one of the best JRPGs in years. What I wasn't prepared for was just how completely it would swallow me whole.
@@ -20,6 +22,8 @@ I picked this up on PS5 mostly on a whim. The screenshots looked gorgeous — lu
 The first few hours are almost deceptively simple. You're Adol Christin, a red-haired adventurer who gets shipwrecked (again, apparently this happens to him a lot), washes up on a cursed island, and starts gathering survivors. Build a village. Fight monsters. Explore. Classic stuff.
 
 And then the dreams start.
+
+---
 
 ## Dana
 
@@ -31,6 +35,8 @@ There's this one moment — Dana planting a "wish tree" alone in the middle of a
 
 It's the kind of storytelling that only games can do. Not because the writing is especially flowery or cinematic, but because *you were there for both sides of it*. You planted that tree. You stood under it. The weight of those thousands of years in between — you feel it in your bones.
 
+---
+
 ## The Combat Is Just... Fun?
 
 I want to say something smart about the battle system but honestly: it just feels *great*.
@@ -39,6 +45,8 @@ The Flash Guard, the Flash Move, the three-character party swapping — it's the
 
 And on PS5, running at 4K/60fps, everything is just *clean*. The combat looks as good as it feels. Every hit has weight. The screen fills with particle effects and your brain just goes quiet. Good quiet.
 
+---
+
 ## The Island Itself
 
 Can we talk about Seiren Island for a second?
@@ -46,6 +54,8 @@ Can we talk about Seiren Island for a second?
 This place is *beautiful*. Not just for a game originally built for the Vita — it's genuinely beautiful, full stop. The way the light hits the Sunshine Coastline at different times of day. The stillness inside the ancient ruins. That terrifying plunge when you first reach the higher elevations and realize how big this place actually is. I spent so much time just standing in spots, rotating the camera, taking it in.
 
 Exploring with the fog of war on the map slowly clearing felt almost meditative. That last 0.1% of map completion I was hunting for before the platinum — I was annoyed at it and also kind of glad it gave me an excuse to keep walking around this place.
+
+---
 
 ## The Platinum, and What Comes After
 
@@ -58,6 +68,8 @@ When "Travelogue of the Gaete Sea" appeared in the corner of my screen, I felt p
 The true ending is stunning and heartbreaking in equal measure. Dana's fate is exactly what it needs to be — right and inevitable and still somehow devastating. She doesn't get to come back. She gets to become something larger than herself, and that's wonderful, and it's also a kind of loneliness I wasn't prepared for at 1am on a Tuesday.
 
 The forums call it "post-game depression." They're not wrong. It's not sadness exactly. It's more like finishing a long conversation with someone you'll never get to talk to again.
+
+---
 
 ## So, What Now?
 
@@ -91,6 +103,8 @@ And I miss it already.
 
 这篇文章不是测评。测评有评分，有结构，有那种我现在完全没有的专业距离感。我现在有的，只是想找人聊聊这个游戏的冲动，以及一种说不清楚的、像是失去了什么的感觉。
 
+---
+
 ## 怎么就这么好玩了
 
 说实话，我一开始对这个游戏没有特别高的期待。PS5 版本的截图好看，听说口碑不错，就买来玩了。
@@ -100,6 +114,8 @@ And I miss it already.
 然后亚特鲁开始做梦。
 
 然后丹娜出现了。
+
+---
 
 ## 丹娜
 
@@ -113,6 +129,8 @@ And I miss it already.
 
 这种叙事是只有游戏才能做到的东西。不是因为台词多漂亮或者 CG 多精致，而是因为你亲手种了那棵树，你也亲眼站在它下面。那几千年的时间跨度，是你自己走出来的。
 
+---
+
 ## 战斗系统，真好耍
 
 说点轻松的。
@@ -123,6 +141,8 @@ And I miss it already.
 
 在 PS5 上跑 4K/60 帧，战斗视觉效果又清又利落。打击感、粒子特效、角色切换的流畅度，加在一起，让人有种「就想一直打」的欲望。
 
+---
+
 ## 塞连岛太好看了
 
 真的好看。
@@ -132,6 +152,8 @@ And I miss it already.
 我在 PS5 上开着 4K 模式，有好多次就站在原地转了一圈相机，什么都没干，就是看。
 
 白金要求地图 100% 探索。追那最后的 0.1% 地图迷雾的时候，我心里有点烦，但也有点庆幸——又多了一个在岛上到处走走的理由。
+
+---
 
 ## 白金之后的那种空
 
@@ -146,6 +168,8 @@ And I miss it already.
 真结局很精彩，也很令人心碎。丹娜的结局是她应得的、也是必然的那种——壮丽，对，但也是一种很深的孤独。她没有回来。她成为了更广大的某种存在，守护着这个世界，独自守护。我在凌晨一点看完这段，有点久久说不出话来。
 
 游戏社区里有个词叫「post-game depression（游戏通关后抑郁）」，我之前觉得有点夸张。这次我懂了。不是真正的悲伤，更像是一段很好的对话结束了，对面的人消失了，你还想继续说。
+
+---
 
 ## 然后呢
 

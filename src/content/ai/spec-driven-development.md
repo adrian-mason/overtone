@@ -17,11 +17,15 @@ The code itself.
 
 Not the design doc. Not the changelog. Not the README, the architecture diagram, or the onboarding wiki. Every one of those becomes stale almost the moment it's written — and stale documentation isn't just useless. In the age of coding agents, it's actively dangerous.
 
+---
+
 ## The Documentation Problem Nobody Has Solved
 
 We've been trying to solve documentation drift for decades. We've tried process. We've tried tooling. We've tried making it a team value and a cultural norm. None of it has stuck. And the reason is simple: we keep asking humans to do something humans reliably won't do.
 
 Engineers are built for bursts. Write the doc, ship the feature, move on. Keeping a written artifact in sync with a changing system is continuous, invisible work that competes with everything else on a given day — and it loses that competition almost every time. The updating isn't rewarded, isn't visible, and isn't the interesting part. So it doesn't happen.
+
+---
 
 ## Why Spec-Driven Development Has the Same Problem
 
@@ -33,6 +37,8 @@ The difference with SDD is what's at stake. A stale design doc misleads the next
 
 Every documentation-first initiative in software history has failed for the same reason: it asked developers to do continuous maintenance work that nobody sees and nobody rewards. SDD will fail for the exact same reason — unless the agents do their share of the maintenance.
 
+---
+
 ## The Question That Changed the Design
 
 When the team at Augment Code started building **Intent**, the question they kept circling was: *what if the spec wasn't something you maintained? What if it maintained itself?*
@@ -42,6 +48,8 @@ The answer they landed on is deceptively simple.
 **The spec isn't a human artifact or an agent artifact. Both sides read from it and write to it.**
 
 That single design decision changes everything about how the workflow operates.
+
+---
 
 ## How Intent Actually Works
 
@@ -53,11 +61,15 @@ Think about what happens when you hand a task to a good junior engineer. You giv
 
 That's the relationship Intent is designed to create between the developer and the spec. The ticket stays honest because both sides are maintaining it.
 
+---
+
 ## Getting the Granularity Right
 
 The junior engineer analogy goes further than you'd expect. A good junior doesn't narrate every line of code — they surface the decisions that change direction: "I found an existing auth context, so I wired into that instead of creating a new one." That's the signal. That's what you want from agents too.
 
 Getting this granularity right turns out to be one of the genuinely hard design problems in the system. Too much and the spec becomes noise you learn to ignore. Too little and you're back to guessing what happened. The goal is a signal-to-noise ratio that mirrors a good engineering teammate: surfacing the things that matter, not everything.
+
+---
 
 ## A Concrete Example
 
@@ -76,6 +88,8 @@ Fifteen minutes later, one of them has updated the spec: "Found an existing them
 You review the code change — clearly grouped by agent and task.
 
 The spec now reflects what was actually built, not what was originally planned. And nobody had to remember to update it.
+
+---
 
 ## The Principle
 
@@ -101,11 +115,15 @@ That's the small shift that might finally make spec-driven development work.
 
 不是设计文档，不是 Changelog，不是 README，不是架构图，不是入职 Wiki。所有这些东西几乎在写完的瞬间就开始过期——而过期的文档不只是没用，在 AI 编程 Agent 时代，它是主动有害的。
 
+---
+
 ## 一个几十年都没解决的问题
 
 我们试过流程管控，试过工具约束，试过把写文档变成团队文化和价值观。都没用。原因很简单：我们一直在要求人类去做人类不会可靠地坚持做的事情。
 
 工程师是"冲刺型"动物——写好文档、交付功能、继续前进。让一个文字产物与持续变化的系统保持同步，是一种连续性的、隐形的工作，它每天都在跟其他所有事情竞争——而且几乎每次都输。更新文档没有奖励，没有可见度，也不是有趣的部分。所以它就不发生了。
+
+---
 
 ## 规格驱动开发 (SDD) 有同样的病
 
@@ -117,6 +135,8 @@ SDD 和普通文档的区别在于风险的量级。一份过期的设计文档�
 
 软件历史上每一次"文档先行"的运动都因为同一个原因失败：它要求开发者去做一种没人看到、没人奖励的持续维护工作。SDD 会以完全一样的方式失败——除非 Agent 也承担起维护的责任。
 
+---
+
 ## 改变设计的那个问题
 
 Augment Code 在构建 **Intent** 时，团队反复思考的问题是：*如果规格不是你维护的东西，而是它自己维护自己呢？*
@@ -126,6 +146,8 @@ Augment Code 在构建 **Intent** 时，团队反复思考的问题是：*如果
 **规格不是人的产物，也不是 Agent 的产物。双方都从它这里读，也都向它写。**
 
 这一个设计决策，改变了整个工作流的运作方式。
+
+---
 
 ## Intent 实际上怎么工作
 
@@ -137,11 +159,15 @@ Augment Code 在构建 **Intent** 时，团队反复思考的问题是：*如果
 
 这就是 Intent 想要在开发者和规格之间建立的关系。ticket 保持诚实，因为双方都在维护它。
 
+---
+
 ## 粒度：一个被低估的设计难题
 
 初级工程师的类比比你想象的更深刻。一个好的初级不会叙述每一行代码——他只会把改变方向的决策浮出水面："我找到了一个已有的 auth context，所以我直接接进去，没有新建一个。"这才是信号。这也是你希望从 Agent 那里得到的东西。
 
 把这个粒度调到位，是系统里真正有趣的设计难题之一。太多了，规格变成噪音，你学会忽略它。太少了，你又回到猜测发生了什么的状态。目标是一个信噪比，让它像一个好的工程团队成员：浮出重要的事情，不是所有事情。
+
+---
 
 ## 一个具体的例子
 
@@ -160,6 +186,8 @@ Agent 开始工作。
 你审阅代码变更——清晰地按 Agent 和任务分组。
 
 规格现在反映的是实际构建的内容，不是最初计划的内容。没有任何人需要记得去更新它。
+
+---
 
 ## 背后的原则
 

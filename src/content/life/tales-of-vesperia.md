@@ -12,12 +12,13 @@ tags:
   - Story Rich
 ---
 
-
 The credits rolled, and I sat with the controller in my lap for a minute longer than I needed to.
 
 That's the thing about Tales of Vesperia. It doesn't end on a world-shattering revelation or a twist that reframes everything. It ends on the people. And by the time you get there, you've spent sixty-plus hours with this group in a way that makes the quiet ending feel earned rather than anticlimactic.
 
 I came in for the story and stayed for everything I hadn't expected.
+
+---
 
 ## Yuri Lowell Doesn't Want to Be Your Hero
 
@@ -33,6 +34,8 @@ That restraint is rarer than it sounds.
 
 His friendship with Flynn, his childhood friend who stayed in the Imperial Knights, runs through the whole game like a long argument between two people who respect each other too much to stop talking. Flynn believes the system can be reformed from within. Yuri believes some situations can't wait for the system. Neither of them is entirely wrong. The game doesn't resolve this tension so much as hold it, which is more interesting.
 
+---
+
 ## The Group Has a History (Even When You're Not Watching)
 
 The party in Vesperia feels, unusually, like it has a past.
@@ -45,6 +48,8 @@ Estelle surprised me in particular. She enters as the sheltered noblewoman arche
 
 What drew me in most was this: the friendships feel lived-in rather than scripted. They grow through small moments as much as big plot beats — a shared meal on a cold night, a disagreement that gets dropped too quickly, the way someone always says the wrong thing in a crisis but shows up anyway.
 
+---
+
 ## What the World Looks Like When the Light Is Right
 
 Terca Lumireis is built around blastia — ancient devices that power everything from city barriers to water pumps, crystallized from the remains of a nearly extinct race. The world's ecology is in slow collapse from blastia overuse, a crisis the Imperial authorities are either ignoring or actively enabling. It's a setup that sounds dour, and sometimes is. But the visual design does something the writing alone couldn't: it makes the world feel worth saving.
@@ -54,6 +59,8 @@ The cel-shaded aesthetic still holds up in 2025 in a way that more technically a
 There's one location near the midpoint of the game — I won't say what happens there — where I stopped moving through for a minute just to look. Nothing dramatic was happening. Someone had just thought carefully about where the horizon sits and what color the sky goes when the weather is uncertain, and it showed. I put the controller down and sat with it for a moment, the way you might pause in a gallery.
 
 Those moments hit differently when the world around them has been built to earn them.
+
+---
 
 ## The Combat That Reveals Itself Slowly
 
@@ -69,6 +76,8 @@ I should be honest that the combat still shows its age in ways that matter. The 
 
 But find your rhythm with it and the combat becomes something you look forward to rather than endure.
 
+---
+
 ## Where the Seams Show
 
 The main plot is, genuinely, not the strongest part of this game.
@@ -80,6 +89,8 @@ This would matter more if the story were carrying the game. It isn't. The plot i
 Navigation in the second half gets fiddly in ways the 2019 remaster didn't fully address. The world opens up, which is good, but the map doesn't scale well to that openness. "Read the menu synopsis if you're lost" becomes genuine advice rather than a joke. It's a friction that breaks the rhythm at the worst possible moments.
 
 The Definitive Edition also has an audio issue worth knowing about upfront: Troy Baker didn't return to reprise his role when the formerly Japan-exclusive PS3 content was localized. This means Yuri has two distinct English voices depending on the scene. For most players it's a minor distraction. For some it will be distracting every single time.
+
+---
 
 ## Who This Is For
 
@@ -96,10 +107,11 @@ The game takes its time with you. It's worth taking time back with it. And when 
 
 <!-- zh -->
 
-
 游戏结束之后，我在标题画面坐了一会儿。
 
 不是因为结局有多震撼。《维斯佩里亚传说：决定版》（Tales of Vesperia: Definitive Edition）的主线走向其实很传统，玩到一半大概就能猜出大方向。我只是没准备好关掉它。那种感觉不像"这个故事太精彩了"，更像是送别了一群以为还会再见的朋友，突然意识到下次见面不知道是什么时候。
+
+---
 
 ## Yuri 为什么不烦人
 
@@ -111,6 +123,8 @@ The game takes its time with you. It's worth taking time back with it. And when 
 
 这让他和 Flynn——那个选择留在体制内从内部改变的骑士——之间的关系变得真实。两个人都没有错，只是选了不同的路，然后各自承担那条路带来的一切。游戏的类型定位是"贯彻「正义」的 RPG"，放在 Yuri 身上才有意义：他贯彻的是自己认为对的事，不是抽象口号。
 
+---
+
 ## 这支队伍的质感
 
 Tales 系列最有特色的设计之一是 Skit (角色互动片段)——在探索过程中随时触发的角色对话，用立绘头像呈现，内容从剧情讨论到纯粹耍宝都有。《维斯佩里亚》的 Skit 质量是我玩过 JRPG 里最稳定的之一，不是每一段都精彩，但有些片段里有一种被时间磨出来的默契感：彼此取笑的方式，争论时的语气，某人说一半另一个人就接过去了。那种质感不是靠主线交代出来的，是在几十个两分钟小对话里积累的。
@@ -118,6 +132,8 @@ Tales 系列最有特色的设计之一是 Skit (角色互动片段)——在探
 Repede 是队里唯一一只狗（对，有一条战斗力极强的狗），我没想到一个不说话的角色能有这么强的存在感。Judith 出场方式很特别，她融入队伍的节奏也不着急。Raven 的那层油滑背后是什么，留着自己发现。
 
 到了游戏后段，这群人在一起的感觉已经很不一样了。这种变化是渐进的，没有哪个时刻会让你说"他们现在是家人了"，但某天回头看，发现已经是这样了。
+
+---
 
 ## 世界长什么样
 
@@ -128,6 +144,8 @@ Repede 是队里唯一一只狗（对，有一条战斗力极强的狗），我�
 游戏用的是 cel-shading (卡通渲染) 风格，在高清分辨率下撑住了，没有因为提升画质而变得突兀。Zaphias 皇宫区和下城区的落差，海边城镇 Capua Nor 的开阔感，后期某些自然场景里那种渺小感——不同区域有不同的光线逻辑，不是一套滤镜贴到底。
 
 不打算剧透发生了什么，但有一个场景，是在某个很高的地方，队伍沉默了一会儿，然后有人开口说话。那个时刻的光线方向，我记得很清楚。
+
+---
 
 ## 战斗需要一点时间
 
@@ -141,6 +159,8 @@ Repede 是队里唯一一只狗（对，有一条战斗力极强的狗），我�
 
 深度是真实存在的，但它需要你留够时间去摸索。
 
+---
+
 ## 不够完美的地方
 
 我喜欢这款游戏，但不是没有保留。
@@ -150,6 +170,8 @@ Repede 是队里唯一一只狗（对，有一条战斗力极强的狗），我�
 战斗在后期会有重复感，特别是地下城里的普通遭遇战。游戏里有道具可以跳过随机战斗，我后来用得很多。地图导航在后半段稍微混乱，有时候不确定下一步该去哪里——菜单里有剧情概要可以翻，这个设计救了我几次。
 
 Definitive Edition 还有一个细节问题：2019 年重制时，部分英文配音角色换了演员，原版 Yuri 的英文配音 Troy Baker 没有回归，新增内容里换了另一位演员。主打日文配音的玩家感受不大，但如果你打英配，同一个角色在不同场景声音不一样会很出戏。
+
+---
 
 ## 要不要玩
 
