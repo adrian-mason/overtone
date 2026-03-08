@@ -13,7 +13,7 @@ tags:
 ---
 
 
-*This is Part Three of a series on Robert Carver's* Systematic Trading. *[Part One](../systematic-trading-part-one) covered the psychological case for rules-based systems. [Part Two](../systematic-trading-part-two) examined Carver's toolbox — why data mining fails and why handcrafting beats Markowitz. Here we get to the engineering.*
+*This is Part Three of a series on Robert Carver's* Systematic Trading. *[Part One](https://overtone-aql.pages.dev/life/systematic-trading-theory-part1) covered the psychological case for rules-based systems. [Part Two](https://overtone-aql.pages.dev/life/systematic-trading-toolbox-part2) examined Carver's toolbox — why data mining fails and why handcrafting beats Markowitz. Here we get to the engineering.*
 
 ---
 
@@ -157,7 +157,7 @@ Whether this blueprint is implementable for any given reader depends heavily on 
 
 **声明：本文是读书笔记，不构成任何投资建议。我不会在文中披露个人持仓或交易活动。**
 
-这是《系统化交易》系列精读的第三篇，对应原书第三部分（第5-12章）。前两篇分别讨论了为什么规则化系统优于直觉判断，以及如何避免数据挖掘和过拟合陷阱。这一篇是最密集的部分——Carver 从头构建完整的仓位管理框架，每一个组件都有精确的数学定义。
+这是《系统化交易》系列精读的第三篇，对应原书第三部分（第5-12章）。前两篇（[第一篇](https://overtone-aql.pages.dev/life/systematic-trading-theory-part1)、[第二篇](https://overtone-aql.pages.dev/life/systematic-trading-toolbox-part2)）分别讨论了为什么规则化系统优于直觉判断，以及如何避免数据挖掘和过拟合陷阱。这一篇是最密集的部分——Carver 从头构建完整的仓位管理框架，每一个组件都有精确的数学定义。
 
 理论转化为工程的过程往往令人沮丧。读完前两部分之后，脑子里还是一堆概念，却不知道如何把"我认为市场会上涨"这个判断转化成"明天开盘买入 X 手合约"这个操作。第三部分解决的正是这个问题。
 

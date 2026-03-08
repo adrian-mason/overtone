@@ -15,7 +15,7 @@ tags:
 
 There's a particular feeling you get when a backtest finally fits. You've been tweaking the lookback window, adjusting the entry threshold, maybe adding a volatility filter — and then suddenly the equity curve smooths out, the Sharpe ratio climbs past 1.5, and the drawdowns look almost civilized. It feels like discovery. It is, in fact, the opposite.
 
-Robert Carver calls this process "fitting," and he dedicates the entire second part of *Systematic Trading* to explaining why it quietly destroys more trading systems than bad luck or bad markets ever will. This is the second post in my series working through the book. [Part One covered the theoretical foundations](https://overtone.dev) — why systematic rules beat human judgment, and why realistic performance expectations are so much lower than the industry admits. Part Two is where Carver gets surgical.
+Robert Carver calls this process "fitting," and he dedicates the entire second part of *Systematic Trading* to explaining why it quietly destroys more trading systems than bad luck or bad markets ever will. This is the second post in my series working through the book. [Part One covered the theoretical foundations](https://overtone-aql.pages.dev/life/systematic-trading-theory-part1) — why systematic rules beat human judgment, and why realistic performance expectations are so much lower than the industry admits. Part Two is where Carver gets surgical.
 
 *Not financial advice. Carver's framework is presented here as a rigorous intellectual structure for thinking about strategy design — not a recommendation to trade anything.*
 
@@ -108,7 +108,7 @@ Parts Three and Four cover how to translate these principles into a daily operat
 
 ---
 
-*This post is part of a series on Robert Carver's Systematic Trading. [Part One](https://overtone.dev) covered the theoretical foundations. Parts Three and Four are forthcoming. Nothing here constitutes financial advice — I'm a reader trying to understand a framework, not a trading advisor.*
+*This post is part of a series on Robert Carver's Systematic Trading. [Part One](https://overtone-aql.pages.dev/life/systematic-trading-theory-part1) covered the theoretical foundations. Parts Three and Four are forthcoming. Nothing here constitutes financial advice — I'm a reader trying to understand a framework, not a trading advisor.*
 
 
 <!-- zh -->
@@ -116,7 +116,7 @@ Parts Three and Four cover how to translate these principles into a daily operat
 
 这不是投资建议。本文只是一个读者在研读 Robert Carver 的《Systematic Trading》(系统化交易) 时整理出的框架笔记。Carver 的论证我会尽量如实呈现；我对这些框架的判断，仅限于「值得深思」，不延伸到任何具体市场操作。
 
-第一部分我们谈了 Carver 的核心主张：人类大脑天生不适合做交易决策，系统化规则是对抗认知偏差的承诺机制。那篇文章聚焦于为什么要系统化，以及对收益预期的冷水——一个高度分散的系统化组合，真实 Sharpe ratio (夏普比率) 上限大约只有 1.0。
+[第一部分](https://overtone-aql.pages.dev/life/systematic-trading-theory-part1)我们谈了 Carver 的核心主张：人类大脑天生不适合做交易决策，系统化规则是对抗认知偏差的承诺机制。那篇文章聚焦于为什么要系统化，以及对收益预期的冷水——一个高度分散的系统化组合，真实 Sharpe ratio (夏普比率) 上限大约只有 1.0。
 
 这篇进入第二部分（第 3、4 章）：过拟合从哪里来，以及如何构建一个在样本外仍然存活的投资组合。第三、四部分会在后续文章中继续。
 
