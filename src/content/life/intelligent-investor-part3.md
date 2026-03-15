@@ -1,8 +1,10 @@
 ---
 title: "The Manic-Depressive Next Door"
+subtitle: "Reading Notes · The Intelligent Investor — Part 3"
 zh_title: "市场先生每天来敲门，但你不必开门"
+zh_subtitle: "读书笔记 ·《聪明的投资者》第三部分"
 description: "Graham's Mr. Market allegory isn't just a metaphor — it's a complete inversion of how most investors relate to price."
-date: 2026-03-15T10:00:00
+date: 2026-03-15T11:00:00
 featured: false
 tags:
   - Investment

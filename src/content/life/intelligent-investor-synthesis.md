@@ -1,8 +1,10 @@
 ---
 title: "The Character Test: What Graham Really Meant by 'Intelligent'"
+subtitle: "Reading Notes · The Intelligent Investor — Full Book Synthesis"
 zh_title: "价格是你付的，价值是你得到的"
+zh_subtitle: "读书笔记 ·《聪明的投资者》全书融汇总结"
 description: "A full-book synthesis of The Intelligent Investor — the philosophical architecture, the three pillars that hold it together, and what it means for ordinary investors today."
-date: 2026-03-15T10:00:00
+date: 2026-03-15T14:00:00
 featured: false
 tags:
   - Investment

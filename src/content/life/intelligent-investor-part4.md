@@ -1,8 +1,10 @@
 ---
-title: "The Reported Number Is Just the Starting Point — Reading Notes · The Intelligent Investor — Part 4"
+title: "The Reported Number Is Just the Starting Point"
+subtitle: "Reading Notes · The Intelligent Investor — Part 4"
 zh_title: "先问「它值多少钱」——证券分析的第一原则"
+zh_subtitle: "读书笔记 ·《聪明的投资者》第四部分"
 description: "Graham's chapters 11-15: why headline EPS misleads, how side-by-side comparison exposes quality, and seven concrete criteria for defensive stock selection."
-date: 2026-03-15T10:00:00
+date: 2026-03-15T12:00:00
 featured: false
 tags:
   - Investment

@@ -1,8 +1,10 @@
 ---
 title: "The Test Most Investors Fail Before Buying a Single Share"
+subtitle: "Reading Notes · The Intelligent Investor — Part 1"
 zh_title: "格雷厄姆的诊断：你大概率在投机，而非投资"
-description: "Reading Notes · The Intelligent Investor — Part 1 | On Graham's three-condition definition of investment, inflation's quiet toll, and what a century of market data actually shows."
-date: 2026-03-15T10:00:00
+zh_subtitle: "读书笔记 ·《聪明的投资者》第一部分"
+description: "On Graham's three-condition definition of investment, inflation's quiet toll, and what a century of market data actually shows."
+date: 2026-03-15T09:00:00
 featured: false
 tags:
   - Investment

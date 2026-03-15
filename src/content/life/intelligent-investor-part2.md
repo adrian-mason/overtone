@@ -1,6 +1,8 @@
 ---
 title: "Defensive or Enterprising? Graham's Question Has Only Two Answers"
+subtitle: "Reading Notes · The Intelligent Investor — Part 2"
 zh_title: "你是哪种投资者？格雷厄姆的两种操作模式"
+zh_subtitle: "读书笔记 ·《聪明的投资者》第二部分"
 description: "Chapters 4–7 of The Intelligent Investor draw a hard line between two investor types. Most people are standing dangerously in between."
 date: 2026-03-15T10:00:00
 featured: false

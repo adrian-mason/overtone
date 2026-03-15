@@ -1,8 +1,10 @@
 ---
 title: "The Cushion Between You and Catastrophe"
+subtitle: "Reading Notes · The Intelligent Investor — Part 5"
 zh_title: "安全边际：不是公式，是投资的世界观"
+zh_subtitle: "读书笔记 ·《聪明的投资者》第五部分"
 description: "Graham's final chapters on convertible securities, cautionary cases, and why Margin of Safety is less a formula than a philosophy of intellectual humility."
-date: 2026-03-15T10:00:00
+date: 2026-03-15T13:00:00
 featured: false
 tags:
   - Investment
