@@ -1,6 +1,8 @@
 ---
-title: "Annotate Everything, Pay Nothing: A Deep Dive into Intel ITT"
-zh_title: "Intel ITT 深度解析：零开销插桩背后的架构设计"
+title: "Annotate Everything, Pay Nothing"
+subtitle: "A Deep Dive into Intel ITT"
+zh_title: "零开销插桩的秘密"
+zh_subtitle: "Intel ITT 架构设计深度解析"
 description: "Intel ITT lets you ship production binaries with profiler annotations permanently compiled in — and pay zero overhead when no tool is attached. Here's how it works."
 date: 2026-03-17T10:00:00
 featured: false
