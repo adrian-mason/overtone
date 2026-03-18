@@ -1,6 +1,8 @@
 ---
 title: "Overfitting Is the Silent Killer of Trading Strategies"
+subtitle: "Reading Notes · Systematic Trading — Part 2"
 zh_title: "过拟合是量化策略的隐形杀手"
+zh_subtitle: "读书笔记 ·《系统化交易》第二部分"
 description: "Lessons from Robert Carver's Systematic Trading, Part Two: why beautiful backtests fail and how handcrafting beats optimization."
 date: 2026-03-08T10:00:00
 featured: false

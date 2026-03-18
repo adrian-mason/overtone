@@ -1,6 +1,8 @@
 ---
 title: "Building a Trading System From Scratch"
+subtitle: "Reading Notes · Systematic Trading — Part 3"
 zh_title: "从零组装一个交易系统"
+zh_subtitle: "读书笔记 ·《系统化交易》第三部分"
 description: "A walkthrough of Robert Carver's modular framework — from individual forecasts through position sizing to full portfolio construction."
 date: 2026-03-08T10:00:00
 featured: false

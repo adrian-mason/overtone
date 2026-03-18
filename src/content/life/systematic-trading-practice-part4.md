@@ -1,6 +1,8 @@
 ---
-title: "Three Ways to Be a Systematic Trader: Without Quitting Your Day Job — Lessons from Part Four"
+title: "Three Ways to Be a Systematic Trader"
+subtitle: "Reading Notes · Systematic Trading — Part 4"
 zh_title: "系统化交易的三条路：你属于哪一种？"
+zh_subtitle: "读书笔记 ·《系统化交易》第四部分"
 description: "Robert Carver's Part Four presents three concrete archetypes — from simple ETF rebalancing to full automation — to help you find your systematic path."
 date: 2026-03-08T10:00:00
 featured: false

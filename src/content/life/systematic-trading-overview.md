@@ -1,6 +1,8 @@
 ---
-title: "Why Every Investor Should Read Systematic Trading: A Complete Guide to Robert Carver's Framework"
-zh_title: "《系统化交易》完整书评：Carver 框架的核心与边界"
+title: "Why Every Investor Should Read Systematic Trading"
+subtitle: "Reading Notes · Systematic Trading — Complete Guide"
+zh_title: "Carver 框架的核心与边界"
+zh_subtitle: "读书笔记 ·《系统化交易》完整书评"
 description: "A complete analytical overview of Robert Carver's Systematic Trading — what it teaches, who it's for, and how to approach reading it."
 date: 2026-03-08T10:00:00
 featured: false

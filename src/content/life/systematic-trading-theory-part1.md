@@ -1,6 +1,8 @@
 ---
 title: "Why Your Brain Is the Worst Trading System Ever Built"
+subtitle: "Reading Notes · Systematic Trading — Part 1"
 zh_title: "你的大脑，是这套交易系统里最危险的变量"
+zh_subtitle: "读书笔记 ·《系统化交易》第一部分"
 description: "Lessons from Robert Carver's Systematic Trading, Part One: the cognitive biases that sabotage discretionary traders, and why rules beat gut feelings."
 date: 2026-03-08T10:00:00
 featured: false
