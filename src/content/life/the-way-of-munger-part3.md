@@ -1,6 +1,8 @@
 ---
-title: "I Told You So, and I'm Not Apologizing: Munger's Final Years at Wesco"
+title: "I Told You So, and I'm Not Apologizing"
+subtitle: "Reading Notes · The Way of Munger — Part 3"
 zh_title: "定时炸弹与比亚迪：芒格把话说得很清楚"
+zh_subtitle: "读书笔记 ·《芒格之道》第三部分"
 description: "Reading Munger's 2003–2010 Wesco shareholder meetings: the financial crisis he predicted, BYD, and the quiet logic of letting Wesco go."
 date: 2026-03-21T10:00:00
 featured: false

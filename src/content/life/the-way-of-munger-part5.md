@@ -1,6 +1,8 @@
 ---
-title: "The Old Man Was Right: Munger's Final Warnings on Crypto, Speculation, and Civilization"
-zh_title: "世界越荒唐，头脑越要清醒 | 读书笔记 ·《芒格之道》第五部分"
+title: "The Old Man Was Right"
+subtitle: "Reading Notes · The Way of Munger — Part 5"
+zh_title: "世界越荒唐，头脑越要清醒"
+zh_subtitle: "读书笔记 ·《芒格之道》第五部分"
 description: "Reading notes on Charlie Munger's 2019–2022 Daily Journal shareholder meetings — his most unguarded, most prescient, and most uncomfortable observations."
 date: 2026-03-21T10:00:00
 featured: false

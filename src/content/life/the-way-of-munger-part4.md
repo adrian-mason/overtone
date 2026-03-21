@@ -1,6 +1,8 @@
 ---
-title: "The Freest Version of Munger: Reading Notes · The Way of Munger — Part 4"
+title: "The Freest Version of Munger"
+subtitle: "Reading Notes · The Way of Munger — Part 4"
 zh_title: "九十岁的芒格，说了一些年轻时不敢说的话"
+zh_subtitle: "读书笔记 ·《芒格之道》第四部分"
 description: "What happens when a 90-year-old with nothing to prove runs a shareholder meeting — Daily Journal, 2014 to 2018."
 date: 2026-03-21T10:00:00
 featured: false
