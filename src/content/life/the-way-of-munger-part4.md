@@ -1,10 +1,8 @@
 ---
-title: "The Freest Version of Munger"
-subtitle: "Reading Notes · The Way of Munger — Part 4"
-zh_title: "九十岁的芒格，说了一些年轻时不敢说的话"
-zh_subtitle: "读书笔记 ·《芒格之道》第四部分"
-description: "What happens when a 90-year-old with nothing to prove runs a shareholder meeting — Daily Journal, 2014 to 2018."
-date: 2026-03-21T10:00:00
+title: "When the Newspaper Died, the Philosopher Spoke Freely: Munger at Daily Journal, 2014–2018"
+zh_title: "旧媒体的葬礼与九旬老者的清醒"
+description: "Reading notes on The Way of Munger Part 4 — how losing a monopoly gave Charlie Munger a new stage for his most candid thinking."
+date: 2026-03-22T10:00:00
 featured: false
 tags:
   - Investment
@@ -14,117 +12,105 @@ tags:
 ---
 
 
-*None of this is investment advice. I'm not a financial advisor, and nothing here should be construed as a recommendation to buy or sell anything. Munger himself would be the first to tell you to think for yourself.*
+*Reading Notes · The Way of Munger — Part 4*
 
-There's a particular freedom that comes with being ninety years old and having already made everyone around you very rich.
+*Nothing here is financial advice. I own no position in Daily Journal Corporation or any company discussed. These are reading notes — a record of ideas I found worth sitting with.*
 
-That's what shifts when 《芒格之道》 moves from its first half — the Wesco Financial meetings, those meticulous annual reports from a man accountable to a subsidiary's shareholders — to its second half: the Daily Journal Corporation meetings, starting in 2014. The editorial structure is the same. The format is familiar. But Munger is unshackled.
+There's a version of Charlie Munger that most people know: the laconic, self-deprecating sidekick at Berkshire Hathaway's annual circus in Omaha, doling out one-liners while Warren Buffett handles the main act. But after Wesco Financial was folded into Berkshire in 2011, Munger found a different stage. The Daily Journal Corporation's shareholder meeting — a modest affair by comparison, held in Los Angeles — became something else entirely. Without the obligation to report quarterly numbers on a sprawling insurance and railroad conglomerate, Munger could wander.
 
-Wesco had specific businesses to report on. Insurance ratios to explain. Acquisition rationales to defend. There was always a grounding in quarterly operating reality. The Daily Journal meetings have none of that weight. The company's main business — court information systems software, through Journal Technologies — is niche enough that nobody in the room really understands it, and Munger largely admits he doesn't spend much time on it either. Which means the meetings become something else entirely: a ninety-something man thinking out loud, in public, about everything he's watched happen to the world over the past century.
+And wander he did.
 
-I've been reading through this book in pieces, and the shift in register is striking. The Wesco years required patience — Munger was precise, careful, hemmed in by responsibility to a specific business. The Daily Journal years read like someone finally got to ask him what he actually thinks. About everything.
+Reading the Daily Journal meeting transcripts from 2014 through 2018, I kept thinking: this is what it looks like when a man in his nineties no longer feels the need to be careful. The remarks get longer. The digressions are the point. He'll start on accounting fraud and end up at Weimar Germany. The audience is smaller and hungrier, full of people who drove hours specifically to hear him think out loud. He obliges them.
 
 ---
 
 ## A Newspaper That Knew It Was Dying
 
-Start with the business itself, because Munger's handling of it is instructive.
+The Daily Journal Corporation is, at its core, an uncomfortable business to own. For decades it ran a near-monopoly in legal newspaper publishing in California — the kind of franchise that prints court notices and foreclosure filings, the sort of publication nobody reads but everyone in the legal system must use. High margins, captive audience, no real competition. A classic Munger-style moat.
 
-Daily Journal Corporation had spent decades as a legal newspaper publisher — court notices, foreclosure listings, the kind of specialized print that regulatory mandates kept alive long after digital should have killed it. By 2014, nobody needed to pretend this was a growth business. The revenues were declining. The structural disruption was obvious. Munger, who has spent a career watching industries get destroyed by forces that individual management cannot overcome (Blue Chip Stamps, anyone — from $1.2 billion in sales to $2 million), had a clear-eyed view: the print business was going to shrink, and the question was whether Journal Technologies could build enough momentum to offset it.
+Except the internet started filling that moat with cement around 2008, and the legal notice business began its long, inevitable decline.
 
-What I find interesting is what Munger *didn't* do. He didn't pretend the decline wasn't happening. He didn't commission consultants to develop a "transformation strategy." He was blunt about the trajectory of traditional publishing and equally blunt about the long lead times and uncertain payoffs of government software contracts. The court systems business requires winning multi-year procurement processes, then surviving implementation, then hoping for renewals. It's slow, lumpy, and dependent on relationships with government agencies that move at geological pace.
+Munger's response was to double down on a software pivot. Journal Technologies — the subsidiary attempting to sell court management software to government agencies — became the main strategic bet. He was relentlessly honest about what it was: a slow, grinding venture capital wager. Government software procurement is notoriously difficult. Sales cycles run years. Contracts require endless customization. The margins are nothing like a newspaper monopoly.
 
-He held the position — both literally and intellectually. Not because he was certain it would work. Because the alternative was worse.
+At the 2016 meeting, he described the transition plainly: they were taking a profitable but shrinking asset and betting it on a business that might work or might not. He compared the software division to "crawling over broken glass." He didn't dress it up. If you owned Daily Journal stock hoping it was a mini-Berkshire, he told you directly that you were taking on more uncertainty than you probably realized — and that the stock price at any given moment reflected some amount of speculation about whether the crawling would eventually lead somewhere good.
 
-This is a pattern I've noticed across all thirty-five years of these meetings: Munger does not pretend to confidence he doesn't have. What he has instead is a framework for acting under uncertainty without pretending the uncertainty away.
-
----
-
-## The Investment Portfolio as a Philosophical Statement
-
-The Daily Journal's investment portfolio became famous during this period — not because it was enormous, but because it was *concentrated* in a way that made institutional investors nervous.
-
-Wells Fargo was the largest position for much of this period. Munger's logic was a version of what he'd articulated back in the Wesco years: a business with a durable competitive position, earning high returns on equity, run by people who behaved honestly. Banking is not a complicated business to evaluate at the level of basic economics, he argued — the mystery is why more banks don't operate conservatively. Wells Fargo, at the time, seemed to be one of the few that did.
-
-I'm aware of how this reads now, after the fake accounts scandal broke in 2016. Munger's position didn't immediately vanish; he's on record acknowledging the mess and having complicated feelings about it. The honest version of the lesson isn't "Munger was wrong about Wells Fargo" — it's that even the sharpest frameworks for evaluating management quality can miss institutional rot that's hidden from outside observers. He acknowledged this. The acknowledgment mattered more to me than the error.
-
-BYD was the other notable holding — initially recommended to Munger by his partner Li Lu, a position he held through this entire period and well beyond. Munger's case for BYD was partly about the specific company (Wang Chuanfu's manufacturing genius, the vertical integration that gave BYD cost advantages in batteries) and partly about something larger: a genuine belief that Chinese industry, when it identified something worth mastering, could master it faster and more completely than Western observers expected.
-
-I'll get to his China views properly in a moment. But note the portfolio philosophy first: a handful of large bets, held with patience, grounded in business quality rather than valuation precision. He returns to this theme constantly in the Daily Journal meetings. Diversification, in his view, is protection against ignorance. If you actually understand what you own, concentration is not a risk — it's the point.
+I found this kind of candor genuinely unusual. Most executives in a declining business talk about "transformation" as if it's a controlled process. Munger just called it a bet and told shareholders to decide for themselves whether they liked the odds.
 
 ---
 
-## Watching the Tech Giants and Admitting What He Missed
+## The Portfolio: Few Bets, Heavy Conviction
 
-The 2014–2018 period is also when Munger started talking seriously about technology companies, and the discussion is more interesting than the usual "he was skeptical of tech" summary suggests.
+Meanwhile, the Daily Journal's investment portfolio was doing something interesting. Munger had taken a modest cash pile and concentrated it into a small number of positions — Wells Fargo most prominently, along with BYD and a handful of others. The portfolio was not diversified in any conventional sense.
 
-He was skeptical of Facebook — not as a business (he acknowledged the network effects were real), but as a social institution. He thought advertising-driven business models that optimized for engagement were producing outcomes he found troubling. He said this plainly and moved on.
+His reasoning for Wells Fargo during this period is worth understanding. He bought heavily during the financial crisis when the stock was trading around $8 per share. His thesis wasn't complicated: Wells Fargo was a competently run bank with a strong deposit franchise and a culture that was — at that point — more conservative than its competitors. He held the position for years, watching it appreciate substantially.
 
-On Apple, he's been recorded as saying — with characteristic directness — that he and Buffett were idiots for not recognizing it sooner as a consumer franchise rather than a technology company. The distinction matters. Apple's pricing power, customer loyalty, and ecosystem lock-in are not technology phenomena; they're brand phenomena. The mental category "technology company" apparently made it harder to see what was actually there: a luxury goods company that happened to make devices.
+The BYD investment is a different story and a more interesting one. Berkshire had acquired a 10% stake in 2008 for $230 million. For the first five years, the stock went essentially nowhere. Then it surged dramatically, eventually trading at a P/E of nearly 200x. Munger's view on BYD was never a pure financial analysis — it was a bet on a specific kind of founder, Wang Chuanfu, whose engineering intensity reminded Munger of a younger Thomas Edison. He was willing to sit through the flat years because the quality of the management gave him genuine confidence.
 
-Google was, by his telling, another miss — a business that had essentially monopolized something close to mandatory. You don't choose to use Google; the absence of adequate alternatives makes it a default. Munger's acknowledgment here wasn't self-flagellation. It was more like: "Here's what the mistake was, here's the category error, here's how I should have thought about it." He treats his own errors the same way he treats market history — as evidence to update on, not as wounds to nurse.
+What strikes me about both positions is how little they resemble modern portfolio construction advice. A financial advisor would never build you a concentrated portfolio of a few large-cap positions and tell you to wait five to ten years through drawdowns. The math of diversification is real — broad diversification does reduce variance. But Munger's counter-argument is equally real: if you genuinely understand a business and its management, additional diversification beyond a handful of great ideas is mostly noise dressed up as prudence.
 
-What I notice is that Munger's misses in tech weren't because he was anti-technology. They were because his framework for evaluating consumer franchises — which he'd developed over decades in insurance, banking, consumer goods — took time to recognize when it applied to a new domain. Once he recognized it, he said so. Publicly. Without excuses.
-
----
-
-## China, Differently
-
-Munger's interest in China is one of the more unusual features of his late career, and the Daily Journal meetings are where it becomes explicit.
-
-He was more optimistic about China's economic trajectory than almost any comparably prominent American investor. His explanation was consistently historical and structural: he'd watched China lift an unprecedented number of people out of poverty in a few decades, using a system he described as "market socialism" with grudging admiration — not because he endorsed every aspect of it, but because the results were empirically extraordinary.
-
-The BYD investment was partly an expression of this view. Li Lu had introduced him to it; the bet was that Chinese manufacturing capability, applied to electrification, would produce a global competitor of the first order. As of the period I'm reading, that thesis was still unresolved. In retrospect, it proved more right than most Western observers expected.
-
-What I try to do when reading these sections is separate the analytical framework from the specific conclusions. The framework — evaluate results empirically, be willing to update on evidence regardless of what your tribe believes, don't let political friction between countries distort your assessment of underlying economics — is sound. The specific conclusions about China are more contested, and I hold them with appropriate uncertainty. Munger himself would probably say: look at the evidence, form your own view, and be honest about what you don't know. Which is, in a sense, the whole point of reading him.
+I'm not sure I have the psychological makeup to do what he did — watching a position go sideways for five years requires a specific kind of equanimity. But as a framework for thinking about conviction, it's worth taking seriously.
 
 ---
 
-## What It Sounds Like When a Ninety-Year-Old Has No Agenda
+## Tech Giants and the Art of Honest Admission
 
-The most striking thing about the Daily Journal meetings isn't any specific investment thesis. It's the texture of the conversation.
+One of the most interesting threads across the 2014–2018 meetings is Munger's evolving posture toward technology companies.
 
-Munger in his nineties had developed a quality I can only describe as *precision without urgency*. He'd answer a question about Bitcoin by saying, politely but without softening it, that he thought cryptocurrency was "rat poison" and that anyone promoting it for broad retail consumption was behaving badly. He'd answer a question about his own daily habits — still reading, still playing bridge, still thinking — with genuine amusement at being asked. He'd talk about death with a matter-of-factness that I found, somehow, both unsentimental and comforting.
+He missed Amazon. He missed Google. He missed Apple until Berkshire finally bought it in 2016. His explanations for these misses are not defensive — he doesn't rationalize them as "outside my circle of competence" in a way that sounds like an excuse. He just says he didn't understand them well enough to bet heavily, and then he moves on. The "too hard" pile is not a mark of shame; it's intellectual hygiene.
 
-His advice to young people was consistent across the years: read constantly, not for credentials but because interesting minds are built by interesting inputs. Be patient — not as a passive quality, but as an active discipline that prevents you from doing stupid things while you wait for good opportunities. Be honest, because dishonesty is inefficient: it requires maintaining a false version of reality and eventually collapses. And don't spend your life optimizing for wealth — the point is to become the kind of person whose judgment is worth trusting.
+What's interesting is how he talks about the ones he did eventually come around on. Apple, by 2017-2018, he viewed not primarily as a technology company but as a consumer brand with extraordinary pricing power and customer lock-in — the kind of economics he'd understood for decades in other industries. The reframe wasn't about learning new technology; it was about recognizing that the old frameworks applied once you understood what the product actually *was* in customers' lives.
 
-None of this is novel. What made it valuable was hearing it from someone who had actually lived it, at ninety, with no reason to perform anything other than what he actually believed.
+On Amazon, he was more rueful. Bezos building a business that was losing money at scale for years while constructing distribution infrastructure at enormous cost — that model was genuinely foreign to him, and he said so. He didn't pretend he'd seen it coming.
 
-He was funnier in these meetings, too. Or maybe the humor had always been there and the Daily Journal format finally had room for it. He has a particular comedic rhythm: a long, careful, almost academic setup, followed by a one-sentence punchline that is so direct it takes a moment to land. Reading the transcripts, I find myself wanting to mark the jokes — but they're often impossible to separate from the analysis. The sharpness is the same in both.
-
----
-
-## The Risk of Reading Munger Wrong
-
-A brief word of caution, because I think it's important.
-
-The frameworks in these meetings are genuinely useful. The emphasis on circles of competence, opportunity cost as daily practice, industry structure over individual genius, cash generation over reported earnings — these are intellectually serious tools with real predictive value.
-
-But they're easy to misapply. The specific positions Munger took in any given year were not endorsements of those positions forever. Wells Fargo looked like a great business until it didn't. The Daily Journal's software pivot was genuinely uncertain. His China optimism was expressed in a context very different from today's.
-
-The lesson isn't the conclusion. It's the *method*: what questions to ask, what evidence to weight, what to be honest about when you don't know. That's what survives the passage of time. Lifting specific stock picks from these meetings and treating them as durable investment theses is exactly the kind of substituting-hero-judgment-for-your-own that Munger explicitly warned against.
-
-I'm a performance engineer who reads about investing as a hobby, not a professional investor. Take everything I write here accordingly.
+There's something useful here for anyone trying to apply Munger's frameworks to the current AI wave. The lesson isn't "stay in your circle of competence and avoid new things." The lesson is: understand what business you're actually analyzing before you apply a framework to it. An AI infrastructure company might look like a tech company but operate like a utility. A consumer AI product might look like software but actually be a habit-formation business. The frameworks don't change; the mapping from business reality to framework requires actual understanding.
 
 ---
 
-## What Changes and What Doesn't
+## China, Seen from Pasadena
 
-Reading through the Daily Journal years in sequence, the surface changes — the businesses discussed, the market environment, the specific investments — while something underneath stays completely stable.
+Munger's views on China became more pronounced during this period, and more pointed. He praised China's economic development with a directness that made American audiences visibly uncomfortable. He cited the lifting of hundreds of millions of people out of poverty as one of the greatest achievements in human history. He called Li Lu — the investor who introduced Berkshire to BYD — the "Chinese Warren Buffett."
 
-The method doesn't change. The intellectual honesty doesn't change. The willingness to say "I don't know," to acknowledge errors specifically, to credit the right people (Li Lu for BYD, Buffett for partnership), to maintain a somewhat Olympian skepticism about the financial services industry's relationship with its own clients — none of that wavers.
+He also took direct aim at Piketty's *Capital in the Twenty-First Century*, calling the economist "foolish" for criticizing the wealth inequality that emerged from China's industrialization. His argument: the inequality Piketty complained about was the *byproduct* of people getting rich by lifting others out of poverty. Getting angry at that outcome seemed, to Munger, like complaining that a rising tide made some boats rise faster than others.
 
-What does change, in a way I find affecting, is the sense of time. The Wesco years had a quality of building — Munger was constructing Wesco's portfolio, building Berkshire's intellectual culture, accumulating positions. The Daily Journal years feel more like maintaining altitude. Watching what he'd built continue to work. Thinking about what he'd gotten right and wrong. Occasionally pointing out, with no particular urgency, things that seemed obviously true that others seemed unwilling to say.
+I want to be careful here, because Munger's China views are easy to either dismiss as naive or weaponize for political arguments he wasn't making. What he was actually doing, I think, was applying the same framework he used for businesses: looking at fundamentals rather than narratives. China had high savings rates, a work ethic he found exceptional, leadership that was willing to make long-term bets, and a track record of rapid pragmatic adaptation. Whether you agree with his conclusions or not, the reasoning was consistent with how he evaluated everything else.
 
-At ninety-something, he was still showing up. Still reading. Still willing to be questioned by a room full of people, including ones with silly questions, and answer them with genuine thought.
-
-There's something in that worth more than any specific investment framework.
-
-*Parts 1–3 of this series covered the Wesco Financial meetings from 1987 through approximately 2010. Part 5 will continue with the Daily Journal meetings from 2019 through the final sessions before Munger's death in November 2023.*
+He was also clear-eyed about the risks. He acknowledged that the political system created uncertainty that was difficult to quantify. He just thought most Western investors were so anchored to their own political categories that they couldn't see the underlying economic reality clearly.
 
 ---
 
-*Adrian is a performance engineer at a fintech company. He reads too many books about investing and writes about what he learns at overtone.dev. Nothing here is financial advice — if you're making investment decisions based on a blog post, please pause and reconsider.*
+## Ninety Years of Looking Backward
+
+What I find most affecting about the 2014–2018 transcripts is how often someone in the audience asks Munger about mortality, and how cheerfully he answers.
+
+His formula for a happy life hasn't changed since at least the 1990s: lower your expectations to match reality, eradicate envy and self-pity (both of which, he notes, provide zero pleasure and only make you miserable), read constantly, practice deferred gratification, and surround yourself with people who don't require you to be vigilant. He'd given versions of this answer at Wesco meetings for thirty years.
+
+But there's something different in the Daily Journal version. He's in his nineties. He's watched friends and colleagues die. When he talks about the costs of envy, it doesn't sound like advice — it sounds like a survivor report. He figured out what the toxic emotional patterns actually cost, ran the experiment for nine decades, and here's what he found.
+
+His humor gets sharper too, not softer. He's less diplomatic about institutions he thinks are corrupt or foolish. Academic finance departments teaching CAPM as gospel get compared to people teaching "bullshit." EBITDA is "bullshit earnings." Bitcoin, at various points, is "noxious poison," "venereal disease," and "anti-social." He has the freedom of someone who genuinely does not care what the Bloomberg terminal says about him.
+
+The investment lesson buried in all of this is: Munger's equanimity about markets isn't a technique or a discipline he's performing. It comes from having genuinely settled, over a very long time, what he cares about and what he doesn't. The concentration strategy, the long holding periods, the indifference to quarterly results — these aren't courage exactly. They're the natural consequence of caring more about being right over ten years than being comfortable over ten months.
+
+---
+
+## What I Actually Took Away
+
+I've now read four parts of *The Way of Munger*, and I keep coming back to the same uncomfortable question: how much of his framework is actually teachable, and how much depends on the specific personality it came from?
+
+The mental models are real and useful. Inversion works. Opportunity cost as a filter is genuinely clarifying. Building a latticework of thinking tools from multiple disciplines is better than hammering everything with economics.
+
+But the concentration strategy — the willingness to put meaningful money in three or four ideas and ignore the noise for years — that requires a psychological constitution I'm honestly not sure most people have. Including me. Watching a position drop 50% and feeling genuinely fine about it because your thesis is intact is not something you can talk yourself into. Munger seems to have actually felt fine. He says so repeatedly and in enough contexts that I believe him.
+
+The practical adaptation might be something like: move toward concentration, not all the way there. Understand the businesses you own well enough that a 30% drawdown doesn't feel like a crisis. Build the frameworks. Do the reading. Be honest about what you actually understand versus what you've convinced yourself you understand.
+
+The rest — the equanimity, the disregard for appearances, the ability to sit with a flat position for five years and keep reading — that probably takes longer than a book to develop.
+
+---
+
+*Part 5 of this series will cover Munger's remarks from 2019 through 2022 — the final years, including his views on COVID, the meme stock era, and his undiminished opinions on nearly everything.*
+
+---
+
+*These reading notes reflect my personal understanding of the material. Nothing here is investment advice, and I may have misunderstood or misrepresented Munger's arguments despite my best efforts. Read the primary sources.*
 
 
 <!-- zh -->
@@ -132,98 +118,108 @@ There's something in that worth more than any specific investment framework.
 
 *读书笔记 ·《芒格之道》第四部分*
 
-西科金融并入伯克希尔之后，芒格在哪里说话？
+*声明：本文是读书笔记，不构成任何投资建议。我没有持有文中提及的任何证券。芒格本人也会在这里说：如果你把别人的想法当作投资指南，你活该赔钱。*
 
-答案是每日期刊公司 (Daily Journal Corporation) 的股东会。这是一家小报社——发行法律公告、出版法庭刊物——从体量看，跟伯克希尔完全不是一个量级。但也正因如此，每日期刊的股东会比伯克希尔更自由。没有沃伦·巴菲特坐在旁边，没有数千亿市值的包袱，没有几万名股东的注视，芒格可以说任何他想说的话。
+2012年，西科金融并入伯克希尔。芒格失去了一个舞台，但很快找到了另一个——每日期刊（Daily Journal Corporation）的年度股东会。
 
-从 2014 年到 2018 年，他 90 岁到 94 岁。这段时间他说了不少。
-
-先说一件重要的事：本文是《芒格之道》下编的读书笔记，记录的是芒格的框架，不是投资建议。我本人持有比亚迪股票，读者请将此背景纳入参考。
+区别很明显。西科股东会上，芒格还要汇报精钢、储蓄机构、再保险的业务数字，有点像在念财务报告。到了每日期刊，他彻底解放了。问什么答什么，从法院软件聊到魏玛德国，从苹果公司聊到他九十岁的人生感悟。每日期刊股东会逐渐变成一种奇特的文化现象——几百人大老远赶到洛杉矶，就为听一个耄耋老人毫无保留地说话。
 
 ---
 
-## 一家正在老去的报纸
+## 一场注定要输的战役，以及他们偏要打的理由
 
-每日期刊是一家有百年历史的报纸，主业是发布法律公告——公司注销、破产申请、遗产公示之类。这是一个高度本地化、高度监管化的细分市场，受互联网冲击的速度比一般报纸慢，但方向是一致的：萎缩。
+每日期刊的核心业务，是出版加州法庭的法律公告——谁破产了，谁起诉谁了，哪里有楼宇拍卖。这种信息在纸媒时代有垄断价值，因为法律要求必须公开发布，而报纸是唯一渠道。
 
-芒格对此毫不掩饰。他不粉饰衰落的现实，但也没有哀叹。他的关注点早已转向了一个陌生的方向：法院信息系统软件。
+互联网出现后，这个垄断开始慢慢崩塌。不是一夜之间，是慢慢渗水，等你发现屋子里已经半腿深了。
 
-旗下的 Journal Technologies 开始为各州法院提供案件管理系统。这是高度专业化的生意——客户是政府机构，切换成本极高，但销售周期漫长，合同谈判复杂，竞争同样激烈，推向澳大利亚等海外市场的过程并不轻松。
+芒格在 2014 年说得很直白：传统报纸业务正在死去，他知道，所有人都知道。问题不是"会不会死"，而是"死得多快、死之前能剩多少"。每日期刊的法律公告业务有些护城河——垄断地位、法律规定的发布要求——但护城河正在被数字化慢慢填平。
 
-芒格在股东会上的措辞，从来不是"这个转型一定成功"。他说的更接近：这是我们能做的事，我们正在认真做，结果我不完全确定。
+他们的应对方案是 Journal Technologies：给法院系统开发案件管理软件。逻辑不复杂——每日期刊深度嵌入美国法院生态，理解这个行业，有客户关系。软件业务是往这个方向的自然延伸。
 
-一个九十多岁的人，管理着自己亲自投钱的公司，在公开场合说"我不确定"——这不是软弱，是少见的诚实。大多数管理层在股东会上的语言是用确定性换信任。芒格拒绝这种交换。
+芒格把这件事描述成一次风险投资赌注。他没有粉饰："这是一场艰难的过渡，进展比我们希望的慢，比我们希望的贵。"法院系统是出了名难以服务的客户——决策流程慢，采购官僚，每个州的要求还不一样。
 
----
-
-## 集中押注，然后等待
-
-每日期刊的股票投资组合是另一个话题。在多个年份里，它重仓持有富国银行 (Wells Fargo)、美国合众银行 (US Bancorp) 等金融股，同时持有比亚迪 (BYD)。
-
-芒格的逻辑很清楚：2008 年金融危机之后，好银行被错杀，便宜。银行是被监管的杠杆游戏，优秀的管理层懂得在风险和回报之间取得平衡；糟糕的管理层在压力下暴露本质。危机是定价信息最丰富的时刻，也是最难鼓起勇气买入的时刻。
-
-这里必须说清楚风险：富国银行后来经历了严重的内部丑闻——大规模伪造账户事件，付出了巨大的声誉与监管代价，股价长期落后于同业。买入时的逻辑成立，不代表持有期间的风险可以被排除。行业结构健康，不等于具体公司没有内部腐化的可能性。
-
-芒格对集中投资的信念一贯如此："知道自己在做什么的人，不需要持有太多仓位。"这个立场执行难度极高——它要求你对自己的判断有罕见的信心，同时对"我可能是错的"保持完全开放。两者在心理上极难共存。大多数人做不到这个平衡，结果要么过度集中，要么打着"集中"的旗号实际上在赌博。
+但他们还是咬牙在打。理由很芒格式：这是合理的赌注，赔率不差，我们有信息优势。亏损期可以忍受，因为公司还有证券投资组合在产生回报。
 
 ---
 
-## 错过的，他没有掩盖
+## 银行股、比亚迪，与"我只要几个好主意"
 
-每日期刊股东会上，芒格被多次问到：你为什么没有买谷歌 (Google)？没有买亚马逊 (Amazon)？
+每日期刊的证券投资组合，是这家公司的另一个看点。它不是主业，却逐渐成了股东关注的焦点。
 
-他的回答从不找借口。
+2009年金融危机期间，芒格以大约每股 8 美元买入富国银行（Wells Fargo）。这个决定在2014-2018年的股东会上被反复提及，每次提及都带着一种"事后证明我是对的"的淡定。
 
-"我本应该想明白的。这些生意的护城河是显而易见的，我只是没有行动。"
+他为什么看好富国银行？他的逻辑是：银行业本质上是在经营信任和利差，富国银行的管理层长期表现出色，在危机中暴露出的问题虽然严重，但不是结构性的道德腐败。在恐慌最深的时候，好银行和坏银行一起跌，这是错误定价，他要利用这个错误。
 
-这是非常罕见的诚实。大多数投资者对错失的机会要么沉默，要么事后重构一个"当时有合理理由没买"的叙事。芒格不这么做。他承认对亚马逊 (Amazon) 模式的理解来得太慢，承认低估了贝索斯 (Jeff Bezos) 的执行能力。
+集中度是他反复强调的原则："我得出的结论是，只要我能受得了波动，同时持有三只股票就足够了。"这不是谦虚，而是自信——我只需要几个我真正理解的好主意，其他的统统不碰。
 
-承认错误比声称自己正确更难，但对学习来说更有价值。
+比亚迪是另一个话题。2008年伯克希尔以2.3亿美元买入10%股权，之后股价横盘五年，然后开始爬升。芒格在这几年的股东会上多次谈到王传福——他把这个人比成爱迪生和韦尔奇的结合体，能做技术又能做管理。
 
-同时——这里有个重要的平衡——他并不后悔自己没有追逐所有机会。在能力圈之外的生意，他宁可放弃，也不贸然进入。错失谷歌和亚马逊是遗憾，但用错误的分析框架买入，才是更危险的事。他说的大意是：我为这个失误付出的代价是遗憾，而不是亏损。遗憾可以承受。
+有人问他：比亚迪市盈率都快200倍了，还拿着？
 
-这两件事要同时成立：承认错误，以及保持边界。把它们混淆，会滑向两个极端——要么变成"什么都敢买"的赌徒，要么变成"什么都不敢买"的旁观者。
+芒格的回答大意是：当你持有一个真正优秀的企业，卖掉它再去找另一个需要很高的机会成本。税是真实的，再找到同等质量的公司是不确定的。
 
----
-
-## 中国，那个他选择信任的地方
-
-在大多数美国投资者对中国持谨慎态度的年代，芒格是公开的例外。
-
-他持续持有比亚迪，并在多次股东会上表达对中国经济发展的认可。他的判断基础是：中国在过去几十年完成了人类历史上规模最大的脱贫，这种成功背后有深层驱动力——勤奋、高储蓄率、对工程教育的重视、对结果的执着。他尤其钦佩王传福——比亚迪的创始人——认为他集工程师和商人于一身的能力极为罕见。
-
-我的比亚迪持仓和芒格的判断有重叠，但我要说清楚这里存在的真实风险：中美关系的政治不确定性、中国政策环境的变化、电动车行业的竞争烈度——这些都不是可以忽略的变量。芒格的乐观是他在特定历史时期的判断，不能直接用来作为今天买入的理由。
-
-芒格本人也从不预测。他说的是"我相信这里有长期价值"，而不是"它会在什么时间涨到什么价格"。这个区别很重要。
+这不是说市盈率不重要，而是说"卖"这个决策本身需要充分理由，不是因为贵就卖。
 
 ---
 
-## 九十多岁，说什么都不怕了
+## 我错过了苹果，然后我接受了
 
-2014 年，芒格 90 岁。到 2018 年，94 岁。
+2014年到2018年，苹果、谷歌、亚马逊都在疯涨。有股东年年问芒格：你为什么没买这些？
 
-在这个年龄主持股东会，本身就不寻常。更不寻常的是他的状态——思维清晰，幽默尖锐，没有衰老通常带来的那种圆滑。他说话越来越直接，越来越不在意是否冒犯人。有人说这是年龄带来的解放——当死亡不再是抽象概念，很多顾虑就消失了。
+他的回答诚实到让人意外。
 
-有人问他如何看待死亡。他的回答大意是：我会死，这是事实，我不为此焦虑。我的目标是在死的时候还没有变成一个令人讨厌的老人。
+他说他早就知道苹果是个好公司，知道生态系统有极高的转换成本，知道用户粘性强。但他就是没有买，原因是他搞不清楚十年后科技行业的竞争格局会是什么样，而他的投资原则是不确定就不做。
 
-他的建议里，有一句话我反复回想：读大量书，培养对真实世界的准确理解，这比任何技巧都重要。
+他没有假装说"其实我早就看出来了但考虑了XXX所以没买"——他直接说：这超出了我的能力圈，我把它扔进了"太难"那堆，我错过了，这是代价，我接受。
 
-不是读投资书。是读历史、科学、心理学、传记。芒格的认知模型是多学科的——他相信真正的理解来自不同知识领域的交叉印证。他在 2018 年说话时引用的是生物学家、历史学家、法国军事手册、富兰克林的格言——这些材料早在他建立投资框架之前就已经内化了。
+但他同时说：他不后悔这个过程。遵守纪律在大多数情况下是对的，偶尔因为严守纪律而错过，不是应该改变纪律的理由。
 
-他还说：耐心本身就是一种策略。大多数人输在不能等待，不是输在不聪明。
+巴菲特后来在2016年买了苹果，那是他的判断，他的能力圈。芒格的能力圈不完全一样，这是可以的。
 
----
+亚马逊是另一个例子。芒格说他一直知道贝索斯是个异常优秀的人，但他低估了亚马逊平台业务的规模效应能达到多大。这是他的认知局限，不是信息不足，而是框架不够。
 
-## 留给自己的两条记录
-
-《芒格之道》下编比上编更难整理——它是散文式的，话题跳跃，没有统一叙事线索。这符合一个九十多岁的人在股东会自由发挥的状态。
-
-但两件事让我觉得值得记录下来。
-
-**一，承认不确定性和保持判断力可以共存。** 芒格能在同一段话里说"我不知道"和"我当下最好的判断是"。前者是认知诚实，后者是行动勇气。我们经常割裂两者——要么用过度自信掩盖无知，要么用"我不确定"作为回避决策的借口。他展示了一种两者同时成立的可能性。
-
-**二，标准比结果更重要。** 错失亚马逊的芒格，仍然是有史以来最成功的投资者之一。他的标准不是"不错过任何大机会"，而是"只在真正理解的地方下注"。这个标准有时意味着放弃，有时意味着等待，有时意味着集中重押。长期来看，清晰的标准比追逐热点更可靠——但代价是要接受遗憾，而不是假装遗憾不存在。
+他对这类"错过"的态度很一致：坦白承认，分析原因，不要用后见之明来自我折磨，也不要因此降低投资标准去博弈自己不懂的东西。
 
 ---
 
-*本文为《芒格之道》下编 2014–2018 年每日期刊股东会部分的读书笔记，内容代表个人理解，不构成任何投资建议。投资有风险，任何具体决策请结合自身情况独立判断。*
+## 他为什么比大多数美国人更看好中国
+
+这个时期，芒格对中国的关注越来越公开、越来越具体。
+
+他反复说一件事：中国在过去几十年里做到了人类历史上前所未有的事情——把数亿人从极端贫困中拉出来。他认为这个成就被西方媒体严重低估，而背后的机制值得认真研究。
+
+他特别推崇李光耀。不是因为新加坡的政治模式，而是因为李光耀面对问题时的务实态度：识别核心矛盾，用最直接有效的方法解决，不被意识形态束缚。他认为这种务实主义在新加坡和中国的发展奇迹中都起了关键作用。
+
+他承认自己对中国的判断在大多数美国同行中是少数派。大多数美国机构投资者对中国保持怀疑，理由是政治风险、会计透明度、知识产权保护。芒格没有否认这些风险的存在，他的意思是：这些风险被价格计入了吗？如果已经充分计入，风险溢价是否足以补偿？
+
+他把李录称为"中国的巴菲特"——这不是随便的赞美，而是他认为李录对中国资本市场的理解达到了自己对美国市场的理解深度。
+
+值得注意的是，他在这个问题上很少说确定性的结论，更多是在描述他的思考框架：当别人因为政治原因回避一个市场，而基本面数据显示持续的经济增长和企业盈利能力，这种分歧本身就值得研究。
+
+---
+
+## 九十多岁的人怎么谈死亡
+
+2015年，芒格 91 岁。2018年，94 岁。这几年的股东会上，他谈老龄化的频率越来越高——不是焦虑，而是带着某种好奇心的观察。
+
+他说：他这一生很幸运，什么大病都没经历过，脑子还很清楚。他不害怕死亡本身，他更担心的是长期卧床、意识模糊、无法阅读的状态。死没什么大不了，失去认知能力才可怕。
+
+有人问他长寿的秘诀，他说：避开糟糕的人，避开做不好的事情，读很多书。这三条比什么保健品都管用。
+
+他谈到自怜和嫉妒这两种情绪，语气像在谈毒药。自怜是最无用的情绪——你不开心，解决不了任何问题，还让周围的人痛苦。嫉妒更糟，它给你提供零快乐，只有痛苦。他认识的最幸福的人，都是那些根本不浪费时间在这两种情绪上的人。
+
+关于年轻人，他的建议几十年没变过：读书，有耐心，诚实做事，找到喜欢做的事情。他不相信速成，不相信捷径，他见过太多聪明人因为走捷径把自己毁掉。
+
+他的幽默感随年龄确实更尖锐了。有人问他对某个热门投资话题的看法，他说："我没有意见，因为我对这件事一无所知，而我发现没有意见是一个被严重低估的美德。"
+
+---
+
+这四年的每日期刊股东会，读下来有种特殊的质地。不是金句密集的励志演讲，不是系统性的投资教程，而是一个真正想清楚了很多事情的老人在随意谈话。
+
+他承认错误，承认局限，承认有些问题他不知道答案。但在他确实有判断的地方——公司质量、人的品格、思维方式——他极度直接，不给废话留空间。
+
+读这类书的价值，我觉得不在于提炼出几条"芒格原则"来照搬，而在于观察一个人是怎么思考的。他的结论有时候是对的，有时候是错的，有时候还没有结论。但思考的过程本身，是值得反复研读的东西。
+
+---
+
+*Adrian*
