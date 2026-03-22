@@ -1,6 +1,8 @@
 ---
 title: "The Investor Who Knows What They Are"
+subtitle: "Reading Notes · The Intelligent Investor — Part 2"
 zh_title: "防御还是积极？格雷厄姆的两条不同的路"
+zh_subtitle: "读书笔记 ·《聪明的投资者》第二部分"
 description: "Graham's chapters 4-7 draw a hard line between defensive and aggressive investors — and warn that the dangerous position is thinking you're one when you're really the other."
 date: 2026-03-22T10:00:00
 featured: false

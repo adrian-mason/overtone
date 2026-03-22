@@ -1,6 +1,8 @@
 ---
-title: "Think Backwards, Then Think Broadly: Charlie Munger's Framework for Worldly Wisdom"
+title: "Think Backwards, Then Think Broadly"
+subtitle: "Reading Notes · Poor Charlie's Almanack — Part 4"
 zh_title: "学会不犯蠢，比学会聪明更重要"
+zh_subtitle: "读书笔记 ·《穷查理宝典》第四部分"
 description: "Six lectures that form the intellectual core of Poor Charlie's Almanack — inverse thinking, mental models, and why narrow specialists are dangerous."
 date: 2026-03-22T10:00:00
 featured: false

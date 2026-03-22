@@ -1,6 +1,8 @@
 ---
 title: "The Abominable No-Man Who Made Warren Buffett Better"
-zh_title: "芒格：巴菲特眼中的建筑师 · 读书笔记《穷查理宝典》第一部分"
+subtitle: "Reading Notes · Poor Charlie's Almanack — Part 1"
+zh_title: "芒格：巴菲特眼中的建筑师"
+zh_subtitle: "读书笔记 ·《穷查理宝典》第一部分"
 description: "Reading notes on Poor Charlie's Almanack Part 1 — Munger's biography, his investment partnership record, and what it means to age without illusions."
 date: 2026-03-22T10:00:00
 featured: false

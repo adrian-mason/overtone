@@ -1,6 +1,8 @@
 ---
-title: "The Hammer and the Lattice: Why Munger Collects Mental Models Like Other People Collect Excuses"
-zh_title: "格栅思维：芒格的 100 个认知工具 — 读书笔记 ·《穷查理宝典》第二部分"
+title: "The Hammer and the Lattice"
+subtitle: "Reading Notes · Poor Charlie's Almanack — Part 2"
+zh_title: "格栅思维：芒格的 100 个认知工具"
+zh_subtitle: "读书笔记 ·《穷查理宝典》第二部分"
 description: "Charlie Munger's latticework of mental models isn't self-help advice — it's a precise argument for why single-discipline thinkers are epistemically doomed."
 date: 2026-03-22T10:00:00
 featured: false

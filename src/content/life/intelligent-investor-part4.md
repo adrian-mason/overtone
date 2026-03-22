@@ -1,6 +1,8 @@
 ---
 title: "The Number on the Page Is Not What You Think It Is"
-zh_title: "数字背后的真相 · 读书笔记 ·《聪明的投资者》第四部分"
+subtitle: "Reading Notes · The Intelligent Investor — Part 4"
+zh_title: "数字背后的真相"
+zh_subtitle: "读书笔记 ·《聪明的投资者》第四部分"
 description: "Graham's analytical framework for chapters 11–15: why EPS deceives, what seven criteria actually screen for, and how enterprising investors hunt for bargains."
 date: 2026-03-22T10:00:00
 featured: false

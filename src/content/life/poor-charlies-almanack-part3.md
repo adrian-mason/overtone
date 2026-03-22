@@ -1,6 +1,8 @@
 ---
-title: "Charlie Munger Will Tell You Exactly What He Thinks — and He's Usually Right"
+title: "Charlie Munger Will Tell You Exactly What He Thinks"
+subtitle: "Reading Notes · Poor Charlie's Almanack — Part 3"
 zh_title: "芒格不客气：投资、华尔街与逆向思考的艺术"
+zh_subtitle: "读书笔记 ·《穷查理宝典》第三部分"
 description: "Reading Notes on Poor Charlie's Almanack Part 3: Munger's extemporaneous talks on investing, Wall Street, management, and the art of not being an idiot."
 date: 2026-03-22T10:00:00
 featured: false

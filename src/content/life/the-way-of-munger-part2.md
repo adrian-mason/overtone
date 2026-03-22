@@ -1,6 +1,8 @@
 ---
 title: "The Man Who Wouldn't Drink the Kool-Aid: Reading Notes · The Way of Munger — Part 2"
+subtitle: "Reading Notes · The Way of Munger — Part 2"
 zh_title: "泡沫年代的清醒者：互联网狂热中的芒格，1996—2002"
+zh_subtitle: "读书笔记 ·《芒格之道》第二部分"
 description: "How Munger navigated the dot-com bubble from 1996 to 2002 — not by predicting its collapse, but by understanding why he had no business being in it."
 date: 2026-03-22T10:00:00
 featured: false

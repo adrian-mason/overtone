@@ -1,6 +1,8 @@
 ---
-title: "Margin of Safety Is Not a Number — Reading Notes · The Intelligent Investor — Part 5"
+title: "Margin of Safety Is Not a Number"
+subtitle: "Reading Notes · The Intelligent Investor — Part 5"
 zh_title: "在不确定性面前，格雷厄姆只信任一件事"
+zh_subtitle: "读书笔记 ·《聪明的投资者》第五部分"
 description: "Graham's final chapters on convertibles, cautionary cases, and the investment philosophy that outlives every bull market."
 date: 2026-03-22T10:00:00
 featured: false

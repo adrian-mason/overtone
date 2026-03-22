@@ -1,6 +1,8 @@
 ---
-title: "Twenty-Five Ways Your Brain Is Lying to You: Reading Notes · Poor Charlie's Almanack — Part 5"
-zh_title: "你的大脑会欺骗你：芒格的人类误判心理学 | 读书笔记 ·《穷查理宝典》第五部分"
+title: "Twenty-Five Ways Your Brain Is Lying to You"
+subtitle: "Reading Notes · Poor Charlie's Almanack — Part 5"
+zh_title: "你的大脑会欺骗你：芒格的人类误判心理学"
+zh_subtitle: "读书笔记 ·《穷查理宝典》第五部分"
 description: "Munger's masterwork lecture on human misjudgment, the financial scandals he predicted, and what a 79-year-old genius told law graduates about living well."
 date: 2026-03-22T10:00:00
 featured: false

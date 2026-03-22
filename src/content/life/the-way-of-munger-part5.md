@@ -1,6 +1,8 @@
 ---
-title: "Nothing Left to Lose: Munger's Final Verdicts on Speculation, Crypto, and What Actually Matters"
+title: "Nothing Left to Lose"
+subtitle: "Reading Notes · The Way of Munger — Part 5"
 zh_title: "投机者终将受到惩罚"
+zh_subtitle: "读书笔记 ·《芒格之道》第五部分"
 description: "Reading Notes · The Way of Munger — Part 5: Charlie Munger's 2019–2022 Daily Journal remarks, where a man approaching 100 had nothing left to prove and everything left to say."
 date: 2026-03-22T10:00:00
 featured: false

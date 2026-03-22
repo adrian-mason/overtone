@@ -1,6 +1,8 @@
 ---
 title: "Restrained Greed: What Munger's Early Wesco Letters Taught Me"
+subtitle: "Reading Notes · The Way of Munger — Part 1"
 zh_title: "如履薄冰：芒格在西科金融的早期修炼"
+zh_subtitle: "读书笔记 ·《芒格之道》第一部分"
 description: "Reading notes on Charlie Munger's 1987–1995 Wesco Financial shareholder meeting speeches — on the S&L crisis, acquisition discipline, and the art of knowing what you don't know."
 date: 2026-03-22T10:00:00
 featured: false

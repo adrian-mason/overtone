@@ -1,6 +1,8 @@
 ---
-title: "The Architecture of a Rational Mind: Munger's Unified Theory of Good Thinking"
-zh_title: "认知的地基：读书笔记 ·《穷查理宝典》全书融汇总结"
+title: "The Architecture of a Rational Mind"
+subtitle: "Reading Notes · Poor Charlie's Almanack — Full Book Synthesis"
+zh_title: "认知的地基"
+zh_subtitle: "读书笔记 ·《穷查理宝典》全书融汇总结"
 description: "A full-book synthesis of Poor Charlie's Almanack — how mental models, psychology of misjudgment, and investment practice form one self-consistent system."
 date: 2026-03-22T10:00:00
 featured: false

@@ -1,6 +1,8 @@
 ---
 title: "The Architecture of Patient Capital"
+subtitle: "Reading Notes · The Intelligent Investor — Full Book Synthesis"
 zh_title: "不输才是赢：格雷厄姆的防御投资哲学"
+zh_subtitle: "读书笔记 ·《聪明的投资者》全书融汇总结"
 description: "A full-book synthesis of Graham's Intelligent Investor — what the three pillars of his philosophy mean together, and what ordinary investors should actually do with them."
 date: 2026-03-22T10:00:00
 featured: false

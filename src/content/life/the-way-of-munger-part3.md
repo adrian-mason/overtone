@@ -1,6 +1,8 @@
 ---
-title: "The Years He Was Right and Nobody Listened: Reading Notes · The Way of Munger — Part 3"
+title: "The Years He Was Right and Nobody Listened"
+subtitle: "Reading Notes · The Way of Munger — Part 3"
 zh_title: "危机面前，他早就说了：芒格 2003-2010 的预言与布局"
+zh_subtitle: "读书笔记 ·《芒格之道》第三部分"
 description: "Munger's Wesco Financial years 2003–2010: derivatives warnings nobody heeded, the BYD bet, and the quiet end of a 35-year run."
 date: 2026-03-22T10:00:00
 featured: false

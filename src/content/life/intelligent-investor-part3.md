@@ -1,6 +1,8 @@
 ---
-title: "Mr. Market Is Your Servant, Not Your Master: Reading Notes · The Intelligent Investor — Part 3"
+title: "Mr. Market Is Your Servant, Not Your Master"
+subtitle: "Reading Notes · The Intelligent Investor — Part 3"
 zh_title: "市场先生每天都在报价，但你没有义务接受"
+zh_subtitle: "读书笔记 ·《聪明的投资者》第三部分"
 description: "On Graham's most powerful parable, why price volatility is opportunity not risk, and what most people get wrong about funds and advisors."
 date: 2026-03-22T10:00:00
 featured: false

@@ -1,6 +1,8 @@
 ---
-title: "When the Newspaper Died, the Philosopher Spoke Freely: Munger at Daily Journal, 2014–2018"
+title: "When the Newspaper Died, the Philosopher Spoke Freely"
+subtitle: "Reading Notes · The Way of Munger — Part 4"
 zh_title: "旧媒体的葬礼与九旬老者的清醒"
+zh_subtitle: "读书笔记 ·《芒格之道》第四部分"
 description: "Reading notes on The Way of Munger Part 4 — how losing a monopoly gave Charlie Munger a new stage for his most candid thinking."
 date: 2026-03-22T10:00:00
 featured: false
