@@ -1,10 +1,8 @@
 ---
-title: "I Told You So, and I'm Not Apologizing"
-subtitle: "Reading Notes · The Way of Munger — Part 3"
-zh_title: "定时炸弹与比亚迪：芒格把话说得很清楚"
-zh_subtitle: "读书笔记 ·《芒格之道》第三部分"
-description: "Reading Munger's 2003–2010 Wesco shareholder meetings: the financial crisis he predicted, BYD, and the quiet logic of letting Wesco go."
-date: 2026-03-21T10:00:00
+title: "The Years He Was Right and Nobody Listened: Reading Notes · The Way of Munger — Part 3"
+zh_title: "危机面前，他早就说了：芒格 2003-2010 的预言与布局"
+description: "Munger's Wesco Financial years 2003–2010: derivatives warnings nobody heeded, the BYD bet, and the quiet end of a 35-year run."
+date: 2026-03-22T10:00:00
 featured: false
 tags:
   - Investment
@@ -14,208 +12,218 @@ tags:
 ---
 
 
-*Nothing in this post is investment advice. I own no position in any company mentioned. I'm a software engineer reading an old man's shareholder meeting transcripts — treat these notes accordingly.*
+*Nothing in this post is financial advice. I'm a software engineer writing reading notes, not an analyst. Everything here reflects Munger's historical remarks — not predictions, not recommendations.*
 
-There's a particular kind of intellectual satisfaction that Munger never seems to fully allow himself. By 2008, he had spent more than a decade warning anyone who would listen that the derivatives market was a catastrophe being slowly assembled in public view, that subprime mortgage lending was structurally dishonest, and that the credit rating agencies had been captured by the institutions they were supposed to evaluate. When it all finally blew up in September 2008, he didn't gloat. He was disgusted — which is a different thing, and in some ways a more damning response.
+There's a particular kind of frustration that comes from being right too early. You warn people. You explain the mechanism clearly. You name the specific thing that will break. And then — nothing. The system keeps running. People keep making money. You start to look like the cranky old man at the party.
 
-The third section of 《芒格之道》 (*The Way of Munger*, CITIC Press, 2023) covers the Wesco Financial shareholder meetings from 2003 to 2010. These are the final years of Wesco as an independent public company. Berkshire acquired the remaining 20% in June 2011, ending 27 years of Munger's chairmanship. What you find in these meetings is a thinker whose frameworks had fully matured, whose patience with institutional foolishness had reached its limit, and who was willing to say, on the record, in front of shareholders, things that most people in his position would have carefully avoided saying.
+Then the party ends.
 
----
-
-## The Crisis He Saw Coming, and Why That Didn't Help Anyone
-
-There's a tempting narrative here: Munger as oracle. He predicted the disaster; the world didn't listen; Cassandra was right.
-
-He would reject this framing. Not out of false modesty, but because being right too early, in his view, is functionally indistinguishable from being wrong about timing — and in financial markets, timing is half the problem.
-
-What Munger actually said about derivatives across multiple Wesco meetings before 2008 was specific: the problem was not that derivatives existed, but that they created unresolvable counterparty chains where each party believed its risk was hedged by another party whose own hedge depended on a third party, and so on. The chain's strength was limited by the weakest counterparty, which nobody could identify in advance, and which nobody was economically incentivized to identify. He used the phrase "financial weapons of mass destruction" (the phrasing belongs to Buffett, but Munger's characterization was equally severe). He compared the structure to the Ponzi arrangements that had periodically destroyed financial systems across history — not identical in mechanism, but identical in the essential feature: the system appeared stable precisely because nobody had stress-tested it.
-
-His criticism of the credit rating agencies was, if anything, harder. They were paid by the issuers whose instruments they rated. This is not a complicated problem to diagnose. Munger's repeated observation was that when you construct an incentive system where the rating agency is economically dependent on the entity it's supposed to evaluate critically, you should not be surprised by the outcome. He didn't call them fraudulent — he said something more damning: they were responding rationally to the incentives they faced. The system was designed to produce exactly what it produced.
-
-When the crisis arrived, Munger's public response was notable for what it did not contain. No "I told you so" speeches. No triumphalist retrospectives. What he actually said was something like: we always knew certain features of American finance were fragile and poorly designed, this is not a surprise, and the question now is whether the corrective response will introduce new distortions that cause the next crisis. He thought it probably would. He was right about that too.
+Reading the 2003–2010 Wesco Financial chapters of *The Way of Munger* is a strange experience precisely because you know how the story ends. By the time you reach the 2008 and 2009 meetings, Munger is not triumphant. He's not crowing. He's just... exhausted. And still explaining, in plain English, why the derivatives machine was always going to blow up.
 
 ---
 
-## BYD and the Bet That Embarrassed the Models
+## "Mark-to-Myth": The Warning That Predated the Crisis
 
-In September 2008, while the financial system was collapsing around him, Munger was enthusiastic about a Chinese electric vehicle and battery manufacturer that most Western investors had never heard of.
+The mainstream narrative about the 2008 financial crisis tends to credit a handful of short-sellers and a few prescient analysts as the people who "saw it coming." Munger had been saying it, loudly, for years before that — at small annual meetings in Pasadena, to anyone who would listen.
 
-Berkshire Hathaway Energy, via MidAmerican Energy, invested approximately $232 million in BYD Company Limited at around HK$8 per share — roughly 9.9% of the company. This was, in the context of Munger's investment philosophy, unusual on almost every dimension. It was in China. It was in manufacturing. It was in a technology sector with real competitive and technical risk. BYD was not the kind of canonical "wonderful business at a fair price" that Munger and Buffett had made their reputations identifying.
+His core argument about derivatives wasn't complicated. He called mark-to-model accounting "mark-to-myth." The logic was simple: when financial instruments are priced using proprietary models rather than actual market transactions, the people running those models have enormous incentive to make the numbers look good. There's no external discipline. "Derivative contracts are opaque," he noted in the transcripts, "and accounting rules allow people to use models to calculate their value — this creates serious loopholes that are easily exploited."
 
-The reasoning, as Munger explained it across subsequent Wesco meetings, came down almost entirely to one person: Wang Chuanfu, BYD's founder and CEO. Munger described him as a combination of Thomas Edison and Jack Welch — the engineering creativity of one and the organizational drive of the other. This comparison was not rhetorical inflation. Munger meant it as a precise technical description of what he believed he was observing.
+When Berkshire unwound the derivative books it inherited from General Re, the empirical result confirmed the theory exactly. The book value turned out to be overstated by $400 million. Not a rounding error. Not a modeling artifact. Four hundred million dollars of fictional profit, revealed when someone actually tried to settle the positions.
 
-This matters because it illustrates something important about how his thinking had evolved by 2008. The younger Munger, the one whose 1980s Wesco meetings I covered in Parts 1 and 2 of this series, emphasized structural analysis — industry economics, competitive dynamics, the quality of the business model. The Munger of 2008 was making a different kind of bet: that exceptional individual human capability, in the right environment, could overcome structural disadvantages that would defeat ordinary management.
+What strikes me, reading these chapters now, is that Munger never positioned this as a clever insight. He presented it as obvious. The incentive structure creates fake profits. The fake profits generate real bonuses. The real bonuses are spent. When the positions eventually unwind — and they must, because reality doesn't care about your model — the losses are also real, but the bonuses are long gone. He compared the entire mechanism to a Ponzi scheme, and I think that comparison is more precise than most financial commentary gave it credit for being.
 
-He was explicit that this created risks he couldn't quantify. He acknowledged that investing in China required accepting legal, regulatory, and political uncertainty that investing in Kansas did not. He was not pretending he had resolved these uncertainties. What he was saying was that the potential magnitude of the outcome, combined with his assessment of Wang Chuanfu's capability, justified accepting those unquantified risks at the price he paid.
-
-This is "controlled greediness" — a phrase from the earlier meetings — applied to a non-obvious opportunity. Know your limits. Operate aggressively within them. Refuse everything outside them. But recognize that "within your limits" occasionally includes things that look unconventional to observers who haven't thought as hard as you have.
-
-I want to be careful here: BYD's subsequent performance, which was extraordinary for a period and then complicated, does not validate or invalidate Munger's framework. A correct process can produce bad outcomes; an incorrect process can produce good ones. What his BYD investment demonstrates is that he was willing to make concentrated bets on qualitative judgments about human capability that could not be reduced to a spreadsheet. The bet was coherent with his framework. Whether it was right depends on how you measure and over what timeframe, and I'm not going to pretend I can adjudicate that.
+The crisis, when it came, didn't surprise him. What I sense in the 2008 and 2009 transcripts is not vindication — it's something more like grief.
 
 ---
 
-## The "Too Hard" Pile, Applied at Scale
+## Stock Options and the Corruption He Couldn't Ignore
 
-By 2003–2010, Munger had become something of a public intellectual on investment methodology — not because he sought the attention, but because the Wesco meetings were becoming known as a smaller, more candid version of the Berkshire annual meeting. People came to hear him think out loud.
+The derivatives critique was the loudest alarm, but Munger used these years to extend the same logic to executive stock options — a target that made him far more enemies in corporate America.
 
-One of the recurring themes was what he called the "too hard" pile. The concept is simple: some investment problems are genuinely beyond your ability to analyze with confidence, and the right response is to set them aside completely rather than force a conclusion. The pile is not a failure category. It's an operational discipline.
+His argument was accounting-based, not moral. Stock options are compensation. Compensation is a cost. When options are issued but not expensed, the reported earnings are inflated — often substantially. He cited software companies where the understatement reached 12 to 14 percent of actual operating costs. Then that inflated earnings number gets multiplied by the market's P/E multiple, sometimes 40x or 50x in tech. The distortion at the stock price level is enormous.
 
-What made his application of this unusual in 2003–2010 was the specific things he was putting in the pile. Technology companies whose moats he couldn't evaluate. Financial instruments whose risk structure he couldn't trace through the counterparty chain. "High-quality" businesses that required projecting earnings 20 years forward to justify current prices. Acquisitions in industries he found culturally opaque.
+"The stock option system," he said, "is very similar to a Ponzi scheme." The first generation extracts wealth through inflated stock prices. The second generation eventually inherits the reckoning.
 
-He was also, in this period, explicit about what he was *not* putting in the pile. Berkshire's existing positions in high-quality businesses with durable competitive advantages — these he understood well enough to hold indefinitely, without re-evaluating whether to sell at every price fluctuation. His holding period for a truly good business was, he said, meant to be forever. The "too hard" pile was not where he sent things he understood but disliked; it was where he sent things he couldn't understand well enough to dislike or like.
-
-This is a useful distinction. Most investment analysis produces a verdict: buy, hold, or sell. Munger was insisting on a fourth option — "I don't know, and I'm not going to pretend otherwise." He thought most institutional investors systematically avoided this option because admitting you don't know produces career risk, and career risk is a more immediate threat to an individual analyst than investment risk is to the fund.
+I find this analysis more useful than most discussions of "pay for performance" I've read, because it ignores the moral dimension entirely and just asks: what does the accounting actually measure? And the answer, Munger argued, was: not quite reality.
 
 ---
 
-## On Academics, Business Schools, and the Sophistication of Being Wrong Consistently
+## The BYD Bet: The Exception That Proves the Rule
 
-Munger's criticism of academic finance in this period reached its full expression. He had been skeptical of the Efficient Market Hypothesis for decades — the idea that market prices always reflect all available information, making sustained outperformance impossible. By 2003–2010, he had elevated this from skepticism to something approaching contempt.
+In 2008, Berkshire Hathaway acquired a 10 percent stake in BYD for $230 million.
 
-His core objection was not that EMH was wrong in the narrow sense — he acknowledged that most people, most of the time, cannot beat the market. His objection was that it had been elevated into a religious doctrine that caused its adherents to stop observing reality. When the same group of investors — Buffett, Munger, Walter Schloss, Lou Simpson — produced decades of outperformance using similar methods, the correct academic response would have been to study what they were doing and update the theory. Instead, Munger observed, the academic response was mostly to find statistical or methodological reasons to dismiss the evidence. The theory was protecting itself from the data.
+This is worth pausing on. Munger had spent decades warning about the difficulty of predicting technology companies, specifically because technological progress tends to destroy the capital returns of the investors who fund it — even when the technology succeeds. The airplane industry transformed civilization. It also destroyed most of the capital ever invested in it. Why would an electric vehicle company be different?
 
-The business school critique was related but distinct. Munger thought the way finance was taught — Modern Portfolio Theory, Capital Asset Pricing Model, option pricing via Black-Scholes — produced graduates who had mastered mathematically sophisticated tools that rested on empirically questionable assumptions. Not wrong in every case, but applied with a confidence that the underlying assumptions didn't warrant. He had a particular edge about the way risk was operationalized as volatility. A share price that oscillated violently but whose underlying business was sound was not risky to a patient owner. A share price that barely moved but whose underlying business was being quietly destroyed was extremely risky. CAPM treated the first as more dangerous than the second. This bothered him.
+The research notes describe his analytical framework here as the "dogfish model" — named for a predatory fish that, introduced into a pond of trout, consumes everything in sight. The question wasn't whether EVs would win. The question was whether BYD had the kind of overwhelming cost and manufacturing advantage that would let it eat the pond regardless of what the broader market did.
 
-His criticism of the fund management industry's fee structures was, by this point in his life, no longer even heated — he delivered it with the flat affect of stating an arithmetic fact. The industry extracted fees that, in aggregate, exceeded the alpha it claimed to generate. He had a simple way of explaining this: if all active managers together hold the same market, they cannot collectively outperform the market they constitute. Their aggregate gross return equals the market return. Fees are subtracted from gross return. Therefore the aggregate net return of active management is systematically below the market return by the amount of fees charged. This is not a controversial claim. It follows necessarily from the structure of the system. Munger found it remarkable that a multi-trillion dollar industry had been built on the collective denial of basic arithmetic.
+Munger believed it did. He also believed in Wang Chuanfu specifically — he compared Wang's combination of engineering depth and entrepreneurial execution to a blend of Edison and Welch. Coming from someone who spent most of his career being skeptical of founder-worship, that's a notable endorsement.
 
----
+The stock went nowhere for five years after the purchase. Then it exploded — eventually trading at nearly 200x earnings. Munger held through all of it.
 
-## The Last Meetings
-
-The 2010 Wesco meeting was, in retrospect, a farewell — though Munger didn't present it that way.
-
-Berkshire's acquisition of the remaining 20% of Wesco in 2011 was a straightforward business decision. Wesco's size had grown to the point where the costs of maintaining a separate public listing — compliance, legal, management attention — were no longer justified relative to the benefits of full integration. Munger did not, at least in what I've read, treat this as a sentimental occasion. He had been running Wesco for 27 years. It had served its purpose. Now it would serve a different purpose as a Berkshire subsidiary.
-
-What strikes me about the final Wesco meetings is less any specific thing Munger said and more a quality of directness that had intensified over the decades. The 1987 Munger — the one from Part 1 of this series — was already unusually candid for a public company executive. The 2010 Munger was beyond candid. He had stopped caring about the normal social constraints on what a CEO says in a public forum. He would tell shareholders, directly, when he thought they were wrong about something. He would say "I don't know" without embarrassment. He would criticize other institutions, other industries, other intellectual frameworks, by name, without softening the language.
-
-I don't think this is what most people mean when they call Munger "wise." They usually mean something gentler — accumulated knowledge, patient perspective, willingness to take the long view. All of that is true. But what made the Wesco meetings valuable was something sharper: a willingness to say true things that were uncomfortable to say, in front of people who had financial incentives to prefer flattery. That's rarer than wisdom, and probably harder to teach.
+The BYD investment is interesting to me not as a template to follow — it absolutely is not — but as a calibration point for understanding where his "circle of competence" actually ended. He talked constantly about the "too hard" pile. AI, Bitcoin, most technology: too hard. But a manufacturing company with identifiable cost advantages and a founder he could evaluate? That he felt he could understand. The circle was smaller than it looked from outside, but more precisely drawn.
 
 ---
 
-## What I Take From This Period
+## The Efficient Market Hypothesis, Again
 
-I'll be transparent: I find this phase of Munger's career more useful than the earlier years, not because the frameworks changed — they didn't, much — but because the applications were more varied and the honesty was more total.
+Throughout this period, Munger kept returning to academic finance with a kind of weary exasperation. He called the strong-form efficient market hypothesis "pure nonsense." He dismissed the use of beta and standard deviation as risk measures, calling them "useless."
 
-The 2008 crisis passages, in particular, read differently now than they would have in 2012. We've had a decade and a half to build new financial instruments with structurally similar incentive problems. The credit rating agencies went through reforms; the basic economic structure that created their failures is still present. The derivatives market contracted and then expanded again. The specific failure modes Munger identified were treated, mostly, as engineering problems to be solved with better regulation rather than as manifestations of a more persistent human tendency to construct systems that socialize downside while privatizing upside.
+His critique wasn't just that these models are wrong. It was that they're wrong in a specific way that produces specific harms: they make students think they've understood risk when they've only learned to measure volatility. Risk is the possibility of permanent loss. Volatility is not risk. A great business whose stock temporarily drops 50 percent is less risky than a mediocre business that never moves.
 
-He didn't say the next crisis would look like 2008. He said the conditions that produce crises — misaligned incentives, opacity, leverage, the socialization of risk — were durable features of human financial systems, not bugs that one regulatory cycle would fix. Reading him in this light: not as a market predictor, but as someone who had thought harder than most about how financial systems fail, and was trying to explain the underlying mechanics to anyone paying attention.
+He also noted, somewhat acidly, that a major investment firm once hired brilliant graduates from Harvard and Wharton and asked each one to contribute their single best investment idea. The resulting portfolio — a collection of high-IQ recommendations from highly credentialed people — failed to beat the index three times in a row. His diagnosis: pooling independent smart ideas without a unified analytical framework is the modern equivalent of alchemy.
 
-Whether any of this is useful for your own thinking about money and risk is something only you can evaluate. I found it clarifying. That's the honest summary of what I got from Part 3.
-
-*Parts 1 and 2 of this series cover the 1987–1989 and 1990s Wesco meetings. Part 4 will move to the Daily Journal Corporation era, post-2014.*
+I find this observation genuinely useful as a software engineer who occasionally encounters similar dynamics. Aggregating expert opinions doesn't compound intelligence. It averages it.
 
 ---
 
-*The Way of Munger* (《芒格之道》), translated by RanRan, published by CITIC Press in June 2023 (ISBN 9787521754841). All quotes are from the Chinese translation; accuracy of translation into English is my responsibility and imperfect.
+## The End of Wesco
+
+Wesco Financial was folded into Berkshire Hathaway in June 2011 — technically after this period, but it's impossible to read the final Wesco-era transcripts without sensing the conclusion approaching. Munger had been at the helm for nearly 35 years.
+
+What I expected, going into these chapters, was some sentimentality. A valediction. Instead, what I found was characteristic bluntness. Wesco had become, in his telling, a kind of anachronism — a separately-listed company that was almost entirely owned by Berkshire anyway, creating complexity without corresponding benefit. The structure made less and less sense. So they ended it.
+
+There's a lesson here that I keep coming back to: the willingness to close things that don't need to remain open. Munger didn't have an emotional attachment to Wesco as an institution that overrode his judgment about whether it should continue as a separate entity. He built it, ran it, and when the right time came, dissolved it cleanly. That kind of clarity about endings is harder than it sounds.
+
+---
+
+## What Matured in These Years
+
+Reading the 2003–2010 remarks as a sequence, something does change across the decade. The earlier Wesco meetings feel like a man still building his framework, still discovering what he thinks. By this period, the framework is fully formed and the project has become application — bringing the same models to bear on new situations, consistently, without flourish.
+
+The core remains what it always was: concentrate rather than diversify, because diversification is what you do when you don't know what you're doing. Use opportunity cost as your filter — not "is this good?" but "is this better than my best current option?" Stay inside the circle of competence and don't pretend it's larger than it is. Read everything. Lower your expectations for happiness but not for rigor.
+
+The 2008 crisis chapters add one more thing to this list, implicitly: be prepared to be right too early. Munger spent years explaining derivatives, years explaining the accounting games, years warning about the Ponzi-scheme dynamics of modern finance. He was correct. The market ignored him for long enough that being correct felt, for a while, like being wrong.
+
+I don't think there's a comfortable resolution to that. You can't know in advance how long the wrongness will last. All you can do is be honest about the mechanism and be patient.
+
+That's not a satisfying lesson. But I think it's the accurate one.
+
+---
+
+*This is Part 3 of a reading series on 《芒格之道》 (The Way of Munger). Parts 1 and 2 covered the earlier Wesco years. Part 4 will move to the Daily Journal Corporation era.*
+
+---
+
+*Adrian is a performance engineer. Nothing in this series constitutes investment advice.*
 
 
 <!-- zh -->
 
 
-*读书笔记 ·《芒格之道》第三部分*
+*本文是《芒格之道》读书笔记系列第三篇，聚焦 2003-2010 年西科金融股东会讲话。这不是投资建议。我没有持有比亚迪或伯克希尔的仓位，但我持有对芒格思想的浓厚兴趣——请考虑这一背景。*
 
-声明在前：这不是投资建议。我持有伯克希尔·哈撒韦 (Berkshire Hathaway) 的股票，请把这个背景纳入你的判断。这篇文章讨论的是芒格的思维方式，不是说他的持仓应该被复制。
+2008 年 9 月，雷曼兄弟倒闭的消息传遍全球。那一年的西科金融股东会上，芒格站在讲台前，说了一句让人印象深刻的话（大意）：这些事情，我们早就说过了。
 
-2008 年金融危机爆发前几年，芒格反复在西科金融 (Wesco Financial) 股东会上发出警告。他说衍生品合约是定时炸弹，说评级机构的商业模式从根本上就是错的，说信贷扩张的速度已经超出任何人理解的极限。
+他没有幸灾乐祸的语气。只是陈述事实，像一个已经把答案写在黑板上、然后眼睁睁看着全班同学抄错的老师。
 
-没人听他的。
-
-等到危机真的来了，芒格没有大声说"我早就告诉过你们"——但他说了非常接近这个意思的话。
-
-这是《芒格之道》第三部分：2003 年到 2010 年，西科金融的最后岁月。
+这就是《芒格之道》2003-2010 年部分的基调：一个思想越来越成熟、批评越来越犀利、而且越来越被证明是对的老人，在西科金融最后的岁月里，留下了他对这个世界毫无保留的判断。
 
 ---
 
-## 那些年，芒格在警告什么
+## 衍生品：他们早就警告过了
 
-2003 年开始，美国住房信贷市场以肉眼可见的速度在恶化。抵押贷款标准不断放宽，再打包成 CDO (债务担保证券，Collateralized Debt Obligation) 卖给全球投资者，评级机构打出 AAA 的评级，仿佛一切都没有风险。
+芒格和巴菲特对衍生品的批评，并非始于 2008 年。早在 2003 年前后，芒格就在西科股东会上把衍生品描述为"合法化的赌博"，把"按模型估值" (mark-to-model) 的会计手法直接叫做"按神话估值" (mark-to-myth)。
 
-芒格是最早公开批评这个系统的投资人之一。他的逻辑很直接：当一个金融产品的真实价值需要用更复杂的模型才能估算，而这些模型又依赖于"市场永远保持流动性"的假设——这是嵌套的脆弱性。真正危险的不是单个错误，而是整个系统在同一个方向上失效。
+他的论据不是抽象的道德谴责，而是具体的机制分析：
 
-他的根本批评指向激励结构。评级机构向发行人收费，不向投资人收费。这不是小错误，是制度设计的系统性失败。这和谁特别不诚实没有关系，而是正确激励下必然产生的结果。经济学家 Garrett Hardin 和 George Stigler 早就分析过这类机制：当一个人的收入来自给出你想听的答案，他最终会系统性地给出错误的答案。
+衍生品合约极不透明。会计规则允许用内部模型计算其价值，这等于让狐狸看守鸡舍。当伯克希尔接手通用再保险的衍生品账簿并尝试变现时，他们发现账面价值**虚高了 4 亿美元**。这不是理论上的风险——这是已经发生的损失，只是账面上没有反映而已。
 
-芒格反复说：等到问题显现出来，已经太晚了。因为损失被结构性地藏在了足够复杂的产品里，普通人根本看不见。
+更根本的问题是激励结构。交易员靠当期利润拿奖金，而衍生品合约的风险往往要十几年后才会爆发。所以理性的交易员会做什么？当然是最大化当期账面利润，管它将来如何。
 
-这些话他在 2004 年、2005 年、2006 年都说过。现在读起来，很刺。
+2008 年发生的，正是这个逻辑的自然延伸。芒格没有假装意外。
 
----
-
-## 危机中：没有什么值得惊讶
-
-真正值得关注的，不是芒格预见了危机，而是他在危机过程中的态度。
-
-他没有恐慌，也没有庆幸。他的意思大致是：这种规模的金融崩溃以前发生过，以后还会发生。认为"这次不一样"的人总是被证明是错的。文明社会很脆弱，金融系统更脆弱，这是事实，不是悲观。
-
-对于真正懂自己在买什么的人，这种时候反而更容易找到被低估的资产。芒格从来不预测市场底部在哪里——他也从来没有假装能预测。他的意思是：如果你有能力，不会被价格波动吓跑。
-
-他对 2008 年危机的根本判断，和他对 1980 年代储贷危机的判断如出一辙：存款保险消灭了市场纪律，利率管制解除造成竞争压力迫使冒险，资产投资松绑允许用纳税人的钱押更大的注——这三个条件叠加，必然产生劣币驱逐良币的动态。区别只是这次工具更复杂、规模更大、传播更快。
-
-同样的剧本，同样的结局，只是演员换了一批。
+但他也没有声称自己能预测危机的时间和规模。这一点值得注意：他批评的是**结构性缺陷**，而不是声称自己能预测**何时**崩溃。两者是完全不同的认识论立场。前者是分析，后者是算命。
 
 ---
 
-## 比亚迪：一笔让人看不懂的投资
+## 信用评级机构：另一个按神话运行的系统
 
-2008 年 9 月，就在雷曼兄弟 (Lehman Brothers) 倒闭、全球市场恐慌的高峰，伯克希尔宣布以约 2.3 亿美元买入比亚迪 (BYD) 约 10% 的股权，折合每股约港元 8 元。推动这笔交易的人是芒格。
+与衍生品问题密切相关的，是芒格对信用评级机构的批评。
 
-很多人当时不理解。伯克希尔为什么在美国金融体系崩溃的时候去买一家中国电池制造商？
+穆迪、标普这些机构的商业模式，是向被评级对象收费。这个利益冲突如此明显，以至于连说出来都显得多余——但它确实是 2008 年危机的重要根源之一。评级机构给垃圾债券贴上 AAA 的标签，因为拒绝评级就会失去客户。
 
-芒格的解释很清楚，有几个层次。
-
-**第一：他信任引荐人。** 李录 (Li Lu) 是他多年的挚友，也是他见过的最出色的投资人之一。李录研究比亚迪多年，芒格信任他的判断。这不是盲目的情感信任——芒格观察李录足够长时间，认为他的能力和诚实都经过了验证。芒格在很多场合说过，他愿意和哪些人做生意，比研究财报更重要。
-
-**第二：他看中了王传福这个人。** 用芒格对优秀管理者的标准：能不能把一个人扔到陌生的地方、不给他资本，他还能重新发家致富？王传福是这种人。化学工程师出身，能自己设计生产设备，能把看起来不可能的事情做到——芒格把他比作爱迪生和韦尔奇的结合。这个判断不是溢美之词，是芒格典型的"把人的能力密度翻译成长期企业价值"的操作。
-
-**第三：产品本身。** 芒格认为电动汽车和可再生能源是真实的长期趋势，不是市场炒作。比亚迪在技术上处于前沿，靠的不是资本，是真实的工程能力。
-
-芒格自己也承认：以他通常的估值标准，这笔投资谈不上便宜。他为这个判断支付了溢价。这一点他没有掩饰。
-
-最终这笔投资的回报极为丰厚——在某些时点，伯克希尔持有的比亚迪股票市值超过投资额 30 倍。但结果好不代表决策模板可以任意复制。芒格能做到，是因为他有几十年的判断力积累、对产业的深度理解、以及可以相信的渠道。这三件事同时凑齐的概率，不高。
+芒格的观察更为辛辣：整个体系中充斥着"聪明但错误"的人。他们用复杂的数学模型论证了为什么这些产品是安全的，然后把模型卖给了监管者和投资者。问题不是这些人不够聪明，而是他们的激励结构确保了他们会往错误的方向使用聪明才智。
 
 ---
 
-## 西科的末章：没有感伤
+## 银行储备金的荒唐逻辑
 
-2011 年 6 月，伯克希尔以全股票方式收购西科金融剩余的 20% 股权，西科正式退市，停止独立召开股东会。这是芒格担任西科董事长近 30 年的终结。
+研究笔记里有一个细节让我觉得特别值得记录：芒格指出了银行准备金计算的内在悖论。
 
-芒格对此没有特别感伤。他的态度大意是：这是合理的企业决策，双方股东都得到了公平对价，这就够了。没有悼词，没有告别演讲。
+精算师用历史数据计算所需准备金。经济繁荣越久，历史违约率就越低，计算出来的准备金要求也就越低。这意味着**市场越接近顶峰，银行持有的风险缓冲越薄**。
 
-最后几次股东会上，他的状态更值得关注。他已经是 80 多岁的老人，但内容密度反而更高。更多批评，更少客套，更愿意直接讲他认为错误的东西。
+这和他分析地震保险的逻辑是一模一样的：普通精算师说，过去 50 年没有大地震，所以未来地震概率低。芒格和巴菲特用地球物理学常识反驳：没有地震意味着地壳压力在积累，未来发生毁灭性地震的概率只会更高，不会更低。
 
-他更频繁地提到"太难了"篮子——那些他明明看到了但因为超出自己判断范围而主动放弃的机会。他会直接说：某些科技公司我完全看不懂，所以我不碰。这不是因为我判断它们不好，而是因为我判断不了它们——这两件事不一样。
-
-这种精确的诚实很少见。大多数人习惯于给自己的无知找一个宏观理由，芒格直接说：这超出了我的能力边界。
+会计规则把"最近没出事"当成"很安全"的证据。而真实世界里，这恰恰可能是危险最积聚的时刻。
 
 ---
 
-## 对学术界：该说的话，一句不留
+## 比亚迪：一个罕见的例外
 
-芒格对有效市场假说 (EMH, Efficient Market Hypothesis) 的批评贯穿了他几十年的演讲，但亲历 2008 年危机后，批评更具体、更有力。
+2008 年，就在金融危机最惨烈的时候，伯克希尔斥资 2.3 亿美元收购比亚迪 10% 的股份。
 
-核心论点：EMH 在理论上精致，在实践上危险。如果市场永远有效，分析就没有价值；如果分析没有价值，市场怎么维持有效？这是一个自我否定的命题。更要命的是，当聪明人真的相信这个命题，他们就停止了本来可以发现问题的分析工作。
+这个决定值得细看，因为它与芒格一贯的风格形成了有趣的张力。
 
-他对商学院的批评更辛辣。大意是：你们教了一套复杂的数学工具，然后让学生相信这些工具可以替代判断力。金融工程让聪明人相信他们能精确计算本质上不可计算的东西，这比无知更危险——因为它披着"科学"的外衣。没有人会对一个说"我不知道"的人过度信任，但对一个拿出漂亮模型的人，人们愿意押上几十亿。
+芒格通常对科技公司保持距离。他的理由很清楚：科技变革通常会摧毁投资者的财富，不是增加它。颠覆性技术出现时，大多数传统优势公司被淘汰，而新技术带来的效率提升，最终通过激烈竞争全部转移给消费者，压低整个行业的资本收益率。所以即便你判断对了技术趋势，也很难在投资上赚到钱。
 
-对基金行业的收费模式，他的话接近直白的道德判断：大多数主动管理基金扣掉费用后系统性地跑输指数。你付的钱主要进了基金经理的口袋，不是进了你的复利账户。他用过一个比喻，大意是：鱼钩的颜色是设计给渔夫用的，不是设计给鱼用的。交易佣金、管理费、绩效费——设计上如此，结果必然如此。
+那为什么要投比亚迪？
 
----
+芒格引用了他的"狗鱼模型"：把几条狗鱼扔进鳟鱼池，鳟鱼很快就被吃光了。有些公司创造价值的能力极强，对手根本无法企及——它们就是行业里的狗鱼。
 
-## 我从这个时期学到了什么
-
-坦白说，读这部分书让我坐立不安——不是因为芒格说的话很新，而是因为我意识到自己在多少个地方没有执行他描述的那么清楚。
-
-**关于无知：** "我不知道"是一个完整的答案。芒格在危机中没有假装知道市场底部在哪里，没有给出"接下来 12 个月"的预判。他只是持有现金，等待明显低估的机会出现。这种做法反直觉——人总是想要答案——但有时候正确的答案就是没有答案，强行给出答案反而危险。
-
-**关于透明度：** 芒格说 99% 的管理层让你看不清留存收益的投资效率。这不只是会计问题，是诚实问题。透明度是管理质量的信号。我现在看一家公司，习惯先问：这家公司让我看得清楚吗？如果看不清，是因为业务本身复杂，还是管理层不想让我看清？
-
-**关于边界：** 精确的能力边界比宽泛的边界更有用。不是笼统地说"我不懂科技"，而是具体地说：我看不懂这类公司在五年后的竞争格局，因为技术变化太快，我没有信息优势。精确到这个程度，你才能真正执行它，而不只是把它挂在嘴上。
-
-芒格在西科最后几年的状态，让我想到他早年引用过的一句话：把今天的事情做好，长期结果自然积累。西科并入伯克希尔不是终点，是一个可以预见的、合理的结局。芒格对这件事的态度，和他对所有事情的态度一样——只问是否合理，不问是否感人。
+比亚迪的创始人王传福，在芒格看来，具备罕见的工程师和企业家双重特质。更重要的是，芒格对中国这一阶段的发展持有非常正面的判断。
 
 ---
 
-*这不是投资建议。《芒格之道》值得认真读，但芒格的具体投资决策是他的，不是可以直接复制的模板。他的框架值得学习，他的结论需要你自己消化——你的情况和他的情况，在几乎所有维度上都不同。*
+## 芒格眼中的中国
+
+这是一个容易被误解的话题，所以我想直接说清楚：芒格对中国的好感，不是基于政治立场，而是基于他对人类进步机制的判断。
+
+他反复引用李光耀的例子——一个从沼泽地建起繁荣国家的人，靠的是实用主义而不是意识形态。他认为中国的经济奇迹在相当程度上受到了这种实用主义的启发：高储蓄率、勤奋的工作文化、以及将数亿人口从贫困中拉出来的政策实践。
+
+在投资逻辑上，他看到了中国企业家阶层的崛起和制造业能力的积累。比亚迪投资后确实经历了漫长的沉寂——股价在相当长的时间内毫无动静——但最终的回报，芒格自己都称之为"出乎预料"。
+
+当然，这笔投资也说明了另一件事：芒格说"不"的地方很多，"是"的地方极少。他把大量投资机会扔进"太难了"的篮子，但当他认定是狗鱼时，会下重注，并且耐心等待。
 
 ---
 
-*Adrian*
+## 对商学院和机构投资者的持续炮轰
+
+这一时期，芒格对学术界的批评越来越不留情面。
+
+有效市场假说 (EMH)，他称之为"纯粹的废话"。用标准差和 Beta 值衡量投资风险，他说这是在教"胡说八道"。
+
+更具体的案例：他描述了一家投资公司，雇佣了哈佛和沃顿的顶尖毕业生，让每个人贡献自己最好的投资想法，汇总成一个"梦之队"组合。结果？连续三次失败。这和中世纪的炼金术师没什么区别——把聪明人堆在一起，不代表会产生正确的判断，尤其是当他们缺乏统一的、经过深刻理解的投资框架时。
+
+对基金行业的收费模式，芒格的批评同样直接。私募基金行业惯用的"调整后 EBITDA"，他直接叫"胡说八道的利润数字"。2+20 的收费结构（2% 管理费 + 20% 业绩分成）在一个足够长的时间窗口内，几乎确保了大多数有限合伙人跑不赢指数。
+
+---
+
+## 西科金融的终章：没有眼泪
+
+2011 年，西科金融正式并入伯克希尔哈撒韦。芒格担任西科董事长长达数十年。
+
+他对这个决定的态度，出乎很多人的意料：实用主义，不带感伤。
+
+西科作为独立上市公司的意义，在于它给了芒格一个直接和股东对话的平台。但从结构上说，它本就是伯克希尔体系的一部分。合并让整个资本配置更加高效，没有必要为了保留一个独立的平台而维持额外的行政成本。
+
+芒格不是那种会对制度形式产生感情依恋的人。他在乎的是底层的决策质量，而不是组织架构本身。
+
+这也许是这一时期最能体现他哲学的一个侧面：去除情感因素，对着现实做判断。
+
+---
+
+## 2003-2010 的芒格：更老，更准，更不客气
+
+读完这一时期的讲话记录，我的感受是：芒格在这十年里完成了某种哲学上的结晶。
+
+他不再试图说服所有人。他知道自己对衍生品、对信用评级体系、对学术金融的批评，大多数听众不会接受——或者接受了也不会改变行为。他继续说，但更多是为了对着镜子讲清楚自己的思考，而不是为了改变世界。
+
+这种态度本身，就是一种投资心态的成熟：你做好你能做的，对你能控制的事情负责，然后接受你不能控制的结果。
+
+2008 年金融危机验证了他的判断。他没有沾沾自喜，也没有用"我早说了"来换取任何道德优越感。他只是继续看书，继续思考，继续把答案写在黑板上——管有没有人抄对。
+
+---
+
+*《芒格之道》读书笔记系列：[第一部分](/blog/the-way-of-munger-part1) · [第二部分](/blog/the-way-of-munger-part2) · 第三部分（本文）*
+
+*再次提示：本文是读书笔记，不构成任何形式的投资建议。市场有风险，判断需审慎。*
