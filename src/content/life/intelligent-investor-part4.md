@@ -1,10 +1,8 @@
 ---
-title: "The Reported Number Is Just the Starting Point"
-subtitle: "Reading Notes · The Intelligent Investor — Part 4"
-zh_title: "先问「它值多少钱」——证券分析的第一原则"
-zh_subtitle: "读书笔记 ·《聪明的投资者》第四部分"
-description: "Graham's chapters 11-15: why headline EPS misleads, how side-by-side comparison exposes quality, and seven concrete criteria for defensive stock selection."
-date: 2026-03-15T12:00:00
+title: "The Number on the Page Is Not What You Think It Is"
+zh_title: "数字背后的真相 · 读书笔记 ·《聪明的投资者》第四部分"
+description: "Graham's analytical framework for chapters 11–15: why EPS deceives, what seven criteria actually screen for, and how enterprising investors hunt for bargains."
+date: 2026-03-22T10:00:00
 featured: false
 tags:
   - Investment
@@ -13,283 +11,280 @@ tags:
 ---
 
 
-Every earnings season, the financial press runs the same story: "Company X beats earnings expectations by 3 cents." The stock pops. Analysts upgrade their ratings. Retail investors pile in. And somewhere, Benjamin Graham is shaking his head.
+None of this is financial advice. I don't know your situation, your risk tolerance, or your time horizon. What follows is my attempt to distill what Graham actually says in the most technically demanding section of *The Intelligent Investor* — chapters 11 through 15 — because I think the analytical methodology here deserves more attention than the headline-grabbing quotes that get recycled everywhere.
 
-Chapters 11 through 15 of *The Intelligent Investor* are the most technically demanding section of the book — and probably the most ignored. Most readers absorb the philosophy of chapters 8 and 20 (Mr. Market, margin of safety) and call it done. But these middle chapters are where Graham does the unglamorous work: how to actually look at a company's numbers, what those numbers mean, and why the ones printed in the headline are almost certainly telling you an incomplete story.
-
-I'm not a professional analyst, and nothing here is financial advice. I'm working through this book as a long-term investor trying to build a more rigorous way of thinking — not to predict markets, but to avoid the obvious mistakes.
+I own no individual stocks discussed in these notes. My current portfolio is mostly index funds. I'm writing this series because reading Graham carefully has changed how I think about financial statements, not because I'm about to become an activist stock-picker.
 
 ---
 
-## Why EPS Is Almost Useless as Printed
+## Earnings Per Share Is a Story, Not a Fact
 
-Chapter 12 is the one I keep returning to. Graham's central point is that reported earnings per share — the number that moves stock prices on earnings day — can be shaped so easily that treating it as a clean input to any valuation formula is a category error.
+The single most important warning in chapter 12 is so obvious that most people skim past it: earnings per share is an accounting construct, not a measurement of economic reality.
 
-He identifies several specific mechanisms.
+Graham's concern, stated plainly: companies have enormous latitude in how they report earnings, and that latitude is routinely used in self-serving ways. He identifies three manipulation vectors worth understanding.
 
-**Special charges and write-offs.** Companies routinely take one-time charges — restructuring costs, impairment write-downs, "extraordinary items" — and present a "normalized" or "adjusted" EPS that excludes them. Graham's objection: if a company takes a special charge every three years, that charge is not special. It's part of the cost of running the business.
+**Special charges that aren't special.** When a company reports "restructuring charges" or "impairment losses" as non-recurring items, it's implicitly asking you to ignore them in your valuation. The problem is that for many companies, these charges appear in the footnotes every single year, just under different labels. Graham's rule: if a "one-time" item recurs more than once in five years, it's not one-time. Include it.
 
-**Dilution from stock options and convertibles.** The EPS figure uses a specific share count. But if a company has significant stock options, convertibles, or warrants outstanding, the actual shares that will eventually exist are considerably higher. A "basic" EPS of $3.00 might be $2.40 on a fully diluted basis — a 20% difference buried in a footnote.
+**Pro forma earnings versus GAAP earnings.** Management can choose what to emphasize in press releases. "Adjusted" earnings that exclude stock-based compensation, amortization of acquired intangibles, or legal settlements are sometimes legitimate simplifications — and sometimes a way to report a number 30% higher than what the auditors signed off on. Graham would have recognized the pattern; Zweig's updated commentary in the 2003 edition names Enron and WorldCom as the inevitable consequence of taking management's preferred framing at face value.
 
-**The treatment of R&D and capital expenditures.** Different accounting choices for when to capitalize versus expense costs can swing reported earnings dramatically in any given year without changing the underlying economics at all.
+**EPS growth through share buybacks, not business growth.** If a company earns $100M and has 100M shares outstanding, EPS is $1.00. If it buys back 20M shares and earns the same $100M next year, EPS is now $1.25 — a 25% "growth" with zero improvement in business performance. You need to check whether EPS growth is correlated with earnings growth, not just per-share arithmetic.
 
-Graham's prescription is to look at average earnings over a period of **five to ten years**, not just the most recent quarter or year. This smooths out cycles, one-time items, and accounting choices. The question he asks is not "what did they report?" but "what is the sustainable earning power of this business?"
-
-Jason Zweig's commentary connects this directly to Enron and WorldCom. Those frauds worked partly because investors had stopped asking Graham's basic question. Enron was reporting growing profits from trading operations while its actual cash generation was deteriorating. The signal was visible in the cash flow statement. Nobody looked.
-
-The lesson isn't that fraud is everywhere. It's that even without fraud, reported EPS contains so many choices, adjustments, and timing decisions that treating it as a precise number — rather than a rough estimate requiring verification — is a mistake that capable people keep making generation after generation.
+Graham's proposed solution is deceptively simple: use a multi-year average of earnings, not a single year. His suggestion is a 7–10 year average that smooths out both cyclical highs and special-item lows. This immediately makes a lot of exciting growth stories look more pedestrian — which is usually the point.
 
 ---
 
-## Looking at Companies Side by Side
+## Security Analysis Without a CFA
 
-Chapter 13 is a worked example of comparative analysis: Graham lines up four companies in the same industry and walks through their financials. The specific companies are dated; the method isn't.
+Chapter 11 is titled "Security Analysis for the Lay Investor: General Approach," and it does something important: it distinguishes clearly between bond analysis and stock analysis, arguing they require different mental frameworks.
 
-The point of comparison isn't to find the "best" company in some absolute sense. It's to make quality differences visible that would be invisible if you examined companies in isolation. When you see that Company A carries three times the debt of Company B but shows similar headline earnings, you're being forced to ask: what happens to Company A when the cycle turns? When Company C has grown earnings consistently for fifteen years and Company D has been erratic despite a similar ten-year average, which one actually has a business versus a streak of favorable conditions?
+For bonds and preferred shares, the analysis is primarily defensive. The central question is coverage: does the company earn enough to comfortably service its obligations? Graham's general rule for industrial bonds requires earnings to cover interest charges at least 5x over the most recent 7-year period. For utilities, 4x. For railroads, 3x. These aren't arbitrary — they're calibrated to the volatility characteristics of each industry. A utility's revenue is predictable; a railroad's isn't. The coverage multiple accounts for that.
 
-Graham is training the reader to treat **consistency** as a first-order quality signal. A company that earns $4.00 per share in good years and $2.00 in bad years is structurally different from one that earns $3.00 every year — even with identical averages. Predictability is worth something when you're buying a claim on future earnings. The first business might be better on average; the second is more analyzable, which is its own kind of value.
+For common stocks, the framework shifts. Coverage matters less (common shareholders are residual claimants, not fixed-income holders), and earning power over time matters more. Graham argues that the primary value of security analysis for ordinary investors isn't to find hidden gems — it's to avoid mistakes. The analysis should tell you, with reasonable confidence, that a company won't collapse, its earnings are real, and the price you're paying isn't insane relative to what the business actually produces.
 
-The comparative method also forces you to confront capital structure. A company with modest debt and steady cash generation is fundamentally different from one that has levered up to boost returns. Both might show impressive EPS during an expansion. The difference only becomes apparent in a downturn — by which point the information is too late to act on usefully.
+This framing — analysis as mistake-prevention rather than opportunity-finding — is worth sitting with. It reorients how you read a 10-K.
 
-For contemporary investors, the practical version of this is simple: before buying any stock, compare it sector by sector against its peers. Not just on price multiples, but on debt levels, dividend history, earnings stability, and return on equity over a full cycle. The comparison often does more analytical work than any single-company deep dive, because it forces your assumptions about what's "normal" to be grounded in actual peer data rather than the company's own investor relations narrative.
-
----
-
-## The Seven-Criteria Checklist
-
-Chapter 14 is where Graham gets operational. He specifies exactly what a defensive investor should look for in a common stock. These are not vague principles — they're specific thresholds, each with a rationale.
-
-The seven criteria as Graham states them:
-
-1. **Adequate size.** Only "large, prominent, and conservatively financed" companies. Graham suggests annual sales of at least $100 million for industrial companies in 1971 dollars. Zweig translates this to roughly $340 million by 2003; the equivalent today would be higher still.
-
-2. **Sufficiently strong financial condition.** For industrial companies, current assets should be at least twice current liabilities — a current ratio of 2:1. Long-term debt should not exceed net current assets.
-
-3. **Earnings stability.** Some positive earnings for each of the past ten years. No losses allowed — not a single year.
-
-4. **Dividend record.** Uninterrupted dividend payments for the past twenty years.
-
-5. **Earnings growth.** A minimum increase of at least one-third in per-share earnings over the past ten years, using three-year averages at both ends to reduce distortion.
-
-6. **Moderate price-to-earnings ratio.** Current price should not exceed 15 times the average earnings of the past three years.
-
-7. **Moderate ratio of price to assets.** Current price should not exceed 1.5 times the last reported book value. Where the P/E is low, Graham allows some P/B flexibility; the combined multiplier — P/E times P/B — should not exceed 22.5.
-
-These criteria eliminate most of the stock market. That's the point. Graham applies them to the Dow Jones industrials as a demonstration exercise. Even in 1971, using a conservative version of these filters, only a handful of the 30 Dow components passed all criteria cleanly.
-
-The question I kept asking: are these thresholds still sensible fifty years later? My read is that the *structure* of the criteria is right, but the specific numbers require your own calibration. The 20-year dividend requirement is genuinely difficult to satisfy in sectors that didn't exist 20 years ago — a technology company founded in 2008 cannot have a 20-year dividend history in 2026. Graham would presumably accept this and say those companies simply aren't appropriate for defensive investors, which is a defensible position rather than an anachronism.
-
-The P/E threshold of 15 is more interesting. In Graham's era, the earnings yield on stocks needed to compare favorably with bond yields for equities to make sense as an investment. In 1972, with high-grade bonds yielding 7-8%, a P/E of 15 implies a 6.7% earnings yield — roughly competitive. With 10-year Treasuries around 4-5% in recent years and the S&P 500 trading at 20-25x earnings, the relationship is compressed but the core principle holds: don't pay a price that requires implausible future growth to justify. The specific multiple is a starting point for your own calibration, not a commandment inscribed in stone.
+The margin of safety concept runs through both types of analysis, but differently. For bonds: safety margin is the cushion between coverage and minimum required coverage. For stocks: safety margin is the gap between estimated intrinsic value and market price. In both cases, you're buying protection against your own analytical errors. The margin isn't a prediction of upside; it's insurance against being wrong.
 
 ---
 
-## The Enterprising Investor's Edge
+## The Four-Company Comparison Method
 
-Chapter 15 covers the active investor's approach to stock selection, and it's harder to operationalize than the defensive criteria.
+Chapter 13 is one of the most pedagogically useful sections in the book, and it tends to get underappreciated because it's dense with numbers.
 
-Graham identifies three categories of opportunity for the enterprising investor.
+Graham takes four pairs of companies in related industries and performs parallel analysis. The method reveals something that's hard to articulate abstractly but obvious when you see it: quality differences between companies are visible in the financial statements if you know what to look at in combination.
 
-**Large, out-of-favor companies.** The blue chips that are temporarily unpopular — selling at meaningful discounts to their historical valuation because of a bad year, a setback in one division, or simply being neglected while the market chases something newer and more exciting. Graham considers this the most reliable area for the enterprising investor because these companies have the financial strength to survive while you wait for sentiment to recover.
+The comparisons in the original 1973 edition are dated now, but the analytical structure survives. When you put two companies side by side — same industry, similar size — and look at:
 
-**Bargain issues using the "net current asset" approach.** This is the method most closely associated with Graham. The idea: find companies selling below their net current asset value — current assets minus *all* liabilities, not just current liabilities. At that price, you're getting the fixed assets and any going-concern value for free. These "cigar-butt" companies — cheap even if the business is in decline — were the core of Graham-Newman's strategy. By 1971, Graham acknowledged they were becoming harder to find in the U.S., though he noted they still existed in Japan and in secondary markets.
+- Operating profit margins (is the business competitively advantaged, or just riding an industry tailwind?)
+- Return on equity over a full cycle (does the capital generate consistent returns, or only in boom years?)
+- Long-term debt to equity (is the balance sheet conservative or stretched?)
+- Price-to-book relative to industry peers (is the market pricing in quality, or ignoring it?)
 
-**Special situations.** Mergers, liquidations, reorganizations — situations where the outcome depends not on general market direction or even the company's operating performance, but on a specific legal or financial event. This is close to arbitrage, requires different skills, and demands a different temperament than the other two approaches.
+...you start to see that "companies in the same industry" often aren't comparable at all. One has been compounding quietly for 15 years with stable margins; the other has higher revenue growth driven by acquisition and debt. The headline P/E might be identical.
 
-What's notable is what Graham does *not* include: growth stocks, momentum plays, companies that are simply "better businesses" at any price. Even the enterprising investor's criteria are fundamentally valuation-anchored. The enterprising investor takes more risk than the defensive investor, but the risk is quantified — it's the gap between price and some measure of intrinsic value, not the open-ended uncertainty about whether a great business will remain great.
+Zweig's update points to Cisco versus Lucent in the late 1990s as a contemporary example of exactly this divergence becoming visible in retrospect. They looked similar from the top line. The balance sheets and cash flow statements told a different story.
 
-I think this is the most useful frame for me. I'm not positioned to do the intensive work required for the cigar-butt or special situations approach — finding net-net companies requires systematic screening and a willingness to hold illiquid positions in ugly businesses. But the first category — out-of-favor large companies at reasonable prices — is something an individual investor can execute with publicly available information, some patience, and the willingness to look boring when the market is excited about something else.
-
----
-
-## What Security Analysis Actually Is
-
-Reading these chapters consecutively, I came away with a cleaner sense of what security analysis actually means in practice. It's not about modeling the addressable market or estimating competitive moats. Those things matter, but they come later, and they're inherently uncertain in ways that can't be quantified precisely.
-
-Graham's first move is always simpler: is this company financially sound enough to survive? Do the earnings have real substance, or are they the product of accounting choices that will eventually reverse? Is the price such that I'm paying for something that's verifiably there, rather than for a story about what might be there?
-
-Earnings stability and balance sheet strength are lagging indicators. They tell you about what a company has done, not what it will do. Graham's argument is that for most investors, this is actually the right starting point — not because the future doesn't matter, but because you can only assess the future with any reliability if you understand the present clearly. And understanding the present clearly requires the kind of patient, un-glamorous financial reading he describes in chapters 11 through 15.
-
-Enron reported spectacular forward-looking earnings. Its balance sheet was a wreck. Anyone who applied Graham's framework to those numbers would have found the dissonance quickly. Whether they would have acted on it is a different question — it takes something beyond analytical skill to hold a contrarian position when everyone around you is celebrating a stock's ascent.
-
-That's what chapter 8 is really about. The analytical framework in chapters 11-15 is only useful if you have the psychological constitution to apply it against the grain of market enthusiasm. The two halves of the book aren't separate topics. They're the same argument made from different angles: one about what to look at, one about how to hold your nerve while looking at it.
+The actionable lesson for today's investor: never analyze a stock in isolation. Find 2–3 peers and run the comparison. The contrast is informative in ways that looking at one company never is.
 
 ---
 
-*I hold no positions in any companies mentioned in this post. This is a reading journal, not investment advice — nothing here should be the basis for any financial decision.*
+## Seven Tests for the Defensive Investor
+
+Chapter 14 is where Graham gets operationally specific. He proposes seven criteria for the defensive (passive) investor's stock selection. These are explicit filters, not vague principles:
+
+**1. Adequate enterprise size.** Graham's original threshold was $100M in annual sales for industrial companies and $50M in assets for utilities. In today's dollars, you'd need to scale these substantially — Zweig suggests roughly $2 billion in revenue as a starting point for industrials. The point isn't the specific number; it's that very small companies carry higher operational risk and are often under-researched, which makes independent verification harder.
+
+**2. Sufficiently strong financial condition.** For industrials: current assets should be at least twice current liabilities (a 2:1 current ratio), and long-term debt should not exceed net current assets. For utilities: debt shouldn't exceed twice the equity value at book. This is a conservative balance sheet test. Many technology companies would fail it entirely; that's intentional.
+
+**3. Earnings stability.** No deficit (no net loss) in any of the past 10 years. This is a more stringent test than it appears. It eliminates cyclical companies that look fine most of the time but posted losses in 2009 or 2020. It also eliminates most early-stage growth companies by design.
+
+**4. Dividend record.** Uninterrupted dividend payments for at least 20 years. Today this is more controversial, given how many high-quality businesses operate as non-dividend-paying compounders (Alphabet, Berkshire, Amazon). Graham was writing for a different era. The spirit of the criterion is: demonstrated history of returning capital to shareholders, in good times and bad. Whether that takes the form of dividends or buybacks is a legitimate question for contemporary application.
+
+**5. Earnings growth.** At minimum, a one-third increase in EPS over the past 10 years, comparing 3-year averages at each end to smooth volatility. This is a real growth criterion — not demanding (roughly 3% per year), but it eliminates stagnant or declining businesses.
+
+**6. Moderate P/E ratio.** Current price no more than 15x the average earnings of the past three years. At the time Graham revised the book, this was already somewhat conservative. In today's market environment, applying this strictly would eliminate most of the S&P 500. The principle — that you shouldn't pay extravagant multiples for earnings power — is sound even if the specific number requires contextual adjustment.
+
+**7. Moderate price-to-book ratio.** Price no more than 1.5x book value. Combined with criterion 6, Graham suggests that the product of P/E × P/B should not exceed 22.5. So a stock trading at 9x earnings could trade at 2.5x book and still pass; a stock at 15x earnings can only trade at 1.5x book.
+
+Run the Dow Jones 30 through these seven filters in any given year and you might find 3–8 companies that pass all of them. That's a feature, not a bug. The defensive investor isn't looking for opportunity; they're looking for safety. The goal is to own a basket of businesses that are unlikely to permanently impair your capital, not to maximize returns.
+
+---
+
+## What the Enterprising Investor Does Differently
+
+Chapter 15 is where the two-track system Graham has been building finally becomes explicit. The defensive investor minimizes analytical effort and accepts market returns from a filtered list. The enterprising investor does significantly more work in exchange for the possibility of materially better results.
+
+The key difference isn't just higher P/E tolerance — it's the *type* of opportunity being pursued.
+
+**Second-tier companies.** Graham argues that the market systematically undervalues companies that are "large but not prominent." Well-capitalized businesses in unglamorous industries, with solid earnings records, trading at 9–10x earnings because they don't attract institutional analyst coverage. The inefficiency isn't irrationality — it's neglect. The work for the enterprising investor is finding these situations before the market's attention catches up.
+
+**The net current asset value (NCAV) approach.** This is Graham's most famous — and now most difficult to apply — method for enterprising investors. NCAV = current assets minus total liabilities (both current and long-term). The strategy: buy at two-thirds or less of NCAV. You're essentially buying the liquid assets of the business at a discount and getting the fixed assets and earnings power for free.
+
+In Graham's era, this was a productive strategy. In the 1930s and 1940s, genuinely liquidation-value situations were common. Today, NCAV bargains are extremely rare in US markets; they occasionally appear in stressed sectors, micro-caps, or in Japanese and Korean markets where the value investing tradition has historically been undervalued. The principle is sound, but the hunting ground has narrowed.
+
+**The earnings yield plus stability screen.** For situations that don't meet NCAV criteria, Graham proposes looking for companies with earnings yields (inverse of P/E) meaningfully higher than the going bond yield, combined with a strong balance sheet and relatively stable earnings history. The logic: if a stock has an earnings yield of 8% when Treasuries yield 4%, you're being compensated for the incremental risk of equity ownership. If that spread narrows to 1%, you probably aren't.
+
+The practical challenge with all of these enterprising approaches today is that the research burden is real. Running a Graham-style NCAV screen in 1965 with paper financial statements was slow; today the data is cheap but the competition is intense. Every value screen I've seen discussed publicly gets arbitraged quickly once it becomes well-known.
+
+---
+
+## What Holds Up and What Doesn't
+
+I want to be honest about where Graham's specific numbers show their age.
+
+The 15x P/E ceiling in criterion 6 would have kept you out of almost every profitable technology company for the last 25 years, including ones that compounded at 20%+ annually. The 1.5x book value ceiling is similarly restrictive in an economy where competitive advantage is increasingly intangible — brand, network effects, software — and doesn't show up on the balance sheet at all.
+
+The author's conclusion in chapter 14 concedes this tension more than it's often given credit for. He says the defensive investor's criteria will eliminate "almost all" growth stocks, and that this is the *point* — the defensive investor shouldn't be in growth stocks because the analytical uncertainty is too high for a passive approach.
+
+What holds up entirely:
+
+The multi-year earnings average. This is just statistically correct. Single-year EPS is noisy.
+
+The balance sheet conservatism. A company with 2:1 current ratio and manageable long-term debt is structurally safer than one financed to the hilt. This was true in 1949; it was true in 2008.
+
+The skepticism about "special" charges. If anything, Zweig's commentary undersells how much more sophisticated earnings manipulation has become since 2003.
+
+The comparative method. Looking at one company in isolation is always worse than looking at it in context. This is as true today as it ever was.
+
+---
+
+The overarching message of chapters 11–15 is one the book doesn't quite state this directly: most of what gets called "investment analysis" in financial media is pattern-matching on recent trends, not systematic evaluation of business quality and price. Graham's framework is tedious precisely because it's anti-intuitive — it asks you to slow down, use multi-year data, read footnotes, check the balance sheet, compare peers, and then ask whether the price you're paying leaves room for error.
+
+The seven criteria don't guarantee you find a good company. They're designed to make sure you don't buy a bad one by accident.
+
+That's a more modest ambition than most investment frameworks. It's also, I suspect, more achievable.
+
+---
+
+*This is part 4 of a series on* The Intelligent Investor. *Part 1 covers chapters 1–3; part 2 covers chapters 4–7; part 3 covers chapters 8–10. Nothing in this series constitutes financial advice.*
 
 
 <!-- zh -->
 
 
-*读书笔记 ·《聪明的投资者》第四部分*
+先说清楚一件事：这是读书笔记，不是投资建议。我持有若干股票和指数基金，读格雷厄姆是为了弄清楚自己在做什么，而不是为了找到下一个必涨的股票。格雷厄姆自己也在本书中承认，市场短期内难以预测——他的方法是降低犯大错的概率，而不是保证收益。
+
+这个系列的前三篇聊了格雷厄姆对市场先生的比喻、通胀的威胁、以及防御型与积极型投资者的区别。第四部分（第 11-15 章）是全书最有技术含量的地方：他开始拿出真正的分析工具，一项一项地告诉你怎么看一家公司。
+
+读这部分的感受是：格雷厄姆不相信任何单一数字。他总是要求你从多个维度验证，并且对财务数字保持系统性怀疑。
 
 ---
 
-格雷厄姆说，大多数投资损失的根源只有一个：买股票时忘了问一句「它值多少钱？」
+## 第 11 章：证券分析的底层逻辑
 
-不是「它现在涨了多少」，不是「大家都在买吗」，而是——这家公司，按照它的资产、收益和分红能力，到底值多少钱？
+格雷厄姆在这一章的核心立场是：普通投资者不需要成为职业分析师，但必须理解分析的逻辑，否则无法判断自己买入的价格是否合理。
 
-这个问题听起来基础，但真正回答它，需要一套严肃的分析框架。第 11 章到第 15 章是《聪明的投资者》技术含量最高的部分，格雷厄姆在这里把他的方法论摊开来说：如何分析证券、如何识别每股盈利 (EPS, Earnings Per Share) 的陷阱、如何对比公司质量、以及防御型和积极型投资者各自应该遵循什么样的选股标准。
+他把证券分析分成两类：**债券分析**和**股票分析**，两者的重点完全不同。
 
-先说明背景：我持有部分宽基指数基金，这可能影响我对「选股是否值得」这个问题的判断。本文记录的是格雷厄姆的分析方法，不是任何股票的买卖建议。
+债券分析关注的核心是**偿付能力**：这家公司在最差的年份能不能还清利息？格雷厄姆强调用历史最差表现而不是平均表现来测试——因为债券持有人关心的不是平均回报，而是最糟糕的情况下会不会违约。他要求工业企业的税前利润至少能覆盖利息支出 5 倍，公用事业企业至少 3 倍。
 
----
+股票分析则复杂得多。格雷厄姆列出了影响股票价值的核心因素：
 
-## 第 11 章：普通投资者需要多少证券分析？
+1. **长期平均盈利能力**——不是最近一个季度，而是至少 7-10 年的均值
+2. **盈利增长率**——但要区分真实增长和会计调整带来的"增长"
+3. **财务状况**——负债率、流动比率、资本结构
+4. **股息记录**——连续分红多少年？有没有中断过？
+5. **当前市价**——相对于盈利和资产，价格是否合理？
 
-答案比你想象的少，但比大多数人做的多。
-
-格雷厄姆区分了两类分析：**债券分析**和**股票分析**。两者的核心问题不同。
-
-债券分析问的是「它能不能还钱？」——安全性是第一位的。判断标准相对客观：利息覆盖倍数（过去7年平均税前利润 / 年利息支出）、债务总额与资产价值的比例、以及公司的整体财务稳健程度。格雷厄姆给出了具体的门槛：工业债券要求税前利润至少覆盖利息的5倍，公用事业债券至少3倍。
-
-股票分析则要复杂得多，因为它问的是「它值多少钱？」——而价值本身就是一个有范围的估计，不是精确的数字。
-
-格雷厄姆对股票分析的态度是务实的：对于防御型投资者，与其花大量时间试图找到「最佳」股票，不如把精力放在**排除明显不合格的公司**上。他的方法论核心是**安全边际**——以足够低于内在价值的价格买入，让误差有足够的缓冲空间。
-
-「只要安全边际足够大，就用不着准确预测公司的未来盈利了。」
-
-这句话的含义是深刻的：格雷厄姆不是要你去预测公司未来五年的精确收益，他要你找到那些**即使未来比历史差一些，也依然便宜**的公司。这是保守估计的艺术，不是精确预测的游戏。
+格雷厄姆的分析框架有一个贯穿始终的概念：**安全边际 (margin of safety)**。买入价格相对于内在价值的折扣越大，分析错误或公司未来表现不如预期时造成的损失就越小。这不是一个可以精确计算的数字，而是一种思维方式——你必须为自己的判断可能出错留足空间。
 
 ---
 
-## 第 12 章：EPS 为什么不能直接拿来用
+## 第 12 章：当心每股盈利这个数字
 
-每股盈利是市场上最常被引用的指标，也是最容易被操纵的指标。
+这一章是我读得最细的部分，因为它直接回应了一个我一直有的困惑：为什么同样说"每股盈利增长了 20%"，有些公司的质量差异天壤之别？
 
-格雷厄姆在 1973 年就对此提出了系统性警告，半个世纪后的安然 (Enron)、泰科 (Tyco)、世通 (WorldCom) 相继证明他是对的。
+格雷厄姆的答案是：**每股盈利 (EPS) 这个数字极容易被操纵，而且操纵方式往往完全合乎会计准则。**
 
-**问题一：特殊项目的处理**
+他指出了几个主要陷阱：
 
-公司在计算净利润时，会将某些收入或支出归类为「特殊项目」或「非经常性项目」，从而把它们排除在「经营性收益」之外。听起来合理——毕竟，一次性的资产出售不代表持续的盈利能力。
+**特殊项目的处理方式。** 公司可以把各种重组费用、资产减值、一次性损失放入"特殊项目"，然后在展示给分析师的"核心盈利"中剔除这些费用。问题是，这些"一次性"费用很多公司每年都有——它们根本不是一次性的。格雷厄姆要求把特别费用摊销处理，而不是选择性地忽略。
 
-但格雷厄姆观察到一个规律：好消息往往被计入正常利润，坏消息往往被归为特殊项目一笔勾销。如果你只看「调整后利润」，你会系统性地高估公司的真实盈利能力。
+**股票期权的稀释效应。** 公司向管理层发放大量股票期权，摊薄了每股价值，但在某些报告口径下不会影响当期 EPS。真正重要的是**稀释后 EPS**，而不是基本 EPS。
 
-他的建议：**看10年的历史利润，计算平均值**，而不是只看去年一年的数字。一次性的好年份会被平均掉，一次性的坏年份也会被平均掉，剩下的才是公司真实的盈利能力基线。
+**盈利的"平滑化"操作。** 收入确认的时机、折旧方式的选择、存货计价方法——每一个会计选择都可以微调盈利数字。单独看任何一个操作都在规则之内，但组合起来就可以让利润表显示出管理层想要的趋势。
 
-**问题二：稀释效应**
+Zweig 在他的点评中加入了安然 (Enron) 和 WorldCom 的例子。安然在破产前持续报告漂亮的 EPS 增长，但实际上是通过特殊目的实体 (SPE) 把债务藏在表外。WorldCom 把应该计入当期费用的运营成本资本化，直接把亏损变成了盈利。两个案例都是格雷厄姆 1949 年就警告过的操作在 50 年后的翻版。
 
-如果公司大量发行认股权证或可转换债券，未来可能被转换为普通股的数量会大幅增加「完全稀释后的股份数」，从而压低每股盈利。格雷厄姆要求，计算 EPS 时必须使用完全稀释后的股份数。
-
-这在当代技术公司中尤为重要：股权激励 (Stock-Based Compensation) 每年都会稀释现有股东的权益，但这部分成本经常被公司的「非 GAAP 利润」口径剔除掉。
-
-**问题三：折旧与摊销**
-
-会计政策的选择直接影响利润数字。折旧方法（直线法还是加速折旧）、商誉摊销、研发费用的资本化处理——这些都给了管理层合法调整利润的空间。
-
-格雷厄姆的核心观点：**利润数字是起点，不是终点**。投资者需要理解数字背后的会计假设，而不是直接拿来除以股价算 P/E (市盈率)。
+格雷厄姆的建议：**不要只看最近一年的 EPS，要看过去 7-10 年的平均值，并且亲自检查利润表和注释中的特殊项目。**
 
 ---
 
-## 第 13 章：并排对比是最好的照妖镜
+## 第 13 章：对比是最好的分析工具
 
-格雷厄姆在第 13 章做了一件很有教学意义的事：把四家公司的财务数据并排放在一起，让对比说话。
+格雷厄姆认为，单独看一家公司的数字往往难以判断好坏，但把几家公司的财务数据并排比较，质量差异会立刻变得清晰。
 
-这个方法论值得单独讨论，因为它代表了格雷厄姆分析公司质量的核心方式。
+这一章他选了四家名字都以同一个字母开头的上市公司进行横向对比，目的是展示即便表面上都是"正常经营的上市公司"，深入数据后差异可以有多大。
 
-当你孤立地看一家公司，很多数字都「说得过去」。但当你把同行业的四家公司放在一起比较，差异立刻变得明显：谁的负债率异常高？谁的利润率在行业中明显偏低？谁的增长靠的是真实的业务扩张，谁靠的是会计手段？
+他的对比维度包括：
+- 市盈率 (P/E) 和市净率 (P/B)
+- 过去 10 年的盈利增长稳定性
+- 流动比率和负债率
+- 股息支付历史
+- 资本回报率
 
-格雷厄姆关注的对比维度：
-- **资本结构**：债务占总资本的比例，普通股的账面价值
-- **盈利稳定性**：过去 10 年是否出现过亏损？利润的波动范围如何？
-- **增长率**：每股收益的 10 年增长趋势
-- **当前估值**：P/E 和 P/B (市净率, Price-to-Book) 相对于历史均值和同行的水平
-- **股息记录**：连续发放股息的年数
+对比分析有一个独特的价值：它能帮你校准自己的判断。当你问"这个 P/E 高不高"时，孤立地看一个数字很难判断。但当你把四家公司的 P/E 并排放，同时看他们的增长率和资产负债表，你就能感受到市场定价的相对合理性。
 
-这种横向对比的价值在于：它逼迫你思考**相对价值**，而不是在真空中判断绝对数字。同样是 P/E 20 倍，如果行业平均是 12 倍，那就贵了；如果行业平均是 30 倍，那可能相对便宜。
-
-对当代投资者的可操作性：这个方法今天完全有效，而且更容易执行——各类财务数据平台已经把几乎所有这些指标都标准化并可视化了。真正的障碍不是数据获取，而是**愿不愿意花时间做对比**，而不是只看一个数字就下结论。
+格雷厄姆用这个案例强调了一点：**同一价格买到的东西，质量可以差很多**。投资者容易被"便宜"的股票吸引，但真正的问题是便宜是否有理由。某些公司的低 P/E 是估值洼地，另一些则是"价值陷阱"——便宜是因为基本面在持续恶化。
 
 ---
 
-## 第 14 章：防御型投资者的七条标准
+## 第 14 章：防御型投资者的七条戒律
 
-这是全书技术含量最集中的一章。格雷厄姆给出了七条具体的、可量化的选股标准，专为防御型投资者设计。
+这是全书最具操作性的章节之一。格雷厄姆给防御型投资者列出了七条具体的选股标准，每一条都有明确的数字门槛。
 
-**第一条：足够的规模**
+**1. 企业规模够大**
+工业企业年销售额至少 1 亿美元，公用事业企业总资产至少 5000 万美元。目的是过滤掉小型公司——它们波动更大，数据更不稳定，更难分析。
 
-只选大型企业——工业类公司年销售额不低于 1 亿美元，公用事业公司总资产不低于 5000 万美元（1973 年的标准）。小公司在经济困难时期更脆弱，流动性也更差。
+**2. 财务状况稳健**
+流动比率（流动资产/流动负债）至少 2:1。对工业企业来说，长期债务不能超过净流动资产（流动资产减去所有流动负债）。这两个指标确保公司有足够的流动缓冲，不会在市场压力下因短期债务违约。
 
-**第二条：强健的财务状况**
+**3. 盈利稳定性**
+过去 10 年每年都有正盈利，没有亏损年份。这个标准直接排除了大量"周期性盈利"的公司。
 
-流动比率 (Current Ratio) 不低于 2:1——即流动资产至少是流动负债的两倍。对于工业企业，长期债务不应超过净流动资产 (Net Current Assets) 的总额。
+**4. 分红记录**
+至少连续 20 年不间断支付股息。格雷厄姆认为这是公司财务健康和管理层对股东诚意的最可靠长期记录。
 
-这条标准直接反映了格雷厄姆对「财务保守」的定义：公司要有足够的缓冲，能够在经营困难时期撑住，而不是被债务压垮。
+**5. 盈利增长**
+过去 10 年 EPS 增长至少 33%，用前三年均值和后三年均值比较（而不是用单年数字，避免异常年份的干扰）。这个增长率要求并不高，大约是年化 3%，主要是确保公司没有在衰退。
 
-**第三条：盈利稳定性**
+**6. 合理的市盈率**
+当前股价不超过过去三年平均 EPS 的 15 倍。格雷厄姆对高 P/E 股票持怀疑态度，因为高估值意味着公司必须持续实现乐观预期，任何一次失误都会造成大幅下跌。
 
-过去 10 年内，每年都有正向利润，没有亏损年份。这不是要求持续高速增长，而是要求**基本的盈利持续性**。
+**7. 合理的市净率**
+当前股价不超过账面净资产的 1.5 倍。同时格雷厄姆提出了一个复合规则：**P/E 乘以 P/B 不超过 22.5**。这样 P/E 为 15、P/B 为 1.5 刚好达标，但也允许 P/E 为 9、P/B 为 2.5 这样的组合（9 × 2.5 = 22.5）。
 
-**第四条：股息记录**
+把这七条同时满足，在格雷厄姆写作的年代，道琼斯 30 只成分股中只有约一半能通过筛选。
 
-至少连续 20 年发放股息。这一条非常严苛，但格雷厄姆坚持：持续发放股息是公司财务健康和管理层对股东负责的最可靠信号之一。
+**这些数字在今天还适用吗？**
 
-**第五条：盈利增长**
+Zweig 在点评中指出，格雷厄姆的具体数字门槛需要调整，但背后的逻辑没有过时。今天的市场整体估值水平比格雷厄姆的年代高得多，1 亿美元的销售额门槛也早已不算大公司。但**同时满足多个维度的财务健康标准**这个核心逻辑，以及用平均值而非单年数字评估盈利的方法，仍然是抵御会计操纵的有效工具。
 
-过去 10 年，每股收益至少增长 1/3——以三年平均值计算首尾，排除单年异常值的干扰。这相当于年均增长约 2.9%，是一个低门槛，但它的意义在于排除盈利长期停滞甚至萎缩的公司。
-
-**第六条：温和的 P/E**
-
-当前股价不超过过去三年平均每股收益的 **15 倍**。格雷厄姆用三年平均值而非单年 EPS，正是为了平滑会计波动。
-
-**第七条：温和的 P/B**
-
-当前股价不超过最近报告的资产净值的 **1.5 倍**。他还给出了一个组合标准：P/E 与 P/B 的乘积不超过 **22.5**（即 15 × 1.5）——这允许 P/E 更高的公司通过更低的 P/B 来弥补，或者反过来。
-
-格雷厄姆用这七条标准筛选了当时的道琼斯工业平均指数 (DJIA) 成分股，结果只有少数几家公司通过全部标准。
-
-**这些标准在今天还适用吗？**
-
-直接套用原始数字肯定不合适——不同时代的利率环境、行业结构和会计准则都不同。但**背后的逻辑完全成立**：要求财务稳健、要求盈利持续、要求估值不能过分高于资产价值。
-
-Zweig 在点评中提出了调整后的参考值：P/E 不超过 25 倍，P/B 不超过 2.5 倍，其余标准基本保持不变。但即使是这个宽松版本，今天也能过滤掉大多数热门成长股——这可能正是格雷厄姆的本意。
+我对这七条标准的理解是：它们不是一个精确的投资模型，而是一套**风险过滤器**。满足这些标准不代表股票一定会涨，但违反多条标准的股票，你需要有更强的理由解释为什么要买。
 
 ---
 
-## 第 15 章：积极型投资者的选股逻辑
+## 第 15 章：积极型投资者的选股框架
 
-积极型投资者愿意花更多时间和精力，所以他们的标准可以更宽，但方向不同。
+积极型投资者与防御型投资者的根本区别不在于风险偏好，而在于**愿意投入的时间和分析深度**。格雷厄姆明确说：积极型投资者的额外回报来自额外的工作，不是额外的冒险。
 
-防御型投资者是**排除不合格者**，积极型投资者是**主动寻找被低估者**。
+他为积极型投资者提供了几种具体的策略：
 
-**与防御型标准的关键差异**
+**寻找暂时失宠的大公司**
+规模够大、历史记录良好，但因为短期业绩不佳或市场情绪转差而股价下跌的公司。格雷厄姆认为这类公司是比小型"成长股"更安全的机会——因为大公司通常具备足够的资源度过困难期，而市场对大公司的悲观往往是过度的。
 
-格雷厄姆对积极型投资者的财务健康要求一样严格，但在规模和估值方面更灵活：他愿意考虑中小型公司，愿意接受更低的 P/B，前提是价格足够便宜。
+**寻找"二线"公司的低估机会**
+各行业中不是头部、但具备稳定盈利能力的公司，往往被市场忽视。格雷厄姆认为这里有大量被低估的机会，尤其是当整个行业不受市场青睐时。
 
-**在「二线公司」中寻找价值**
+**净流动资产法 (Net Current Asset Value, NCAV)**
+这是格雷厄姆最具特色、也最激进的方法之一。计算方式是：
 
-格雷厄姆特别关注那些曾经优秀、但暂时失去市场关注的中型公司。这类公司有几个特征：业务稳健但不性感、股价被市场遗忘、P/E 和 P/B 都处于历史低位。
+**NCAV = 流动资产 - 所有负债（包括流动负债和长期债务）**
 
-他的逻辑：大型明星公司因为被广泛分析，很难存在显著低估；而中型「二线公司」，机构投资者关注度低，更可能出现价格与价值的显著偏差。
+如果一家公司的股价低于 NCAV 除以股票数量（即每股 NCAV），意味着你花的钱比公司的流动资产净值还少——相当于免费得到了固定资产和未来盈利能力。
 
-**净流动资产价值投资法**
+格雷厄姆把这类股票称为"净净股"(net-nets)。他在 1930 年代和 1940 年代用这种方法获得了显著回报。问题是：**净净股在当代市场极为稀少**，在信息透明的美国市场几乎已经绝迹。在新兴市场偶尔能找到，但需要非常仔细地核实数据的真实性。
 
-这是格雷厄姆最著名、也最反直觉的积极型策略之一。
-
-Net Current Asset Value (净流动资产价值) = 流动资产 - 全部负债（包括长期负债和优先股）
-
-格雷厄姆寻找的是那些**市值低于净流动资产价值 2/3**的公司——也就是说，如果你买下整家公司，立刻清算流动资产（扣除所有债务后），就能赚到钱，还没算上任何固定资产和无形资产。
-
-这种机会在正常市场中极为罕见。格雷厄姆在大萧条后的废墟里大量运用了这个方法，构建了格雷厄姆-纽曼公司从 1936 年到 1956 年年均不低于 14.7% 的业绩基础。
-
-今天仍然能找到 NCAV 标的吗？在美国主板市场很难，但在小市值股票、海外市场（历史上日本市场曾经充满这类机会）或市场极度恐慌的特殊时期，偶尔会出现。更重要的是，NCAV 方法背后的逻辑——**以远低于清算价值的价格买入，本金安全有资产保障**——是安全边际原则最纯粹的体现。
+积极型投资者与防御型投资者在标准上的核心差异是：防御型投资者要同时满足所有七条标准，积极型投资者可以接受某些标准不达标——但必须有清晰的理由说明为什么这个缺口是可以接受的，以及价格折扣是否足够补偿这个风险。
 
 ---
 
-## 方法论的本质：保守估计，而非精确预测
+## 读完这五章的感受
 
-把第 11 到 15 章放在一起看，格雷厄姆的证券分析方法论有一个一以贯之的核心特征：**它是保守的，不是精确的**。
+格雷厄姆把我从"看故事投资"拉到了"看数字投资"，但他讲的不是简单的数量化——而是通过数字看穿财务叙事背后的真实状况。
 
-他不要求你预测公司未来三年的利润，他要求你评估公司在最近十年的历史表现是否稳定。他不要求你算出精确的内在价值，他要求你确认当前价格是否远低于合理估计的价值范围。
+几个让我印象深刻的洞察：
 
-这和 DCF (折现现金流, Discounted Cash Flow) 模型的思路截然不同。DCF 在技术上更精确，但它依赖大量的未来假设——增长率、折现率、终值——每个假设的小偏差都会导致估值结果的巨大差异。格雷厄姆对这类「精确的虚假」保持警惕。
+第一，**盈利的时间跨度很重要**。单季度、单年度的 EPS 几乎没有太多信号价值。格雷厄姆反复强调 7-10 年的平均值，这对于消除经济周期和会计调整的噪音至关重要。
 
-他更愿意用粗略但稳健的方法：七条可量化的筛选标准，过去十年的历史数据，以及一个「即使我判断有误，损失也有限」的安全边际。
+第二，**财务健康比增长速度更重要**。七条标准中，有四条是关于稳定性和财务安全的，只有一条是关于增长的，而且那条标准（33% 十年增长）其实是个很低的门槛。格雷厄姆的重点不是找增长，而是确保你买的不是一个随时可能崩溃的公司。
 
-这不是因为他没有能力建立更复杂的模型——他是哥伦比亚大学的教授，《证券分析》的作者，数学能力毋庸置疑。而是因为他深知：**在充满不确定性的投资世界里，谦逊的方法往往比精确的方法更可靠**。
+第三，**价格最终决定一切**。再好的公司，如果价格已经反映了所有乐观预期，安全边际就消失了。格雷厄姆的框架不只是筛选好公司，而是在合理价格买入质量可接受的公司。
 
-下一篇会进入第 16 到 20 章——可转换证券、四个经典案例、股东权利，以及格雷厄姆用来收尾全书的那个核心命题：安全边际。
+我不会把格雷厄姆的具体数字门槛不加调整地直接应用——1949 年的数字反映的是那个时代的市场结构。但他的分析逻辑和对数字的系统性怀疑，是我读这本书收获最大的部分。
 
 ---
 
-*免责声明：本文仅记录读书过程中的思考，不构成任何投资建议。投资有风险，入市需谨慎。我持有部分宽基指数基金，请结合这一背景阅读本文。*
+*这是《聪明的投资者》系列读书笔记的第四篇。下一篇会聚焦第 16-20 章，包括格雷厄姆对可转换证券、股息政策、以及最后一章"作为投资中心概念的安全边际"的论述。*
+
+*本文内容仅供参考，不构成任何投资建议。投资有风险，决策需谨慎。*
