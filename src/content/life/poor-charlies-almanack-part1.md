@@ -1,10 +1,8 @@
 ---
-title: "The Man Who Denied His Own Myth"
-subtitle: "Reading Notes · Poor Charlie's Almanack — Part 1"
-zh_title: "反过来想的人"
-zh_subtitle: "读书笔记 ·《穷查理宝典》第一部分"
-description: "Reading the preface and first chapter of Poor Charlie's Almanack — on inversion, intellectual honesty, and a life built around independence rather than wealth."
-date: 2026-03-18T10:00:00
+title: "The Abominable No-Man Who Made Warren Buffett Better"
+zh_title: "芒格：巴菲特眼中的建筑师 · 读书笔记《穷查理宝典》第一部分"
+description: "Reading notes on Poor Charlie's Almanack Part 1 — Munger's biography, his investment partnership record, and what it means to age without illusions."
+date: 2026-03-22T10:00:00
 featured: false
 tags:
   - Investment
@@ -14,115 +12,101 @@ tags:
 ---
 
 
-Warren Buffett opens *Poor Charlie's Almanack* by comparing Charlie Munger to Benjamin Franklin. It's an audacious opening move. Franklin was a printer, diplomat, inventor, and civic architect — a man so multidisciplinary that he almost defies categorization. Buffett's point isn't flattery. It's a diagnosis: Munger is an anachronism, a 18th-century mind that ended up in the 20th century by accident.
+There's a recurring joke in financial circles that Warren Buffett deserves credit for discovering Charlie Munger. Munger's response to this kind of hagiography would probably be some variation of: "That's very flattering, and almost entirely wrong." 
 
-What I didn't expect was Munger's response to this tribute.
+*Poor Charlie's Almanack* opens with exactly this dynamic — Buffett writing glowingly about his partner, and Munger immediately writing a rebuttal. It's the most honest possible introduction to a book about a man who spent eight decades refusing to tell people what they wanted to hear.
 
-He writes, in a short rebuttal appended directly after Buffett's glowing preface:
-
-> "I think there's a lot of mythology in the idea that I was some great enlightener of Warren. He didn't need much enlightening. Frankly, I think I get a little more credit than I deserve."
-
-And then, with characteristic bluntness: "If the world had never heard of Charlie Munger, Warren's record would still look about as it does today."
-
-That's the opening gesture of this book — and it tells you almost everything about the man.
+I'm writing these notes as someone who reads this kind of material as a practitioner, not a scholar. Nothing here is investment advice — I'm not in the business of telling you what to buy. What I *am* interested in is the thinking style underneath the results.
 
 ---
 
-## Two Men, Two Stories
+## "My Partner Charlie"
 
-The preface structure is unusual. Buffett writes the foreword. Munger writes a rebuttal. You get both perspectives, in sequence, as if the reader is watching an argument between two people who are too fond of each other to ever really fight.
+Buffett's foreword is affectionate to the point of being almost embarrassing, which is itself revealing. He calls Munger the person who "expanded my horizons" and "forced me to think about businesses, not just securities." He credits Munger — not Ben Graham — with pulling him away from the cigar-butt style of buying cheap, mediocre companies. That is a significant concession from a man who trained under Graham and spent the first decade of his career executing Graham's playbook.
 
-Buffett's version: "Benjamin Graham once taught me to buy cheap stocks. Charlie changed that idea. That's the real influence Charlie has had on me." He describes the Berkshire story in stark numbers — the company's market value grew from $10 million to $135 billion, a 13,500-fold increase, with almost no dilution of outstanding shares. He credits Munger for the philosophical shift from Graham's "cigar butt" approach toward paying fair prices for excellent businesses.
+The phrase Buffett uses most memorably: Munger is the "abominable no-man." As in, when everyone else is eager to do a deal, Munger is the one who methodically lists every reason it could go wrong, and frequently refuses to proceed. Buffett frames this as a virtue. Most organizations desperately need someone who will say no and can explain exactly why.
 
-Munger's version: "I was already predisposed to reject what Graham was teaching. Warren got there himself." He's not being falsely modest — false modesty is one of the things he has no patience for. He's doing something more interesting: he's refusing to let a convenient narrative override the more complicated truth.
+Munger's own preface is shorter and characteristically deflating. He notes that Buffett's account of their relationship is "overly generous," points out a few factual embellishments, and expresses mild alarm that a book of this length has been assembled around his speeches and letters. He is not being falsely modest. He seems genuinely puzzled by the enterprise.
 
-This tension runs through the entire first chapter. The book wants to celebrate Munger. Munger keeps interrupting to complicate the celebration.
-
----
-
-## The Boy from Omaha
-
-The biography of Munger, written by Michael Brokaw, follows him from Depression-era Omaha to the vice-chairman's chair at Berkshire. Reading it, I kept noticing how many of the formative experiences were about scarcity and proximity to failure.
-
-His grandfather was a federal judge in Omaha. During the Depression, the family helped rescue a bank by guaranteeing $35,000 in bad loans — real money, real stakes, real consequences if things went wrong. Munger worked in Buffett's grandfather's grocery store as a teenager, twelve-hour shifts on Saturdays. The lesson he absorbed wasn't about wealth. It was about what happens when things break down, and how people behave when they do.
-
-He went to the University of Michigan, didn't finish his degree, was drafted into the Army Air Corps at nineteen. He ended up studying meteorology at Caltech (the Army needed weather forecasters), which is how he first encountered the rigorous scientific thinking that would later become central to his investment method. After the war, he talked his way into Harvard Law School without an undergraduate degree — the dean at the time was an old family acquaintance — and graduated in 1948, one of twelve students recognized at commencement from a class of 335.
-
-None of this was a straight line. But looking back, almost every kink in the path deposited something useful.
+What the two pieces together reveal is something unusual: a decades-long partnership where each man appears to have genuinely improved the other, and where neither seems to have let admiration curdle into deference. Munger still argued with Buffett. Buffett apparently still needed arguing with.
 
 ---
 
-## The Years That Don't Make It Into Quotes
+## From Omaha to Everywhere
 
-There's a section in the biography that most Munger hagiographies skip, and I think it's actually the most revealing part.
+The biographical sketch in Chapter 1 is the section of *Poor Charlie's Almanack* that gets underweighted in discussions, because readers tend to fast-forward to the investment frameworks. That's a mistake.
 
-In 1953, his first marriage ended in divorce. The same year, his son Teddy was diagnosed with leukemia — a death sentence in that era. Teddy died in 1955. Munger was walking the streets of Pasadena in tears between hospital visits.
+Munger grew up in Omaha in the 1920s and 1930s — the same city, the same neighborhood, practically the same cultural moment as Buffett, though Munger is seven years older. He worked as a teenager at Buffett's grandfather's grocery store. He left for Caltech, then the Army Air Corps, then Harvard Law, without ever finishing an undergraduate degree. Harvard let him in anyway, reportedly because a dean made a phone call.
 
-He had no money. His marriage had just collapsed. His son was dying. He was in his early thirties.
+He became a lawyer, a good one, building a practice in Los Angeles in the 1950s. For most people, that's the story: Omaha kid, wartime service, Harvard Law, successful attorney. The end.
 
-Li Lu, who writes the Chinese preface to this edition, specifically dwells on this period: "What I saw in Charlie was a person who remained rational, objective, positive, and wise in the face of disasters. He neither blamed heaven nor gave up passively, but sought response in calm." I believe this description. I also believe that this kind of equanimity, if it's real, is earned in specific moments — not manufactured by philosophy, but tested by grief.
+What doesn't appear in the resume is the texture of the period. Munger married young. He and his first wife Nancy had three children before their marriage ended in divorce in 1953 — uncommon and genuinely costly in that era, socially and financially. Then his son Teddy, from that first marriage, was diagnosed with leukemia. In an account from friends in the book, Munger would visit the hospital, hold his dying son, then walk out into the California sunshine and continue working. Teddy died in 1955. Munger was 31.
 
-The investment philosophy that Munger later systematized — inversion, margin of safety, understanding the ways things fail — looks different when you know he lived through personal catastrophe first. "Always invert" isn't just an intellectual game. For Munger, it was a survival instinct.
+I don't mention this to be maudlin. I mention it because it's the kind of event that separates theoretical stoicism from actual stoicism. Munger had read the Stoics. He apparently also practiced what they taught. The friends who knew him in this period describe someone who did not collapse, did not catastrophize, did not become bitter — who instead seemed to understand, with unusual clarity, that suffering is real and that you still have to figure out how to live.
 
----
-
-## From Law to Real Estate to Stocks
-
-The transition from lawyer to investor is less dramatic than it sounds. In the late 1950s and early 1960s, it was common for American lawyers to accumulate small equity stakes in client businesses — you solved their legal problems, they gave you a piece of the upside. Munger did this. He developed genuine knowledge of several small manufacturing companies this way.
-
-The bigger move was real estate. In 1961, Munger partnered with Otis Booth to build condominiums near Caltech. They put in $100,000 and made $300,000 in profit — 200% return. By 1964, when he closed out the real estate work to focus entirely on investment, the total real estate gains came to $1.4 million.
-
-This is the origin capital for the investment partnership most people don't know about. Munger ran his own fund, separately from Buffett, from 1962 to 1975. The aggregate results were excellent — substantially better than the S&P 500 over the period — but the path was violent. In 1973 and 1974, the concentrated portfolio suffered a drawdown severe enough that Munger later described it as genuinely testing his convictions.
-
-I want to linger on this, because it's relevant to anyone thinking about implementing similar methods.
-
-Concentration works in the long run because it allows you to bet heavily on the situations you understand best. It fails in the short run for exactly the same reason — when those concentrated positions move against you, there's no diversification cushion. Munger held through 1973-1974. The investors who didn't hold didn't participate in the recovery. The method requires not just intellectual conviction but something closer to emotional stubbornness.
-
-I'm not suggesting anyone should invest this way. The specific performance numbers from Munger's partnership aren't directly replicable; his analytical edge was accumulated over decades and tested against catastrophic personal circumstances before it was ever applied to markets. What I take from it is narrower: when you read that a famous investor "stayed the course" during a major drawdown, it's worth asking whether you've stress-tested your own ability to do the same.
+He remarried in 1956, to Nancy Barry, and by most accounts this was a far happier arrangement. He also, around this time, began seriously thinking about money and investing — not as a hobby, but as a systematic intellectual project.
 
 ---
 
-## On Growing Old
+## The Pivot from Law to Capital
 
-One of the additions to the expanded edition of this book is a section called "歌颂长者" — a meditation on aging that Munger wrote after reading Cicero's *De Senectute*. It was written when Munger was in his eighties.
+The transition from lawyer to investor is one of the genuinely interesting puzzles in the Munger biography, because he doesn't describe it as a dramatic awakening. He describes it as simple arithmetic. A lawyer's income is proportional to hours worked. Invested capital compounds without you. If you have ideas about which businesses are worth owning, the logical extension is to own them.
 
-He doesn't romanticize old age. But he argues, following Cicero, that the complaints people make about aging — physical decline, loss of pleasures, proximity to death — misunderstand what those pleasures were worth in the first place. The pleasures of intellect, of conversation, of watching ideas connect across disciplines: these don't diminish. They compound.
+This is the kind of reasoning that sounds obvious in retrospect and is almost never actually acted on. Munger acted on it.
 
-There's a line attributed to Munger in the tributes section that I keep returning to: he would arrive early for meetings, wait for the other party, and while waiting, pull out a book or newspaper to read — completely content to use the time. Not performing patience. Not networking. Reading.
-
-Li Lu confirms this portrait: "Every time I visited him, he was always reading." He estimates that Munger read for several hours every day for his entire adult life. Not as a discipline, but because he genuinely couldn't imagine spending time another way.
-
-The investment corollary is visible. If you spend fifty years accumulating mental models across physics, mathematics, biology, psychology, and history, the compound interest on that knowledge eventually makes certain things obvious to you that aren't obvious to anyone else. When Li Lu described the BYD investment opportunity to Munger in 2003, Munger had never met Wang Chuanfu, never visited a factory, had limited direct knowledge of China. He still asked the questions that turned out to be exactly the right ones. Li Lu calls it the "two-minute effect" — Buffett's term for Munger's ability to identify the essential variables in a complex situation faster than anyone.
-
-You don't get the two-minute effect at sixty. It takes forty years to build.
+He formed the Wheeler, Munger & Co. investment partnership in 1962 — the same year Buffett's partnership was hitting its stride, and before the two men had formalized their business relationship. He ran it as a concentrated portfolio, in direct contrast to the diversification orthodoxy that Graham had institutionalized. Where Graham's approach said to spread risk across many cheap securities, Munger wanted to concentrate in a few great ones.
 
 ---
 
-## The Friends' Portrait
+## The Partnership Record: Real Numbers
 
-The tributes section of the first chapter assembles recollections from people who knew Munger at various stages. They're not uniformly flattering, which makes them more believable.
+The performance of Wheeler, Munger & Co. from 1962 to 1975 is documented in the book, and it's worth sitting with the actual figures rather than the myth.
 
-Buffett, characteristically, describes Munger in architectural terms: the Berkshire structure wouldn't exist without him. But he also says something more personal — that Munger challenged him to think rather than just absorb, that conversations with Munger were unlike conversations with anyone else.
+The partnership compounded at roughly 19.8% annually over that period, against the Dow's approximately 5% annual return. That's the headline number, and it sounds clean and impressive. The experience of living through it was considerably messier.
 
-What emerges from the collective portrait isn't the figure you might expect from the investment mythology. He's described as intellectually merciless — he will tell you directly when your reasoning is wrong, without softening it. He's described as deeply generous with his time for people who are genuinely curious. He lives in the same house he bought decades ago. He flies economy. He shows up early.
+In 1973 and 1974, Munger's portfolio dropped approximately 31.9% and then 31.5% in successive years — a cumulative drawdown of over 50% at the low. The broader market was terrible in that period, but Munger's concentrated bets made it worse. Blue Chip Stamps, which became one of his core holdings and eventually the vehicle through which he and Buffett would buy See's Candies and Wesco Financial, cratered along with everything else.
 
-The contradiction that the book keeps circling is the one between his sharp tongue and his actual character. He's famous for saying things that seem harsh. His actions, over a lifetime, tell a different story: generous to charitable causes (he gave $60 million to Stanford), present for friends through difficulty, capable of genuine loyalty.
+The question of whether you would have stayed is not rhetorical. Most limited partners in such a partnership would have left. The rational-seeming decision — get out while you still have something left — is almost always wrong in retrospect and almost always feels obviously correct in the moment. Munger held. His conviction in the businesses he owned did not waver simply because their quoted prices dropped by half.
+
+This is the part of the long-term investing story that rarely gets the emphasis it deserves. Anyone can say "I'm a long-term investor." The statement is cheap. The test is what you actually do when sitting on a 50% loss that may not recover in your investing lifetime. Munger passed the test. His investors, those who stayed, were rewarded. Those who left locked in real losses.
+
+I own no positions in Berkshire or any Munger-adjacent holdings, so I have no financial stake in saying this. But I will say this clearly: the psychological cost of a concentrated, long-term approach is not academic. It is severe, regular, and poorly described in investment literature that focuses on compound annual returns.
 
 ---
 
-## What I'm Taking From Part One
+## In Praise of Getting Old
 
-I want to be careful here. Nothing in this post is investment advice. Munger's methods worked for Munger, in a specific context, with a specific set of capabilities developed over a specific lifetime. The relevant question isn't "how do I invest like Munger?" — it's "what about how Munger thought is worth understanding, regardless of whether I ever manage money?"
+The section called "In Praise of the Elder" is short, and it is — without competition — my favorite piece in Part 1.
 
-A few things stand out for me:
+Munger in his late eighties writing about aging has the same quality as Montaigne writing about death: not resigned, not cheerful in the falsely positive way, but genuinely interested. He observes that old age brings certain obvious losses and, less obviously, certain gains. The losses are physical. The gains are perspectival — a kind of earned clarity about what matters and what doesn't.
 
-The inversion habit is genuinely useful. Before committing to any significant decision, I've started asking what the failure modes look like first. This isn't pessimism — it's Munger's version of the checklist.
+He notes that he finds it strange that more people don't approach the final decades of life with curiosity rather than dread. For Munger, the question "how do I think well under increasingly difficult circumstances?" is simply a more constrained version of the same question he'd been asking his whole life. The constraint doesn't make the question less interesting. In some ways it makes it more interesting.
 
-The independence framing matters more than the wealth framing. Munger wanted money to be free — free to read what he wanted, think what he wanted, say what he wanted. He got very rich in the process, but that wasn't the point. Treating financial resources as a means to intellectual independence rather than as an end in itself changes what decisions you make and how you feel about them.
+This connects, in ways he doesn't quite spell out but that are visible in the surrounding material, to his investment philosophy. Markets don't give you the best opportunities when you're comfortable. The interesting situations — the ones where patient analysis actually pays off — tend to arise precisely when conditions are difficult and most other market participants are making decisions based on fear rather than analysis. Knowing that you can function under pressure is itself a form of capital.
 
-The self-denial in his preface rebuttal is something I found genuinely unusual. He had every incentive to accept the mythology. Buffett was handing him a legacy. He turned it down because it wasn't accurate. That kind of commitment to truth over narrative is rare, and probably explains why both men trust each other with the business that carries both their reputations.
+Munger's experience of watching his son die at thirty-one, rebuilding his life financially after divorce, enduring a 50% portfolio loss — none of this is wisdom for the faint-hearted. But it is wisdom that actually holds under fire, rather than collapsing the moment reality gets uncomfortable.
 
-There are four more parts to this series. The speeches and the psychology of human misjudgment are coming. But I think the first chapter — the biography, the friendships, the portrait of a man through his own grief and recovery — is doing something the later analytical sections can't do on their own. It's showing you what the thinking is for.
+---
+
+## The Man His Friends Saw
+
+The recollections from Munger's colleagues and friends in Chapter 1 sketch a portrait that is, frankly, more interesting than the investing legend mythology.
+
+Otis Booth, a longtime friend, describes someone who was aggressively frugal in personal spending and quietly generous in anonymous giving — a combination that confounds the usual assumptions. The man who negotiated every deal with ferocious intensity also funded scholarships and buildings without wanting his name on them.
+
+Al Marshall, his law partner, remembers someone who could hold enormous amounts of conflicting information simultaneously and who was genuinely interested in being wrong — not as a matter of false modesty, but because being wrong quickly is less costly than being wrong slowly. Munger apparently had a phrase he used when a business decision turned out badly: "I should have known better sooner."
+
+Warren Buffett's wife Susan, in her brief contribution, remembers Munger at social occasions being simultaneously the most direct and the most courteous person in the room — able to tell someone their idea was foolish without being contemptuous of the person. That's actually a rare skill. Most people who are willing to be blunt are also willing to be unkind. Munger seemed to understand the difference.
+
+The cumulative portrait is of someone who had, by some combination of early hardship and deliberate effort, grown genuinely comfortable with reality as it actually is. Not resigned to it, not cheerful about it by force of will — comfortable. Which is a different thing entirely.
+
+---
+
+Reading the opening section of *Poor Charlie's Almanack* in 2026, with Munger having died in November 2023 at ninety-nine, the biographical material carries a different weight than it did at first publication in 2005. He got forty more years after those dark years in the early 1950s. He used them.
+
+The framework he built — multi-disciplinary thinking, concentrated conviction, ferocious honesty about one's own errors — doesn't translate directly into investment returns for any individual reader. Anyone who tells you otherwise is selling something. What it does offer is a coherent example of how to think under uncertainty, remain financially solvent through difficult periods, and age without confabulation.
+
+That's more than most books give you. The next four parts of this series will go deeper into the specific mental models and the speeches. For now, this portrait of the man is enough to be going on with.
 
 ---
 
@@ -132,110 +116,114 @@ There are four more parts to this series. The speeches and the psychology of hum
 <!-- zh -->
 
 
-*读书笔记 · 《穷查理宝典》第一部分*
+先说清楚：这是读书笔记，不是投资建议。我没有能力预测市场，芒格本人也说"未来很难预测"——他读了比我多几十倍的书之后得出这个结论，我没有理由比他更乐观。
 
-这本书有个特殊的安排：巴菲特写序言，芒格紧接着写「驳辞」——字面意思就是反驳。
+如果你只知道查理·芒格是巴菲特的搭档，那你对他的了解还差得很远。
 
-驳辞的核心只有一件事，芒格主动否认关于自己的神话：
+巴菲特在《穷查理宝典》序言里写道，芒格是"我认识的最广博的思考者"。但更有意思的是他接下来的话：伯克希尔·哈撒韦今天的架构，是芒格设计的。巴菲特的比喻是——自己是"画家"，芒格是"建筑师"。
 
-> 「我想那些认为我是沃伦的伟大启蒙者的想法里有好些神话的成分。他不需要什么启蒙。坦白说，我觉得我有点名不副实。」
-
-他还补了一句："但如果世上未曾有过查理·芒格这个人，巴菲特的业绩依然会像现在这么漂亮。"
-
-世人通常认为是芒格让巴菲特从格雷厄姆式的「捡烟蒂」转向了质量投资。巴菲特在序言里也承认："本杰明·格雷厄姆曾经教我只买便宜的股票，查理让我改变了这种想法。这是查理对我真正的影响。"两人的说法存在明显张力。
-
-谁说得对？我不知道。但我注意到一件事：一个人在别人专门为他出的书里，主动拆解关于自己的神话，这需要不寻常的诚实——或者不寻常的自信。芒格大概两者兼而有之。
+这个比喻值得细想。画家再厉害，也是在建筑师的框架里发挥。没有那个框架，什么都站不起来。
 
 ---
 
-## 「两分钟效应」和它背后的东西
+## 两个奥马哈人的互评
 
-巴菲特给芒格起了个外号，叫「Abominable No-Man」——令人讨厌的否决者。意思是无论什么提议，芒格总能迅速找出致命缺陷并直接拒绝。
+巴菲特和芒格都出生在奥马哈，年龄相差六岁。1959 年，两人在一场晚宴上初次见面，随后几乎彻夜长谈。这次相遇的影响持续了几十年。
 
-但李录的序言提供了硬币的另一面。他描述了 2003 年第一次跟芒格谈比亚迪的经过：
+序言里巴菲特的评价毫不吝啬：是芒格让他从"以极低价格买普通企业"进化到"以合理价格买优秀企业"。换句话说，如果没有芒格，我们今天看到的伯克希尔可能是另一副样子——一堆廉价但平庸的资产，而不是可口可乐、美国运通这样的长期复利机器。
 
-> 「他虽然从来没有见过王传福本人，也从未参观过比亚迪的工厂，甚至对中国的市场和文化也相对陌生，可是他当时对比亚迪提出的问题和评论，今天看来仍然是投资比亚迪最实质的问题。」
+芒格的"驳辞" (Rebuttal) 风格典型：简短、直接、带着一丝幽默。大意是巴菲特说的都对，除了他低估了自己的贡献。
 
-巴菲特把这个特点称作「两分钟效应」：在最短时间内把一个复杂商业的本质说清楚。
-
-能否定的人和能穿透的人，有时候是同一个人。芒格能迅速说「不」，是因为他能迅速看到本质；他对比亚迪提的问题切中要害，是因为他知道要问什么。这两种能力来自同一个底层框架——他用几十年积累的那张跨学科思维网格。
-
-当然，这个框架能不能帮你赚到钱，是另一个完全独立的问题。我读这本书关注的是框架本身，不是投资建议，本文也如此。
+这种互相推让，背后是真实的尊重，不是客套。两个人彼此了解对方的局限，也彼此了解对方的价值——这种关系比大多数商业合伙更罕见。
 
 ---
 
-## 在帕萨迪纳街头痛哭的那个人
+## 从奥马哈少年到哈佛法学院
 
-芒格传记里有一段让我停下来重读了好几遍。
+芒格 1924 年出生，少年时曾在巴菲特祖父的杂货店打工，彼时离两人正式相识还有几十年。
 
-1953 年，他的大儿子泰迪被确诊为白血病。当时没有有效治疗手段，这个诊断等同于死刑。传记里写：
+他先在密歇根大学读数学，二战期间服役于陆军气象学校，之后进入哈佛法学院——在没有本科学位的情况下直接入学。哈佛录取他，据说是因为一位院长认识他父亲，但芒格靠实力站稳了脚跟。这是他日后一贯风格的早期版本：走非常规路径，但不靠关系，靠能力。
 
-> 「那时查理会到医院探望垂死的儿子，然后痛哭着走在帕萨迪纳的街头。」
+毕业后他在洛杉矶做律师，做得很成功。他的事务所至今仍然存在。
 
-同一年，他的婚姻破裂，与第一任妻子离婚。他当时 29 岁，几乎没有积蓄，刚刚开始自己的法律生涯。
-
-后来还有更多。2010 年，与他相濡以沫 50 年的妻子南希病逝。同年，一次意外事故导致他仅存的右眼失去 90% 的视力，几乎双目失明。
-
-书里说，面对这些，芒格「依然是那样理性、客观、积极与睿智」。这类传记描述我通常半信半疑，美化的成分难以剥离。但有一件事是可以核实的：他没有放弃，继续工作，继续阅读，继续思考，活到了 99 岁。
-
-一个能保持理性的人不是没有情感。他是在有情感的情况下还能保持理性。传记里那个在街头痛哭的人和后来那个被称为「普世智慧」化身的芒格，是同一个人。这一点比任何投资框架都更难复制。
+但他最终离开了法律行业。转折点是 1959 年和巴菲特的那次长谈。他开始意识到：时间是最稀缺的资产，而法律这门生意，用的是别人的时间表。投资则不同——你可以在自己选择的时间、以自己选择的节奏做决策。
 
 ---
 
-## 律师、房地产，然后才是股票
+## 人生的硬课
 
-多数人知道芒格是投资人，但不知道他的起家资本来自房地产。
+芒格不是没有跌倒过。
 
-1961 年，芒格和奥蒂斯·布思在加州理工学院附近开发了分户式产权公寓。"两位合伙人投入了 10 万美元，得到了 30 万美元的可观利润。"到 1964 年正式收手，仅房地产开发就带来了 140 万美元的收益。这笔钱才是他后来建立投资合伙公司的本金来源。
+第一段婚姻以离婚收场。更沉重的是，他的儿子 Teddy 八岁时因白血病去世。那是 1950 年代，芒格当时没有存款，也没有医疗保险，每天去医院探视，抱着孩子离开。
 
-从律师到房地产到股票投资——这条路径里有一个值得注意的模式。芒格做律师时，不只是在提供法律服务，他在研究客户的生意。他也通过小额股权参与分享客户的商业成果。传记里说，「这种做法在 20 世纪 50 年代中期和 60 年代的美国律师中很常见」——但能把它系统化并最终转化为投资能力的人，寥寥无几。
+这段经历在书中的描述极为克制——不渲染，不自我怜悯，只是陈述，然后继续向前。
 
-专业知识加上资本，是他职业转型的真正逻辑。知识帮他识别机会，资本帮他参与其中。两者缺一，路径就断了。
-
----
-
-## 关于那场大回撤
-
-芒格早年的投资合伙公司在 1973-1974 年经历了大幅回撤。书中目录里专门列出了「查理·芒格投资合伙公司的投资业绩」一节，但我这批阅读的页面恰好没有覆盖具体数字，不能直接引用。后续篇章补上之后我会回来更新。
-
-能确认的是：回撤是真实的，而且幅度足够大，足以动摇大多数人的信心。集中投资策略在市场崩溃年份会产生剧烈的账面损失，这不是特例，而是集中投资的内在属性。
-
-芒格没有因此放弃他的方法，也没有改变策略。这本身就是一种立场声明——集中投资要在情感上和财务上都真正能承受极端波动，否则逻辑上正确，实践中照样会失败，因为你会在最需要持有的时候卖出。
-
-这个道理说起来容易，在 1974 年实际执行起来是另一回事。
+这种态度不是压抑，是选择。斯多葛式的选择：认清无法控制的事情，专注可以控制的事情。这套底层逻辑，后来也渗透进他的投资哲学——市场的短期波动无法控制，但你对企业价值的判断、你的买入价格、你的持有耐心，这些是可以控制的。
 
 ---
 
-## 「反过来想」是一个工具，不是一句名言
+## 投资合伙公司：亮眼的记录，以及一次真实的考验
 
-李录在序言里描述芒格的思维方式：
+1962 年，芒格创立了 Wheeler, Munger & Co.，一边做律师，一边做投资。
 
-> 「查理思考问题总是从逆向开始。如果要明白人生如何得到幸福，查理首先是研究人生如何才能变得痛苦；要研究企业如何做强做大，查理首先研究企业是如何衰败的；大部分人更关心如何在股市投资上成功，查理最关心的是为什么在股市投资上大部分人都失败了。」
+整体成绩相当亮眼。从 1962 年到 1975 年，合伙公司的复合年化收益率显著超越道琼斯指数。策略核心是集中持股——持有少数几家他真正理解的公司，而不是把判断力稀释在几十只股票里。
 
-这段话很容易被当成励志金句贴在墙上，然后彻底忘记它是一个实际可操作的工具。
+但 1973 年和 1974 年来了。
 
-逆向思考的操作流程是：在形成任何重要判断之前，先认真构建最强的反向论证。不是「我觉得这个想法不错，还有什么问题」——而是「如果有人要彻底证伪这个想法，最有力的论据是什么，我能驳倒它吗？」
+这两年对几乎所有投资者都是灾难性的，而芒格的回撤尤其惨烈——连续两年下跌超过 30%，远比道指跌得深。集中持股是双刃剑：上涨时放大收益，下跌时放大损失，这是数学必然，没有例外。
 
-芒格对这个标准的表述更严苛：
+书中记录了这段时期的数据，读来并不轻松。一个长期业绩优异的基金，在两年内就可以让投资人失去三分之一的本金。那些在 1972 年末入场的合伙人，体验尤其难受。
 
-> 「如果我要拥有一种观点，如果我不能够比全世界最聪明、最有能力、最有资格反驳这个观点的人更能够证否自己，我就不配拥有这个观点。」
+芒格没有改变策略。他继续持有，继续买入便宜的资产。到 1975 年合伙公司清算时，长期累计业绩依然显著领先市场。
 
-执行起来费力，所以大多数人把它当名言欣赏，而不当工具使用。这大概也是芒格乐见的——他明显不希望自己的方法被轻易复制。
+这个故事的意义不在于"坚持就有回报"。而在于：芒格在连续两年大跌之后的反应，揭示了他对投资的底层认知——**短期账面损失不等于判断错误**，你需要分清楚这两件事。如果你买入某家公司是因为它的内在价值被低估，那么股价下跌（在一定范围内）是机会，不是信号。
 
----
-
-## 晚年是积累，不是收尾
-
-这次增订版新增了「歌颂长者」一节，据说受到西塞罗《论老年》的启发，是芒格专门为新版所写。
-
-芒格的立场是：晚年之所以可以是美好的，不是因为你慢慢接受了有限的生命，而是因为你用一生积累了真正值得积累的东西——知识、判断力、真正的友谊，以及在错误中修正过的世界观。
-
-这和他对投资的理解在底层是一致的：复利需要时间，也需要你在过程中不做破坏性的事。一个 99 岁还在阅读、还在思考、还在给年轻人提建议的人，不是靠「晚年心态平和」活到这个年纪的——他是靠几十年持续的智识积累，把老年变成了一种奖励，而不是一场拖延的告别。
+我没有芒格的判断力，也没有他的信息。我说这段历史，不是建议你"坚持持股"——而是让你看到，真正的集中投资需要什么样的底层逻辑支撑，以及在市场最混乱的时候，这套逻辑有多难维持。
 
 ---
 
-这是《穷查理宝典》读书笔记系列的第一篇，聚焦序言和第一章。书里的具体投资案例、十一篇演讲和行为心理学框架，留给后续篇章。
+## 朋友们眼中的芒格
 
-这不是投资建议，也没有能力成为投资建议。我读这本书是为了理解一种思维方式，记录下来是为了让自己想清楚。如果你也在读，欢迎交流——尤其是你对芒格「两分钟效应」背后机制的理解，那一段我还有很多没想透。
+第一章有一节由巴菲特夫妇、同事和朋友的回忆组成，读起来比任何传记都更立体。
 
-*Adrian*
+几个词反复出现：**博学、直接、节俭、慷慨**。
+
+博学是公认的。他真的读大量书——物理、生物、心理、历史、法律——不是为了显摆，是因为他认为不同学科的底层规律是相通的。他把这套方法叫做"格栅思维模型" (latticework of mental models)：在脑子里建立来自不同学科的模型，遇到问题时，让这些模型交叉验证。
+
+直接，有时候是"不客气"。有人问他如何成为成功的投资者，他说：每天早起，用一生时间做一件难事，拒绝所有让你分心的事情。然后补了一句：当然，你可能根本做不到。
+
+节俭是真实的。即便已是亿万富翁，他的生活方式和几十年前没有太大变化。他认为消费主义是一种智识懒惰——用花钱代替思考。
+
+慷慨也是真实的。他向哈佛西湖学校、斯坦福法学院等机构捐款，金额巨大，长期低调不张扬。这种慷慨不是公关，是他对教育的真实判断：好的教育是复利最高的投资，而他受益匪浅，理应回馈。
+
+---
+
+## 芒格论衰老
+
+第一章有一节叫"歌颂长者" (In Praise of Older Men)。这个标题本身就带着芒格式的幽默——他写这篇文章时，自己已经是那个"长者"了。
+
+他对衰老的态度不是对抗，也不是接受，更接近于"承认现实，然后继续做有意义的事"。
+
+他观察到：人的某些能力会随年龄衰退，但判断力和智识可以持续增长，直到相当晚的年龄。这不是安慰老人的话，是他观察到的规律——他认识很多七八十岁依然思维锐利的人，也认识很多四十岁就开始走下坡路的人。区别不在于基因，在于是否持续学习。
+
+停止学习，就是开始老去。这句话他没有直接说出来，但整本书都在重复这个意思。
+
+这与他的投资哲学高度一致：复利不只适用于金钱，也适用于知识和判断力。每年增加一点点，几十年下来，差距会大得惊人。
+
+---
+
+## 读完第一章
+
+这不是励志故事，芒格也不是神。他有局限，有偏见，有犯过的错误。他自己说得比你想象的更直白。
+
+但有一件事他做到了：用一生的一致性，证明了一套底层原则的有效性——广博阅读、独立思考、集中下注、长期持有、诚实面对错误。
+
+这套原则没有任何神秘之处。难的不是理解，是执行；不是知道，是在账面下跌 30% 的时候还能做到。
+
+《穷查理宝典》第一部分最大的价值，不是给你投资技巧，而是让你看到这些原则如何在一个真实的人身上——带着他的失去、他的挫败和他的坚持——被践行出来的。
+
+这比任何抽象的方法论都更有说服力。
+
+---
+
+*这是《穷查理宝典》读书笔记系列第一篇。第二篇将进入芒格的核心演讲，看他如何把"格栅思维模型"系统化。*
