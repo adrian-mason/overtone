@@ -1,10 +1,8 @@
 ---
-title: "The Man Who Sat Out the Dance"
-subtitle: "Reading Notes · The Way of Munger — Part 2"
-zh_title: "泡沫年代的清醒者"
-zh_subtitle: "读书笔记 ·《芒格之道》第二部分"
-description: "Reading notes on Charlie Munger's 1996–2002 Wesco annual meeting talks — a master class in staying rational while the world lost its mind."
-date: 2026-03-21T10:00:00
+title: "The Man Who Wouldn't Drink the Kool-Aid: Reading Notes · The Way of Munger — Part 2"
+zh_title: "泡沫年代的清醒者：互联网狂热中的芒格，1996—2002"
+description: "How Munger navigated the dot-com bubble from 1996 to 2002 — not by predicting its collapse, but by understanding why he had no business being in it."
+date: 2026-03-22T10:00:00
 featured: false
 tags:
   - Investment
@@ -14,230 +12,196 @@ tags:
 ---
 
 
-*Nothing here is financial advice. I own no positions in the companies discussed. These are reading notes — an attempt to think alongside a very unusual mind.*
+Nothing clarifies a thinker's framework quite like a mania. When everyone around you is getting rich on something you don't understand and won't buy, your true convictions get stress-tested in real time. Most people quietly capitulate. A few hold their position and get called idiots — until they aren't.
 
-Sometime in the late 1990s, at a Wesco Financial annual meeting, a shareholder asked Charlie Munger why he wasn't participating in the internet boom. By this point, every cocktail party had a story of a college dropout who had become a paper millionaire by noon on Thursday. The Nasdaq had tripled in three years. Rational-sounding people were publishing research reports with price targets that required you to believe the laws of arithmetic had been suspended.
-
-Munger's response was characteristically blunt: he didn't understand what most of these businesses actually did well enough to invest, and — this is the part that most commentary misses — he wasn't sure his judgment was superior to the market's. The bubble might continue. Other people might be seeing something real. He just couldn't get there from first principles, and he'd learned a long time ago not to play games he couldn't evaluate clearly.
-
-This is the section of 《芒格之道》 I've been thinking about most. Part 2 of the book covers Munger's Wesco Financial talks from roughly the internet bubble era — 1996 through the wreckage of 2002 — and reading it now, it's less a story of prescience than of discipline. He wasn't necessarily *right* during the climb. He was just unwilling to be wrong in a way he couldn't understand.
+The second section of *The Tao of Munger* (芒格之道) covers Wesco Financial's shareholder meetings from 1996 to 2002, a period that bracketed the greatest speculative bubble in American financial history. Reading these transcripts, you're watching a man remain stubbornly, quietly, and correctly himself while the world lost its mind around him. I'm not offering this as financial advice — Munger's framework is his own, built over decades, and copying conclusions without understanding the reasoning is exactly the kind of shortcut he'd mock. What I'm offering is a close read of how he thought, not what you should do.
 
 ---
 
-## Restrained Appetite, Not Virtue
+## A Different Kind of Bubble Education
 
-One of the more honest things Munger says in an earlier section has stuck with me through all of Part 2. Asked about his approach to capital allocation, he pushed back on the word "humble": 
+By the late 1990s, Charlie Munger had already lived through the Nifty Fifty craze of the early 1970s — a period when blue-chip growth stocks traded at 50 times earnings, and even a company manufacturing home sewing patterns commanded a 50x P/E multiple. That bubble collapsed 75% to 80% between 1973 and 1974. The lesson Munger drew wasn't "bubbles always burst" in some abstract sense. It was more specific: *when price has completely disconnected from any mechanism by which a business generates value for its owners, you don't need to know when the correction comes — you just need to not be holding the bag.*
 
-> "充分认识客观条件的限制，充分认识自身能力的限制，谨小慎微地在限制范围内活动，这是赚钱的诀窍。这个诀窍，与其说是'谦卑'，不如说是'有克制的贪婪'。"
-
-*Fully understand objective constraints, fully recognize your own limitations, operate cautiously within those limits — that's the secret to making money. This secret is better described not as "humility" but as "greed with restraint."*
-
-That reframing matters. Humility suggests a kind of self-effacing temperament. "Greed with restraint" acknowledges the appetite while insisting on the discipline. Munger isn't claiming he didn't *want* to compound wealth at 50% per year during the Nasdaq run-up. He's claiming he knew he couldn't evaluate those businesses reliably enough to act. The restraint is in service of the appetite, not opposed to it.
-
-During 1996–2002, this showed up in how Wesco managed its balance sheet. They held significant cash and investment-grade bonds. Critics who wanted him to be aggressive read this as timidity. Munger's view was simpler: there wasn't enough he could reliably evaluate. He'd said in 1987 — and the consistency across a decade is striking — "我们把大量资产搁在手里，这是现在，不意味着永远。" (*We're holding large amounts of assets in hand. That's now — it doesn't mean forever.*) The hand stays in your pocket until you see something you can genuinely assess.
+The internet bubble presented him with a similar pattern, but at greater speed and with more cultural momentum. Every major financial magazine, every dinner party, every brokerage advertisement was pointing the same direction. This is precisely when Munger is most interesting to read, because he wasn't making macro predictions. He was running his own checklist and coming up empty.
 
 ---
 
-## Not "Missing" the Bubble — Declining to Play
+## Why He Didn't Buy the Internet — and What That Actually Means
 
-The mainstream narrative on Munger and the internet era is that he and Buffett "missed" it. This is exactly backward, and it's worth being precise about why.
+The framing that Munger "missed" the dot-com boom is wrong in the most fundamental way. Missing something implies you wanted to be in it but couldn't find the entry. Munger's position was different: he couldn't find a business.
 
-Missing implies you tried to find the value and couldn't. Munger didn't try. He looked at the structure of the game — companies burning cash at rates that required their addressable markets to absorb centuries of future corporate profits — and decided the game itself was not one he could play with any analytical confidence. Not because he was old. Not because he didn't understand technology. Because the valuation models being used required assumptions that no one could honestly defend.
+He had long argued that technological revolutions are frequently terrible for investors even when they're magnificent for civilization. Railroads transformed America — and most railroad investors lost money. Commercial aviation shrank the world — and the industry destroyed enormous amounts of capital over its history. The efficiency gains from transformative technology get passed almost entirely to consumers, while companies are forced to reinvest continuously just to stay relevant, producing poor returns on capital even during periods of explosive growth.
 
-He noted at one point that he was uncertain whether the big California S&Ls that took more risk than Wesco in the late 1980s succeeded through skill or luck. He couldn't determine which. He applies the same epistemic honesty to the bubble: he can't tell you whether the people who made fortunes in internet stocks were geniuses or beneficiaries of timing. The honest answer is: probably a mix, and probably not in the proportions their subsequent commentary suggests.
+The internet was this dynamic at hyperspeed. The companies attracting the most capital were often pre-revenue. The ones generating revenue were reinvesting it all. The market valuations assumed a decade of perfect execution by companies in industries where no moat had yet been established. Munger's framework — which demands a high return on capital, a durable competitive advantage, and a price that makes sense — found nothing to buy. That isn't a missed opportunity. That's the framework working.
 
-What he refused to do was treat his own absence from the party as evidence of virtue. He held cash. The market went up. He can't prove he was right to hold cash — only that his reasoning for doing so was coherent. This is a harder position to maintain than either "I knew it would crash" or "I should have participated." It requires you to be comfortable with uncertainty about your own choices.
-
----
-
-## The Accounting Problem He Saw Coming
-
-If Munger's internet caution was quietly consistent with his long-held principles, his criticism of financial industry practices in this period was more pointed — and, in retrospect, unsettlingly accurate.
-
-He was skeptical of stock options accounting years before Enron. The argument he kept returning to: options granted to executives represent real economic cost to shareholders, and treating them as costless in earnings statements is a form of accounting fraud that regulators and auditors were complicit in enabling. He didn't mince words about this. "会计准则背后有游说，准则本身就不公平。" Companies were reporting earnings that excluded one of their largest compensation costs. The auditors knew. The boards knew. The analysts knew and didn't care because they were selling research to get banking business.
-
-The fishing-lure line from an earlier Wesco meeting — "查理，我这鱼钩又不是卖给鱼的" (*Charlie, these lures aren't made for the fish*) — captures the whole sell-side model in a sentence. Investment banks were producing research to generate transaction fees, not to inform investors. Munger's consistent advice: never ask a barber whether you need a haircut. The structural incentive distorts the answer before a word is spoken.
-
-He applied the same analysis to derivatives. By the late 1990s, derivatives had become so complex that the people pricing them couldn't honestly explain their assumptions to the people approving the transactions. He described this, carefully, as a slow-moving disaster. The opacity was not accidental — it served the interests of the dealers, who profited from complexity that clients couldn't penetrate. Munger's rule: if you can't understand a contract, that opacity is a feature, not a bug, for the person selling it.
-
-He wasn't predicting a specific crash. He was describing a structural fragility. That's a different and more defensible claim — and one that turned out to be right in a way his most specific warnings weren't required to be.
+There's a candor in the Wesco meeting transcripts from this period that's worth sitting with. He didn't claim to know the bubble would burst in March 2000. He didn't position Wesco to profit from the collapse. He simply ran his process and came up empty, and said so directly. The intellectual honesty of "I don't understand this well enough to own it" is rarer than it sounds.
 
 ---
 
-## What Actually Compounded
+## The Investments He Did Make
 
-While Munger was watching the bubble inflate with studied indifference, Wesco's actual businesses kept doing what they'd always done.
+While the Nasdaq was entering its parabolic phase, Wesco was doing something considerably less exciting: acquiring CORT Business Services in February 2000 — right at the market peak — for $384 million in cash, retaining about $45 million in debt. CORT rents furniture to corporations and individuals. It is not a business that makes a compelling magazine cover story.
 
-Precision Steel, the Chicago subsidiary Munger and Buffett had never bothered to visit in five years as of the late 1980s, continued to outperform competitors through the 1990s. The no-visit policy wasn't laziness — it was a statement about the nature of good management. Once you've found the right culture and installed the right people, monitoring doesn't add value. It signals distrust. It creates bureaucracy. It optimizes for what can be measured and observed, which tends to undermine what actually matters: judgment, honesty, and long-term orientation in situations where no one is watching.
+This is a deliberate choice, not a failure of imagination. Munger's framing of "good businesses" versus "bad businesses" has a sharp practical test: in a good business, every decision is easy. In a bad business, every decision is agonizing, every quarter is a scramble, and the economics fight you constantly. CORT is a boring business with predictable cash flows and a decent competitive position in a niche market. Paying $384 million for that, in February 2000, while the world was paying 100x earnings for loss-making technology companies, is a statement about where he thought value actually lived.
 
-Munger's criterion for management was the one Buffett articulated and Munger kept quoting back at shareholders: "你把他从火train上扔下去，扔到一个偏僻的小镇，不给他钱，他在这个小镇上诚实本分地经营，用不了多长时间，又发家致富了。" (*Throw him off a train into a remote small town with no money. If he can rebuild wealth from scratch through honest dealing, that's your person.*)
-
-The MBA definition of great management — polished presentation, optimized metrics, well-structured growth plans — was, in Munger's view, producing systematically bad outcomes across American corporations. The person who can articulate strategy fluently isn't necessarily the person who can execute it under conditions of adversity and uncertainty. The Precision Steel manager who never got a visit from Berkshire or Wesco, and whose business quietly compounded through the era when everyone was chasing internet multiples, was closer to Munger's ideal than anyone who'd spent time in a business school optimization course.
+By contrast, the earlier investment in USAir — made at $12 million of convertible preferred in 1989, written down to $3 million in 1994, before eventually recovering and selling for $21.7 million after conversion in 1998 — illustrates what Munger means when he talks about the industries he avoided. Airlines are structurally terrible businesses, and he'd acknowledge it directly. The USAir position ended up fine, but it wasn't fine for reasons Munger particularly controlled.
 
 ---
 
-## Opportunity Scarcity and What to Do With It
+## The Accounting Sermons Nobody Wanted to Hear
 
-One theme that runs through Munger's Wesco talks as the bubble inflated is an honest reckoning with a narrowing opportunity set. He'd said it directly in earlier years: good investment ideas are rare. As the 1990s bull market compressed risk premiums and elevated multiples on everything from solid businesses to vapor companies, the pool of reliably evaluable opportunities shrunk further.
+The years 1996 to 2002 were also the golden age of creative accounting, which culminated in the Enron collapse in late 2001. Reading the Wesco transcripts, Munger had been delivering variations on the same sermon for years before Enron became a household name.
 
-His response was not to lower his standards. It was to do less.
+His critique of executive stock options is particularly worth quoting closely. He viewed them as an accounting mechanism that allowed companies to hide a significant portion of their compensation expense, artificially inflating reported profits. A software company issuing options, he argued, might be understating its actual costs by 12% to 14% — and at a high price-to-earnings multiple, that hidden cost gets amplified enormously in market capitalization terms. He compared the dynamic to a Ponzi scheme: early participants profit, defend the structure vigorously because they benefit from it, and eventually the mathematics catch up.
 
-He held significant positions in Coca-Cola and Gillette through Berkshire, and talked about them at Wesco meetings as examples of what durable competitive advantage actually looks like: businesses that hadn't needed a visionary CEO or a strategic pivot in decades, because their market positions were structurally self-reinforcing. Coke wasn't a technology bet or a macro call. It was a franchise — the kind of business where the structure itself does most of the work, independent of who's running it on any given year.
+Derivatives drew similar fire. His concern wasn't abstract; it was structural. The accounting standards in place allowed companies entering derivative contracts to recognize upfront what were essentially theoretical future profits — what he called "mark-to-myth" pricing. When these positions were aggregated across large bank balance sheets, you had enormous notional exposures resting on accounting treatments that bore no reliable relationship to economic reality. He said, in various formulations across multiple meetings, that the financial system was sitting on a powder keg.
 
-This is worth sitting with. In a market environment where new companies with no earnings were being valued in the tens of billions, Munger kept returning to old companies with boring product lines and consistent returns on capital. Not because he was sentimental, but because he understood them. The franchise model — high switching costs, brand loyalty, distribution moats — was something he could analyze. Whether a search engine's network effects would translate to durable pricing power a decade out was not something he could analyze to his own satisfaction.
-
-"我们根本没有预知未来的能力。真有这个能力，还何必这么辛苦地投资？" (*We have no ability to predict the future at all. If we did, why would investing be this hard?*) He repeats this across different meetings, in different contexts. It isn't performative modesty. It's a genuine epistemological constraint that he built his entire method around.
+He was early. Enron arrived in 2001. The full reckoning he was describing wouldn't come until 2008. Being early doesn't mean being wrong — it means you're uncomfortable for longer than you'd like.
 
 ---
 
-## The Contrarian Isn't Contrarian
+## Wesco as a Laboratory in Operating Philosophy
 
-Something that gets lost in the "Munger sat out the bubble" narrative: he wasn't trying to be a contrarian. He wasn't making a bet against the Nasdaq. He wasn't short. He wasn't running around telling people the crash was coming.
+One detail from the Wesco shareholder meetings that I find genuinely interesting, and that gets less attention than the investment philosophy, is how Munger talked about Precision Steel Warehouse, one of Wesco's subsidiaries.
 
-He was just doing the same thing he'd always done — looking at each situation on its merits, asking whether he could evaluate it reliably, passing when he couldn't — and it happened to put him at right angles to the market enthusiasm of the era.
+His point about Precision Steel is about what good management actually looks like at the operating level. The business ran well without constant intervention, without management teams descending for reviews, without elaborate incentive programs. It had people who understood their business, treated their customers fairly, and operated within their competence. Munger's admiration for this kind of organization — unglamorous, durable, operating on what he called a "seamless web of deserved trust" rather than bureaucratic oversight — tells you something about what he valued and why the companies he found attractive often looked so boring from the outside.
 
-The actual contrarian move, in his framework, would have been to *force* himself into internet stocks specifically because everyone else owned them. The herd instinct runs in both directions. Most people follow the crowd toward popular investments; a certain kind of sophisticated-seeming investor follows the crowd away from them, buying whatever is maximally unfashionable on principle. Munger did neither. He evaluated what he could evaluate and held cash on everything else.
-
-After the crash, he didn't gloat. He noted that some people who took more risk than Wesco made more money than Wesco in the same period — and he genuinely couldn't say whether that was skill or luck. He applied the same epistemic humility to his competitors' success that he applied to his own.
+The insurance businesses at Wesco followed a similar logic. Underwriting discipline, meaning the willingness to walk away from business when pricing doesn't make actuarial sense, is easy to describe and genuinely difficult to maintain, especially when competitors are writing at any price to gain market share. Munger's consistent position was that it's better to shrink than to write bad business, which is a discipline that only holds when management actually believes it rather than just saying it.
 
 ---
 
-## What He Read
+## Inversion, Applied
 
-These Wesco meetings weren't purely about capital allocation. Munger used them as something closer to an annual lecture series — a chance to think out loud in front of people he respected.
+One of the mental models Munger returned to repeatedly across this period was inversion — the practice of solving a problem by asking how you'd guarantee failure, then systematically avoiding those conditions. He traced this habit to his time as a weather forecaster during World War II: instead of asking how to keep pilots safe, ask how you'd most efficiently kill them (send them into icing conditions, or let them run out of fuel), and then don't do that.
 
-He talked about his reading in this period: history, biology, physics, psychology. Not to find investment ideas, but to build models. His consistent argument was that most people's mental toolkit is too narrow — too domain-specific, too short-term, too dependent on the frameworks of a single field. The person who understands incentive structures from biology, cognitive biases from psychology, and compound interest from mathematics is going to see situations more clearly than the person who only knows finance.
+Applied to the internet bubble, the inversion runs like this: how would you guarantee financial ruin during a speculative mania? Buy assets at prices that only make sense if perfect conditions persist indefinitely. Pay for growth that hasn't materialized and competitive advantages that haven't been established. Use leverage to amplify your position. Ignore opportunity cost by comparing everything to a rising market rather than to alternative uses of capital.
 
-He was particularly pointed about what formal education teaches: the wrong things, confidently. MBA programs optimized for credentialing and career placement, not for teaching people to think. "从商学院出来的人……产生了诸多弊病。" (*People who emerge from business schools... produce many pathologies.*) He was not making friends in the academic establishment. He didn't seem to care.
-
-The habit he kept returning to: read. Read widely. Read the biographies of the people you're trying to understand. Read the history of the industries you're analyzing. "All I want to know is where I'm going to die, so I'll never go there." The inversion habit — asking what could go wrong, what conditions produce failure, rather than what could succeed — was something he'd developed through decades of reading about how things actually fell apart.
+Munger avoided those specific actions. He didn't predict the crash. He just didn't do the things that would guarantee loss if conditions normalized.
 
 ---
 
-## A Man in His Seventies, Still Getting Sharper
+## What He Got Wrong, or Left Open
 
-Part 2 of 《芒格之道》 covers Munger from his early seventies to his late seventies. What strikes me reading these transcripts back-to-back is that the thinking gets *sharper* with time, not duller.
+The intellectual honesty in these transcripts extends to what Munger didn't claim to know. He was consistently frank about being unable to predict macroeconomic trends, market movements, or interest rate changes. He placed much of macroeconomics in his "too hard" pile — not out of intellectual laziness, but because he genuinely believed the complexity of interconnected global systems exceeded anyone's reliable forecasting ability, including his own.
 
-The 1996–2002 talks are more structured, more specific, more willing to name names and assign blame than the 1987–1988 talks. He's less tentative about his criticisms of Wall Street, accounting standards, executive compensation practices. He's had more time to watch things play out, more case studies to reason from, more confirmation that his priors about human nature and institutional incentives were roughly accurate.
+His anxiety about modern monetary policy — the consequences of sustained money printing, negative interest rates, and massive deficit spending — appears in these years and continued to intensify through his later remarks. He pointed to Japan, which had survived extraordinary monetary expansion, as evidence that he simply didn't know how the current era would end. That uncertainty didn't translate into a macro trading position. It just remained open, acknowledged, and unresolved.
 
-He's also funnier. The self-deprecating humor is more confident, the examples more vivid. He describes corporate governance failures with the tone of a man who has seen enough that none of it surprises him anymore, but who still finds the specifics instructive.
-
-There's something worth studying in the trajectory itself. Most people's thinking rigidifies in their seventies. The mental models get fixed, the new information gets filtered to confirm existing views, the intellectual flexibility narrows. Munger, apparently, didn't let that happen. He kept reading, kept updating, kept being willing to say "I was wrong, here's what I missed." The discipline that kept him out of bad investments also kept him from investing too heavily in his own previous conclusions.
+The scale constraint on Berkshire and Wesco is also something he returned to often. When you manage enough capital, the opportunities available to you shrink dramatically. The early years of picking up "cigar butt" stocks at discounts to liquidation value — Ben Graham's original framework — were genuinely gone, not because the methodology was wrong, but because the funds were too large to move into positions where that methodology applied. Opportunity cost as a discipline becomes harder when your opportunity set narrows by definition.
 
 ---
 
-Whether any of this is actionable depends, I think, on how you read it. The easy lesson is "avoid bubbles, hold cash, wait for obvious opportunities." That's not quite right, and it misses why Munger could do it. He could sit out the dance because he'd built, over forty years, a framework for distinguishing what he could reliably evaluate from what he couldn't. The cash was a *consequence* of that framework, not the strategy itself.
+## Reading These Transcripts Now
 
-The harder lesson is that you have to build the framework first — through reading, through making mistakes, through being honest about what you got wrong and why. The result of that work, over time, is the ability to sit still when everyone around you is spinning. Munger makes it look effortless. The transcripts make clear it was anything but.
+I came to *The Tao of Munger* curious about what Munger actually said during the bubble years, as opposed to the curated wisdom that circulates afterward. The curated version makes him look more prescient than he was — he wasn't calling the top, he was running his process. The honest version is more useful: a careful, opinionated, genuinely humble thinker who knew his circle of competence and stayed inside it, even when staying inside it meant watching others appear to get rich doing things he wouldn't do.
+
+The 1996–2002 period at Wesco didn't produce spectacular returns in a world where Nasdaq was briefly tripling. What it produced was a foundation of businesses that didn't blow up when the speculation unwound. Munger would probably say that's not a consolation prize.
+
+*None of this is financial advice. Munger's framework took decades to develop and is inseparable from his specific temperament, circumstances, and investment record. Understanding how he thought is interesting and potentially useful; copying his conclusions without the underlying reasoning is the "man with a hammer" problem he spent his career warning against.*
 
 ---
 
-*Previous in this series: [Part 1 — The Early Wesco Years](the-way-of-munger-part1). These are reading notes from 《芒格之道——查理·芒格股东会讲话1987-2022》, compiled by 芒格书院, translated by RanRan, published by 中信出版集团 (2023).*
+*Reading Notes · The Way of Munger — Part 2*
 
 
 <!-- zh -->
 
 
-1999年的春天，纳斯达克指数正向5000点冲刺，CNBC每天播报哪只网络股又翻倍了。所有人都在谈论"新经济"、"范式转移"，谈论利润不重要、用户增长才是硬道理。就在这个时候，西科金融的年度股东会在帕萨迪纳安静地召开。
+**声明：这不是投资建议。我没有持有本文提及任何公司的股票。芒格的框架值得深思，但任何投资决定请自行判断，后果自负。**
 
-芒格坐在台上，被问到怎么看科技股热潮。
+1999年，纳斯达克指数单年涨了86%。互联网公司不需要盈利，只需要一个 .com 域名和一个 PPT 故事，就能在 IPO 首日涨三倍。风险投资人排队往创业公司里塞钱，媒体把每一位科技创业者都写成下一个比尔·盖茨。
 
-他大概是全美国最不慌的那个人。
+查理·芒格在做什么？
 
----
+他在奥马哈的西科金融年会上，用他一贯的语气跟股东们说：我不知道这些公司值多少钱，所以我们不买。
 
-**声明在前：我持有伯克希尔哈撒韦的股票，这篇文章是读书笔记，不是投资建议。** 芒格自己在股东会上说过很多次——他没有预知未来的能力，他只是比别人更诚实地承认这一点。我也没有。
-
----
-
-## 他为什么没有买互联网股票？
-
-这个问题问错了。
-
-更准确的问法是：在当时的价格下，互联网股票是否提供了足够的安全边际？答案对芒格来说是显然的：没有。
-
-他不是不懂技术。他是看不出在那个估值水平下，赔钱的概率有多小。
-
-芒格在这段时期反复强调一个框架：你要充分认识自己能力的边界，然后只在边界内活动。这不是谦虚，他管这个叫"有克制的贪婪"——这个区分很重要。谦虚是美德，克制的贪婪是策略。能分清楚这两者，才能在别人疯狂的时候不跟着疯。
-
-他错过了互联网泡沫的上涨吗？
-
-是的。他完全没参与。
-
-然后他又错过了2000-2002年纳斯达克跌去78%的那一段。
+这就是《芒格之道》（*The Tao of Munger*）上编最珍贵的部分——1996 到 2002 年，正是互联网泡沫从膨胀到破裂的全程，芒格以第一人称留下了他的实时判断。不是事后诸葛，是当时当下。
 
 ---
 
-## 芒格对华尔街的批评：他不是事后诸葛
+## 他为什么没买科技股？不是因为保守
 
-让《芒格之道》这本书值得反复读的地方在于：这些是实时的判断，不是回忆录。
+很多人把芒格错过互联网热潮解读为"保守派老人不懂新经济"。这是误读。
 
-在整个1990年代末，芒格在西科金融股东会上对以下几件事保持了持续的批评：
+芒格的答案更直接：「我不理解这些生意的内在价值，所以这些公司进了'太难了'那堆文件。」
 
-**股票期权的会计处理。** 当时美国企业把给员工的股票期权当作"零成本"处理——不计入费用。芒格认为这是赤裸裸的会计欺诈，只是合法的那种。他的逻辑：期权有价值，给出去就是成本，不记入利润表就是虚报盈利。华尔街分析师用"经调整利润"（adjusted earnings）绕开这个问题。芒格管这叫"扯淡"（这是他实际使用的词风）。
+这是他对能力圈原则的真实应用——不是谦虚，是诚实。他和巴菲特从来不依赖预测市场走向，也不靠预测利率高低来做决策。他们的方法是找到定价合理的好生意，然后持有。科技公司的竞争优势有多持久？未来现金流的折现值是多少？这些问题，芒格在 1999 年无法给出有把握的答案——于是他选择不行动。
 
-**衍生品的不透明风险。** 芒格很早就开始对衍生品合约的复杂性表示警惕。他的担忧不是衍生品本身，而是这些工具积累了巨量的反手风险，而没有人真正能把整个系统的敞口说清楚。一旦出现流动性压力，连锁反应会是什么样？没人知道。不知道的东西，你就没法为它正确定价。
+但他没有沉默。
 
-**"新经济"的叙事泡沫。** 他对"这次不一样"（this time is different）这类论断有一种本能的警觉。每次人们说"旧的估值方法不适用了"，芒格的反应都是：也许吧，但我不打赌。
+在 1998 年的股东会上，他用 Nifty Fifty 做了类比：1972 年高峰期，连一家做家用缝纫图样的公司都能卖到 50 倍市盈率。随后 1973、74 年股市暴跌 75% 到 80%。「人们在狂热中总以为这次不一样，」芒格说，「但最后的结局通常都一样。」
 
----
-
-## 安然：不是黑天鹅，是灰犀牛
-
-2001年，安然轰然倒塌。全美国都震惊了。
-
-芒格应该不怎么震惊。
-
-安然的问题——按市值计价（mark-to-market）的滥用、复杂的表外实体、审计师与客户的利益纠缠——正是他在股东会上年复一年批评的那几个问题的集中爆发。
-
-他有一个关于"渔具"的比喻，放在这里很合适。
-
-> "查理，我这鱼钩又不是卖给鱼的。"
-
-芒格用这个故事说明利益冲突的本质：卖渔具的人，不需要让鱼喜欢渔具，他只需要让买渔具的人相信鱼会喜欢。安然的审计师、律师、投资银行——他们服务的对象，从来都不是普通投资者。
-
-"自己用不用理发，别问理发师。" 这句话出现在《芒格之道》里，背后的意思是：凡是靠交易费用维生的人，给你的建议天然向"做交易"倾斜，无论那是否符合你的利益。
+他没有预测互联网泡沫会在什么时候破裂，也没有做空科技股。他只是选择不参与，把资本留在他理解的地方。
 
 ---
 
-## 西科金融的经营：越无聊越健康
+## 好机会在变少，这让他担心
 
-这段时期，西科金融本身的变化不大——这本身就是一种成就。
+这一时期，芒格对一件事越来越坦诚：好的投资机会在系统性减少。
 
-精密钢材（Precision Steel）依然是芒格和巴菲特五年不去视察却依然表现优于同行的那家公司。芒格的解释很简单：好的企业文化一旦建立，就会自我延续。频繁的管理层介入，有时候反而是在传递"我不信任你"的信号，破坏的正是你试图维护的东西。
+原因是规模。伯克希尔和西科的资产规模已经大到，那些早年可以"瓮中捉鳖"的小公司机会，对他们来说已经无足轻重。「规模是成功的诅咒，」他曾不止一次这样说，「我们现在只能看大公司，这极大地缩小了可投资的范围。」
 
-保险业务方面，承保纪律是不可谈判的底线。1990年代末市场好的时候，保险费率再次下行——竞争对手开始打价格战。西科保险的策略一如既往：费率不合理，就退一步，宁可缩小规模。市场份额从来不是目标。
+1997 年底，西科每股净资产 248 美元，芒格估计内在价值约 273 美元，市价在 300 美元左右——已经略高于内在价值。他在给股东的信里直接说：按此价格买西科股票的人，应当自问是否合理。
 
-这两件事放在一起看，是同一个逻辑：**不要为了维持规模而放弃标准。** 无论是企业管理还是保险承保，一旦开始用标准换规模，结局只有一个。
+这种透明度在华尔街几乎绝迹。大多数基金经理不会主动告诉投资者"现在的价格我自己都不会买"。
 
----
-
-## 投资机会在变少：这不是坏消息的全部
-
-芒格在这段时期反复提到一个让人不舒服的观察：真正好的投资机会越来越难找了。
-
-他的解释是结构性的。随着更多资金涌入市场，随着信息传播速度加快，明显低估的情况出现得越来越少。伯克希尔和西科的规模，也让他们无法利用许多小型机会。
-
-这不是抱怨，是现实分析。
-
-他的应对方式：持有大量现金，耐心等待。"我们把大量资产搁在手里，这是现在，不意味着永远。" 现金是一种等待机会的期权，在市场疯狂的时候，这个期权特别值钱。
-
-这对散户投资者有一个不太舒服的含义：如果你觉得现在市场上随处都是机会，要么是你眼光特别好，要么是你看错了什么。芒格倾向于认为，大多数时候是后者。
+他对持仓公司的评论也延续了这种直率。谈到可口可乐和吉列，他认为这些是真正的"好生意"——每一个决策都简单，不需要煞费苦心地权衡，而烂生意的标志恰恰相反：每个决策都痛苦，步步维艰。
 
 ---
 
-## 我从这段时期的芒格身上学到什么
+## 安然之前，他已经说过了
 
-读完1996-2002年这段，我有一个感受：芒格最难模仿的地方，不是他的分析框架，而是他的时间感。
+2001 年安然崩塌，整个美国企业界震惊于这场会计欺诈的规模。芒格不惊讶。
 
-他可以在三年、五年内"无聊"地持有现金，眼看着指数翻倍，而不动摇。这需要一种特殊的心理结构：你必须真正相信"现在不做"是一个主动的决策，而不是犯错或懒惰。
+他在 1990 年代末的多次股东会上，已经系统性地批评了这套机制：
 
-他管这个叫"克制的贪婪"——满怀欲望，但绝不会为了消化等待的焦虑而降低标准。
+**股票期权**：他管这叫"庞氏骗局"。「一家软件公司发行股票期权，可能会少算 12% 到 14% 的经营成本，由此虚增的利润，再乘以高市盈率，在资本市场上被放大很多倍。」期权的成本不被计入损益表，但它真实地稀释了股东权益。体系能维持下去，是因为最先受益的人（高管、VC、投行）会积极地为它辩护——就像传销链条里，先进来的人总是最热情的宣传者。
 
-我做不到这一步。但我觉得知道这个差距在哪里，比假装没有这个差距，更有用。
+**衍生品**：他的批评更犀利。「现行会计准则存在明显漏洞，从事衍生品交易的公司可以提前确认利润。」他把这种"按模型计价"称为"按神话计价"——银行凭空捏造一个理论价格，然后把未来可能根本不会兑现的利润提前计入当期收益。他的原话是：「大型银行资产负债表里，未清算的衍生品规模高达亿万美元……整个金融体系坐在了火药桶上。」
 
-**再次声明：我持有伯克希尔哈撒韦，这篇文章不是投资建议，书中的引用均为意译，具体表述请以原文为准。**
+2008 年的金融危机，在某种意义上是这段话的注脚。
 
 ---
 
-*《芒格之道》第三部分将聚焦 2003-2010 年：金融危机前后的芒格，以及他对衍生品"金融大规模杀伤性武器"的判断是否被历史验证。*
+## 西科金融怎么运营？不依赖管理层的企业文化
+
+西科旗下有一家叫 Precision Steel（精密钢材）的子公司。芒格介绍它时的措辞很有趣：公司文化好到他不需要频繁去视察，员工自己知道该怎么做。
+
+这背后是他对企业文化的一贯看法：好的公司不靠监控和 KPI 维持运转，靠的是"应得的信任构成的无缝网络"。他举的正面案例是梅奥诊所和伯克希尔自己——信任一旦建立，运营效率远超那些靠规章制度和审计堆出来的官僚体系。
+
+保险业务同样体现了这种纪律：芒格明确说，承保纪律比保费规模更重要。宁愿少承保，也不能为了收保费而承保自己没有把握定价的风险。西科的一个反例是他们曾经投资 USAir——1989 年以 1200 万美元买入可转换优先股，1994 年被迫减记至 300 万，1998 年才以 2173 万美元出售了结。航空公司是他后来反复用来自警的案例：资本密集、竞争激烈、定价权薄弱，根本不是好生意。
+
+---
+
+## 逆向思考的实际运用
+
+芒格在这一时期的股东会上多次提到一个思维方法：逆向思维 (inversion)。
+
+他的原型例子来自二战期间担任气象员时的经历。他不问"如何让飞行员安全"，而是先问"什么情况下飞行员最容易死"——答案是飞入结冰区，或者燃料耗尽。知道了如何制造灾难，就知道了如何避免。
+
+这个框架用在投资上是：与其问"这只股票会不会涨"，不如先问"这笔投资会在什么情况下失败，失败的概率和代价是什么"。风险在前，机会在后。
+
+他把"20 个孔"法则也放在这个框架里讲：假设你一生只能做 20 笔投资，每做一笔打一个孔，孔用完了就再也不能投资了。按这个约束来想，你会自动放弃大多数机会，只等那些真正确定的时机。「机会成本是终极过滤器，」他说，「如果你已经持有一个好东西，所有较差的机会都应该直接扔掉。」
+
+---
+
+## 泡沫之后，他失去了什么？
+
+2000 年科技股崩盘，纳斯达克从高峰跌去约 78%。很多人问芒格：你后悔没买吗？
+
+他的回答没有丝毫懊悔，但也没有得意。他提到了真正让他感到遗憾的事：好生意的定价已经越来越贵，值得买的机会在系统性减少。不是因为泡沫，而是因为市场变得更有效率、竞争者更多、信息传播更快。
+
+「早年，捡烟蒂的人很少，」他说，「现在捡烟蒂的人越来越多，这种投资方法就没那么好用了。」
+
+这句话是给那个时期整个投资格局的准确描述。芒格和巴菲特的成功在某种程度上催生了价值投资的普及，而普及本身削弱了优势。
+
+---
+
+这是《芒格之道》上编最耐读的部分——不是因为它给出了投资答案，而是因为它记录了一个人在集体狂热中如何坚守判断。不是所有的坚守都正确，但芒格的坚守有清晰的逻辑支撑，不是靠直觉，是靠框架。
+
+1996 到 2002，泡沫膨胀又破裂，安然倒下，世通崩塌，华尔街的审计师们和会计准则被迫重写。芒格在这段历史开始之前就已经说清楚了问题所在，只是没有人想听。
+
+这大概是他最深的一个洞见：在市场亢奋的时候，说真话是没有市场的。
+
+---
+
+*《芒格之道》上编涵盖 1987—2010 年西科金融股东会讲话，由芒格学会编著，中信出版集团出版。本文聚焦 1996—2002 年段落。这不是投资建议，请自行判断风险。*
