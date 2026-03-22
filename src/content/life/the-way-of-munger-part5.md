@@ -1,10 +1,8 @@
 ---
-title: "The Old Man Was Right"
-subtitle: "Reading Notes · The Way of Munger — Part 5"
-zh_title: "世界越荒唐，头脑越要清醒"
-zh_subtitle: "读书笔记 ·《芒格之道》第五部分"
-description: "Reading notes on Charlie Munger's 2019–2022 Daily Journal shareholder meetings — his most unguarded, most prescient, and most uncomfortable observations."
-date: 2026-03-21T10:00:00
+title: "Nothing Left to Lose: Munger's Final Verdicts on Speculation, Crypto, and What Actually Matters"
+zh_title: "投机者终将受到惩罚"
+description: "Reading Notes · The Way of Munger — Part 5: Charlie Munger's 2019–2022 Daily Journal remarks, where a man approaching 100 had nothing left to prove and everything left to say."
+date: 2026-03-22T10:00:00
 featured: false
 tags:
   - Investment
@@ -14,196 +12,206 @@ tags:
 ---
 
 
-*Reading Notes · The Way of Munger — Part 5*
+There is a particular kind of freedom that comes to a man in his late nineties who has already made more money than he can spend, outlived most of his critics, and stopped caring about being liked. Reading the final transcripts of Charlie Munger's Daily Journal shareholder meetings — 2019 through 2022, ages roughly 95 to 98 — I kept thinking: this is what it sounds like when someone has nothing left to lose and decades of compounded wisdom left to give.
+
+He wasn't softer. If anything, he was sharper. The hedges were gone. The diplomatic wrapping was thinner. When a shareholder asked about cryptocurrency in 2021, he called it "noxious poison." When someone praised Robinhood's mission of democratizing investing, he said it was inducing gambling behavior. When SPACs were everywhere, he called it a bubble. He was right on all three, and the timeline of subsequent events is almost uncomfortable to read.
+
+This isn't financial advice — not mine, and not Munger's either. What follows is a reading of his final years of public remarks through my own filter: a performance engineer who thinks about systems, incentives, and what breaks under stress.
 
 ---
 
-None of this is financial advice. I own no positions relevant to anything discussed here. Munger himself would probably tell you that if you're taking investment cues from someone else's reading notes, you've already made a serious error in judgment.
+## COVID Through the Lens of History
+
+When COVID hit in 2020 and governments began their historically unprecedented fiscal and monetary response, Munger's reaction was telling. He wasn't panicked. He wasn't outraged. He was mostly unsurprised.
+
+His framework for crises has always been historical rather than statistical. He doesn't look at a novel event and ask "what does the model say?" He asks "when has something structurally similar happened before, and what was the sequence?" The 1918 flu, the Great Depression, Weimar Germany — these weren't just historical trivia to Munger. They were working templates.
+
+On the massive stimulus spending, he was genuinely ambivalent in a way that felt honest. He acknowledged the necessity of preventing a deflationary spiral while simultaneously expressing deep anxiety about what printing trillions of dollars might eventually mean. He pointed, as he had before, to Japan's "lost decades" — a country that spent 25 years cutting rates to zero, running deficits at 10% of GDP, and printing aggressively, with minimal economic recovery. Traditional Keynesian theory couldn't explain it. Munger didn't pretend he could either.
+
+What struck me was that he held both positions simultaneously without forcing a reconciliation. The stimulus was probably necessary *and* its long-term consequences were deeply uncertain *and* anyone claiming certainty about the outcome was selling something. That's not fence-sitting. That's intellectual honesty under genuine uncertainty.
 
 ---
 
-At 95, Munger sat down at the Daily Journal Corporation shareholder meeting and said, approximately: I have no idea what's going to happen next, but I've been watching humans misbehave for a very long time, and what I'm seeing right now looks extremely familiar.
+## The Speculation Cohort of 2020–2021
 
-That framing — the long memory, the absence of panic, the slightly contemptuous calm — is what makes the 2019–2022 Daily Journal meetings different from everything that came before. These aren't the measured lessons of a 60-year-old building a business. These are the observations of a man who had watched the 1930s as a child, built wealth through the inflationary chaos of the 1970s, and was now watching a new generation discover that speculation is fun until it isn't.
+If Munger's COVID commentary was measured, his assessment of what followed — the 2020–2021 speculative mania — was anything but.
 
-He was not gentle about it.
+He watched SPACs proliferate (roughly 860 recently listed at the time he commented), watched GameStop squeeze a hedge fund, watched Robinhood build a $12 billion business on commission-free momentum trading, and called each one with the same vocabulary: foolish, gambling, a symptom of a deeper sickness in market culture.
 
----
+His core argument wasn't the standard "retail investors will lose money" caution. It was structural. When you remove friction from speculation and add gamification, you're not lowering barriers to investing — you're creating an environment that amplifies the least rational behaviors in human psychology. The Lollapalooza Effect, as he'd call it: multiple reinforcing incentives pushing in the same direction, producing non-linear foolishness.
 
-## A Pandemic Viewed From Ninety-Six
+On GameStop specifically, he laid the blame squarely on Robinhood's model. The short squeeze was a symptom; the infrastructure enabling momentum-driven speculation was the disease. Whether you agree with that analysis or not, the argument deserves engagement rather than dismissal. The academic counter-argument — that liquidity is always good, that commission-free trading democratizes access — doesn't grapple seriously with what Munger is pointing at: that access to a casino doesn't make you a better investor.
 
-When COVID arrived in early 2020, most institutional voices fell into one of two camps: catastrophists and denialists. Munger's position was neither.
-
-His read was essentially historical. Pandemics happen. Governments respond with money. Economies contract and then, usually, recover. He had lived through enough cycles to recognize the shape of the thing without needing to forecast its exact dimensions. "This kind of thing has happened before," he said, in various forms, across multiple meetings. Not dismissively — he understood the human cost — but as a corrective to the narrative that this particular moment was unprecedented in ways that should change how a rational person behaves.
-
-On fiscal and monetary stimulus, he was more pointed. The scale of government money creation was, in his view, an experiment with no reliable historical precedent. He wasn't predicting hyperinflation. He was saying, honestly, that no one knew what the downstream effects would be — and that anyone claiming confidence was selling something.
-
-This is a pattern worth noting across all five parts of this series. Munger is almost never confident about macroeconomic outcomes. What he's confident about is the durability of human nature and the reliable underperformance of people who confuse excitement for insight.
+He made a remark at one point that has stayed with me: that extreme stock market liquidity might actually deserve to be legally curtailed, with high taxes reducing trading volume by 80-90%. He compared highly liquid markets to a party where everyone is blindly drunk. This is not a mainstream position. It will not appear in any finance textbook. But the underlying logic — that constant price discovery mechanisms encourage treating ownership as a short-term bet rather than a long-term stake — is worth sitting with.
 
 ---
 
-## The Casino Went Digital
+## Cryptocurrency: An Ethical Argument, Not Just an Investment One
 
-The 2021 meeting happened in the middle of the GameStop frenzy, and Munger did not disappoint.
+Munger's rejection of Bitcoin was more interesting than most critics acknowledged, because it wasn't primarily an investment argument. It was a moral one.
 
-His description of Robinhood as a "gambling parlor" has been quoted widely, usually stripped of context. The full argument is more interesting: the problem isn't that retail investors exist or that they occasionally speculate. The problem is a business model designed to maximize trading frequency by making it frictionless, gamified, and socially reinforced — all while presenting itself as democratizing finance.
+He called it "anti-social." He called it "noxious poison." In 2021, "rat poison" apparently felt insufficient, so he upgraded to "venereal disease." The escalating metaphors were partly theatrical — this is a man who understood the value of being memorable — but the underlying logic was consistent and distinct from his other critiques.
 
-The distinction he kept drawing: investing is the transfer of capital toward productive use. Speculation is a transfer of money between speculators, with a vig extracted by intermediaries. SPACs, in his analysis, were a refinement of the second category: a mechanism that allowed promoters to collect substantial fees while investors absorbed the risk of finding an actual business to merge with, on a deadline, under pressure. "Who do you think is getting the better of this deal?" he asked, rhetorically.
+His investment case against crypto was standard: it produces nothing, its value depends entirely on finding a greater fool, it has no earnings, no dividends, no underlying business. That's a reasonable bear case that many serious investors have made.
 
-What struck me most was his refusal to moralize excessively. He acknowledged that gamblers enjoy gambling. He acknowledged that meme stocks created real wealth for people who got in and out at the right times. He wasn't pretending these things didn't happen. His prediction — stated flatly, without obvious relish — was simply that the odds were structured against the participants, and that this would eventually be understood through experience rather than argument.
+But the ethical layer was different. Munger argued that a currency designed to evade government oversight and facilitate anonymous transactions was, at its core, a tool optimized for bad actors. He wasn't making this as a libertarian counterpoint to debate — he viewed it as a near-obvious conclusion that respectable people were somehow choosing not to say aloud. He said it aloud repeatedly.
 
-He was right, of course. He usually is, on the things he chooses to opine on. That selectivity is itself the lesson.
+Is this position too absolute? Perhaps. There are legitimate use cases for censorship-resistant value transfer, particularly in countries with collapsing currencies or authoritarian financial controls. Munger's circle of competence on cryptographic systems was, by his own admission, narrow. His "too hard" pile was explicit.
 
----
-
-## Rat Poison, Revisited
-
-Munger on cryptocurrency is worth engaging with seriously, because the surface reading — "old man doesn't understand new technology" — misses what he was actually arguing.
-
-His objections operated on at least three distinct levels, and conflating them produces confusion.
-
-The first is the investment objection: an asset with no underlying cash flows, whose price is determined entirely by the next buyer's willingness to pay, is not an investment by any definition Munger finds coherent. This isn't a technology skepticism argument. It's a valuation argument. He would make the same point about tulip futures or Beanie Babies. The medium is irrelevant.
-
-The second is the monetary objection: he watched governments and central banks struggle to maintain functional monetary systems across six decades. His assessment of cryptocurrency as a "substitute currency for bad people" — crude, deliberately offensive — contained a specific claim: that the primary marginal utility of a censorship-resistant, pseudonymous currency is for transactions that existing financial systems won't process. He believed this was not a feature but a bug. Reasonable people disagree. But this wasn't ignorance; it was a considered position.
-
-The third objection is the one I find most interesting: civilizational. Munger had a specific view of what distinguishes functioning societies from dysfunctional ones, and financial infrastructure — the ability to intermediate savings into productive investment at scale — figured prominently in it. A speculative asset that diverted capital from productive deployment, created no income-generating activity, and primarily enriched early entrants at the expense of later ones struck him as, in a small but real way, anti-civilizational. Not merely unprofitable — actively corrosive.
-
-You can disagree with this. Many serious people do. But calling it "the view of someone who doesn't understand blockchain" is simply not accurate. He understood the argument and rejected it at a foundational level.
+But I don't think his rejection was the stubbornness of an old man refusing to understand new technology. His framework for evaluating financial instruments always began with: what purpose does this serve in the real economy, and what behaviors does it incentivize? By that measure, his skepticism was coherent even if the conclusion was blunt.
 
 ---
 
-## The China Position
+## China: A Complicated Admiration
 
-This is where Munger became genuinely controversial in his final years, and where I think the honest reading is more complicated than either his defenders or critics allow.
+The most politically contentious thread in these final years was Munger's continued, vocal admiration for China.
 
-He held positions in Chinese equities — Daily Journal Corporation had Alibaba shares — and he spoke favorably of China's economic management at several meetings. In 2021 and 2022, as U.S.-China tensions escalated and Chinese tech regulation tightened (Didi's delisting, the Ant Financial suspension, the education sector crackdown), he maintained his positions and, largely, his positive assessment.
+He praised China's pragmatic economic management. He bought Alibaba for the Daily Journal's portfolio (on a $40 million margin loan, which created its own shareholder commentary). He called Li Lu — the Chinese-American fund manager who had pitched him BYD in 2008 — the "Chinese Warren Buffett." He argued, repeatedly, that Chinese companies were stronger and growing faster than their American equivalents, and that the best investment opportunities were there.
 
-His argument: China was producing real economic growth, had demonstrated the capacity to lift hundreds of millions of people out of poverty, and its government — whatever its other characteristics — had shown a pragmatic relationship with market mechanisms that he found more sophisticated than the ideological caricatures suggested.
+This was not a popular position in the early 2020s, as US-China relations deteriorated. Munger acknowledged the geopolitical tension but held his view. His argument was essentially empirical: China lifted hundreds of millions of people out of poverty in a historically unprecedented time frame. Whatever methods were used, results of that magnitude deserve some analytical respect rather than pure ideological rejection.
 
-What he acknowledged less forthrightly was the political risk. An investor in Chinese equities is subject to decisions made by a government with different accountability structures than U.S.-listed companies, operating under rules that can change rapidly and with limited recourse for foreign investors. Alibaba lost roughly 75% of its value from its 2020 peak to 2022. That's not purely a market misjudgment; it's a political risk that materialized.
+I find this section of his thinking genuinely difficult to evaluate. The BYD investment — bought for $230 million in 2008, flat for five years, then surging to a P/E approaching 200x — was a spectacular outcome and validated his long-term conviction. Whether that success should update our priors on Chinese companies generally is a harder question, one Munger was perhaps too willing to answer affirmatively.
 
-I disclose: I have no position in Chinese equities. I read Munger's China commentary as an example of a sophisticated investor being correct about the underlying business quality and wrong about the relevant risk dimension — which is a useful reminder that even the best frameworks have blind spots. His framework was built on analyzing business economics; political economy in an authoritarian system operates by partially different rules.
-
-He would probably tell you he knew the risks and held anyway. That's a legitimate position. It's just important to name what you're doing.
+The position isn't "old man doesn't understand geopolitics." It's a reasoned bet on economic fundamentals over political friction, made by someone who had made similar contrarian bets before and been right. Whether it will prove correct in the long run, I genuinely don't know.
 
 ---
 
-## Ninety-Eight Years of Paying Attention
+## The Final Wisdom of a Near-Centenarian
 
-The most memorable line from the late Daily Journal meetings isn't about crypto or SPACs or China. It's smaller than that.
+What's striking about Munger in his late nineties is the absence of nostalgia. He wasn't summarizing his life. He wasn't saying his goodbyes. He was still, actively, thinking about what was true.
 
-Asked what advice he'd give to someone starting out, Munger said, in effect: try to go to bed every night a little smarter than you woke up. That's it. Not a strategy. Not a framework. Just the daily practice of incremental improvement, compounded over time.
+His core advice to young investors remained remarkably consistent with everything he'd said for decades: read constantly, build a latticework of mental models from multiple disciplines, wait patiently for the rare obvious opportunity, and bet heavily when it arrives. The "20-hole punch card" rule — act as if you only get 20 investment decisions in a lifetime — wasn't new, but in these final years it seemed less like strategy advice and more like a description of how he'd actually lived.
 
-He meant it more literally than it sounds. He read voraciously into his late nineties — history, science, biography, annual reports. Not because reading is virtuous but because being well-informed is genuinely useful, and the people who stop being well-informed stop being useful.
+He talked about "selling the best hour of each day" to himself — using early morning strictly for reading and thinking before giving time to others. He attributed much of his success to that single habit sustained over decades. A performance engineer can't help noticing: it's the same principle as protecting your critical path from interruption.
 
-What I took from the 2019–2022 meetings — sitting with this book across several evenings, not investing money but trying to think more clearly — is that Munger's sharpness at the end wasn't a gift or a genetic anomaly. It was the accumulated product of a specific discipline, applied across seven decades, of refusing to hold beliefs you can't defend, refusing to act in domains where you lack genuine competence, and refusing to mistake excitement for analysis.
+On happiness, he was equally consistent. Lower your expectations. Eradicate envy — which he noted is the only sin that provides zero pleasure; you don't even enjoy the envy itself. Avoid self-pity. Walk away from toxic people without engaging. These aren't investments insights. They're operational principles for living, and he had tested them over 99 years.
 
-The world produced an extraordinary amount of excitement between 2019 and 2022. The markets ran up, crashed, ran up again. New asset classes emerged. A global pandemic reshuffled economic assumptions. And through all of it, a 97-year-old man sat at a small shareholder meeting for a California legal software company and said, essentially: I've seen this before; the fundamentals haven't changed; the people who'll get hurt are the ones who believe this time is different.
+The line I keep returning to: "每过完一天，要努力比早上醒来时更聪明一点点." Each day, try to be just slightly smarter than when you woke up. Not dramatically smarter. Not transformed. A little bit smarter.
 
-He was, in the ways that mattered, right.
-
-That's not a comfortable lesson. The more comfortable lesson would be to find the specific stock he was bullish on and buy it. The actual lesson is that the intellectual hygiene that produced his track record is available to anyone willing to do the work. The work is unglamorous. The work is reading, and thinking, and being willing to be wrong, and updating accordingly, and saying "I don't know" when you don't know.
-
-He did that for ninety-nine years. Most of us manage it for approximately eleven minutes before looking at our phones.
+Compounded over decades, the result apparently looks like Charlie Munger.
 
 ---
 
-*Parts 1–4 of this series cover Munger's Wesco Financial years (1987–2010) and the early Daily Journal period (2014–2018). The books that animate this series are《芒格之道》(CITIC Press, 2023) and the full corpus of Berkshire annual letters.*
+There is a kind of satisfaction in reading these final transcripts that I didn't quite expect. Not because they're reassuring — they're frequently alarming, and much of what Munger warned about has already materialized in one form or another. But because they're the words of someone who maintained intellectual clarity, humor, and genuine curiosity about the world while approaching 100.
+
+He wasn't a saint. Some of his positions were wrong. His dismissal of things outside his circle of competence occasionally tipped from appropriate humility into categorical rejection. His China views may yet be proven too optimistic. But on the core questions — what makes a business valuable, what makes a financial system fragile, what makes a human life well-spent — the consistency across these decades of shareholder meeting transcripts is striking.
+
+Munger died in November 2023, one month shy of his 100th birthday. This book captures his last public years of thinking. Read as a final statement, the overall message is probably this: the rules don't actually change, most people know them, and almost no one follows them.
+
+---
+
+*Nothing in this post constitutes financial advice. The author holds no positions in any securities mentioned. Munger's investment decisions are context-dependent; what worked for him at his scale, with his access and temperament, does not translate directly to anyone else's situation.*
+
+---
+
+*This is Part 5 of a reading series on "The Way of Munger" (芒格之道). Earlier parts covered the Wesco era (1987–2010) and the Daily Journal years through 2018.*
 
 
 <!-- zh -->
 
 
-*我不持有本文涉及的任何股票（包括阿里巴巴及相关中国资产）。这是《芒格之道》读书笔记系列第五篇，仅代表我对公开记录的理解，不构成任何投资建议。*
+2021 年的市场，是一场盛大的派对。
+
+SPAC（Special Purpose Acquisition Company，特殊目的收购公司）如雨后春笋，同时存在约 860 家。GameStop 被 Reddit 散户逼得天上地下，做空者割肉离场。比特币突破 6 万美元，特斯拉（Tesla）以 1000 倍市盈率交易。Robinhood 的用户在手机屏幕上划来划去，每一次交易都有彩纸飘落。
+
+而在帕萨迪纳的每日期刊（Daily Journal）股东会上，一位 97 岁的老人冷静地看着这一切，然后给出了他的评价：
+
+「这些都是蠢事。」
+
+读《芒格之道》下编——2019 到 2022 年——你会发现一件事：芒格的观点从未动摇，但他的表达越来越无所顾忌。大概年近百岁，已经没有什么需要顾忌的了。
+
+这篇是系列读书笔记的最后一篇，记录芒格生命最后几年的公开讲话。先声明：这不是投资建议，仅是我读书的笔记和思考。文中涉及的任何资产，我不做任何推荐。
 
 ---
 
-2021年的每日期刊 (Daily Journal Corporation) 股东会，97岁的芒格坐在台上，不到十分钟之内骂完了 SPAC、Robinhood 和比特币，然后话锋一转，开始夸阿里巴巴。语气从头到尾一样——不是愤怒，是厌倦中带着笃定，像一个见过太多的人在陈述显而易见的事实。
+## 疫情：「这种事情以前发生过」
 
-台下有人鼓掌，有人皱眉。没有人打断他。
+芒格对 COVID 经济冲击的回应，和他对所有危机的回应一模一样——不惊慌，不预测，只做自己懂的事。
 
-这是《芒格之道》下编的主场：每日期刊股东会 2014-2022。本篇聚焦最后几年——疫情那段。芒格95岁到98岁，亲历了流动性泛滥、散户投机狂潮、加密货币从边缘走向主流，以及中美关系的急剧恶化。他的观点比年轻时更极端，语言比年轻时更直接。不是因为老糊涂了，而是因为彻底不在乎别人怎么看了。
+他在 2020 年的讲话里说，面对大规模不确定性，他的策略是：持有优质资产，保持流动性，等待机会，不做傻事。没有「现金为王」，没有「抄底时机到了」，没有任何预测。
 
-这种无所顾忌，反而让他的判断更值得细读。
+关于史无前例的货币宽松，他承认规模前所未有，但拒绝预测后果：「我和沃伦都不知道经济走向，我们从来就不知道，以后也不会知道。」
 
----
+他反复提到日本：过去 25 年，利率降至接近零，财政赤字达到 GDP 的 10%，大规模印钞，结果经济依然一潭死水，完全出乎传统凯恩斯主义预料。他的结论：宏观经济太复杂，任何人声称能预测它，都是在说谎——包括他自己。
 
-## 疫情来了，他没慌
+另一个反复出现的历史警示是魏玛德国（Weimar Germany）——靠印钞偿还一战债务，最终引发恶性通胀，为希特勒上台埋下伏笔。他没有预言美国会重蹈覆辙，但他认为无限印钱不是没有代价的，代价只是被推迟了。
 
-2020年，COVID-19 打乱全球经济的节奏。芒格的反应是：这种事以前发生过。
-
-这不是傲慢，是历史感。他5岁时亲历 1929 年大萧条，此后经历了二战、数次金融危机、1987年黑色星期一（道指单日暴跌逾 20%，是自 1869 年以来最大单日跌幅）。每一次，人们都说"这次不一样"。每一次，世界都活过来了。
-
-他对大规模财政刺激的评价：短期正确，但有长期代价。
-
-"把大量钱发给大家，当然有通胀风险。但在那种情况下，这是对的。" 他没有抱怨刺激政策本身，担心的是政策制定者是否有足够的纪律及时收手。2022年美联储被迫激进加息，部分验证了这个担忧。
-
-他的方法论始终如一：不预测市场短期走向，专注于找到在任何宏观环境下都有竞争优势的企业。"手里拿着大量资产等待好机会，并不代表这是永久状态。" 他用这句话贯穿了整个职业生涯，疫情时代同样适用。
+这是芒格的历史观：当下的疯狂，永远有历史先例。见过 1929、1987、2000、2008 的人，对 2020 的恐慌与狂热，自然多一份平静。
 
 ---
 
-## SPAC、Robinhood 和赌场经济
+## SPAC、GameStop 与 Robinhood：投机的盛宴
 
-2020-2021年，SPAC (特殊目的收购公司，俗称"空白支票公司") 爆炸式增长。每周都有名人背书的 SPAC 上市，承诺带着散户进入"下一个独角兽"。
+芒格对 2020-2021 年投机浪潮的批评，是这本书里最直截了当的部分。
 
-芒格的判断极其简洁：这是对散户的抢劫。
+**SPAC**：他的评价是「纯粹的投机泡沫」。860 家 SPAC 同时存在，背后的逻辑是：发起人先募资，再找标的收购，中间赚取大量「发起人股份」（founder shares）。芒格看穿了这个结构：本质上是让华尔街内部人士以极低成本，从散户手里套利。
 
-SPAC 的结构设计几乎保证发起人的胜利：他们以极低代价获得 20% 的促进者权益 (promote)，散户承担所有下行风险。历史数据显示，大多数 SPAC 合并后，股价在12个月内系统性跑输大盘。他称这套机制"恶心 (disgusting)"，是对诚实金融的侮辱。
+**GameStop**：他不认为这是「散户的胜利」。他把它归因于 Robinhood 等零佣金券商对散户行为的系统性扭曲——游戏化界面、推送通知、零门槛——这些设计让投机变得像游戏，代价由用户承担。
 
-Robinhood 的批评更直接。把金融投机做成游戏——徽章、彩屑、无摩擦的即时交易——是在利用年轻人的心理弱点。"你开了一家赌场，然后说自己在普及金融知识，这不体面。"
+他的核心论点只有一句话：**投机者终将受到惩罚。**
 
-2021年初的 GameStop 事件是这一切的缩影。Reddit 散户集体逼空机构做空者，股价从不足 20 美元飙至接近 500 美元，然后崩塌。芒格的评价：投机者终究会受到惩罚，这次只是时间问题。
+不是因为市场会立刻惩罚他们，而是因为追逐热点、高频投机这种行为模式，在足够长的时间维度上，概率必然指向糟糕的结果。他拒绝给出时间表——他只是说，历史上每一次大规模投机狂潮，最终都以相同的方式结束。
 
-他的核心论点不是道德说教，是数学。零和博弈里，散户对抗机构，机构的信息优势、资金优势和风控能力会让大多数散户长期亏损。唯一稳定盈利的是提供平台和流动性的中间人。他引用过一个经典钓鱼类比：渔具店把鱼钩做成五颜六色，不是因为鱼喜欢颜色，是因为渔民喜欢——产品是卖给人的，不是卖给鱼的。
-
----
-
-## 加密货币：不只是坏投资，是坏东西
-
-芒格对加密货币的态度不是怀疑，是拒绝。他的反对不止于投资逻辑，还有道德判断。
-
-先说投资逻辑。比特币没有内在现金流，没有生产资产，价值完全依赖找到下一个愿意以更高价格买入的人——这是凯恩斯选美理论，不是价值投资。他看过郁金香泡沫、南海公司、.com 时代无收入科技股的历史，看不到理由认为这次不同。
-
-但他的批评更深一层。"我不欢迎一种对绑架者和勒索者如此有用的货币。" 他认为加密货币的匿名性为犯罪提供了真实的基础设施，这在投资判断之上，是一个公民判断。
-
-有人说他顽固。值得更公正地看待他的论证：他并非反对所有技术创新，而是在问"这种创新服务于什么目的"。他对电子支付、区块链作为记录系统没有异议，但"去中心化匿名货币"这个具体应用，他认为弊大于利。
-
-这个立场在 2022 年加密货币市场崩溃（FTX 倒闭，比特币从接近 7 万美元跌至 2 万美元以下）后看起来更有说服力。但要补充：芒格在市场上涨时就是这个立场，不是事后诸葛亮。能在泡沫期坚持反对意见，本身就是一种能力。
+值得注意的是，他没有为监管机构辩护，也没有为职业投资者辩护。他对华尔街的批评同样尖锐：调整后 EBITDA 是「狗屁利润」，股票期权会计是类 Ponzi 式结构，衍生品的「按模型定价」实质是「按臆想定价」。派对上的每个人都喝醉了，区别只是谁喝得更快。
 
 ---
 
-## 中国：逆势的押注
+## 加密货币：这不只是投资判断
 
-2021年，每日期刊公开持有阿里巴巴 (Alibaba) 的仓位。这是一个非常规动作——一个几乎全部持仓在美国本土的保守基金，买入一只中国互联网公司，而且恰好在监管逆风开始的时候。
+芒格对比特币（Bitcoin）的批评，语气比书中任何其他话题都要激烈。
 
-芒格的逻辑是熟悉的：这个生意好，价格合理，市场因为不了解它而定价偏低。
+他称之为「有毒的毒药」（noxious poison），在另一场合称之为「性病」（venereal disease）。
 
-他看阿里巴巴的方式和他早年看房地美 (Freddie Mac) 的方式相似——找市场因为分类错误产生的定价偏差。当时市场把阿里巴巴看成"中国科技监管风险"的集合体，芒格看到的是一个在全球最大消费市场占据统治地位的平台型企业，估值远低于同等质量的美国同类。
+这种措辞本身值得停下来想一想。为什么芒格对比特币的厌恶，远超他对其他投机性资产的厌恶？
 
-对中美关系，他不回避风险，但认为市场的悲观已经过度。他一贯的框架：地缘政治风险是真实的，但问题是——它是否已经被充分定价？
+他的逻辑有几层，值得分开看。
 
-他对中国政府的评价比多数西方人更正面，有时让美国媒体不舒服。他认为中国在过去几十年里把数亿人带出贫困，是20世纪最重要的经济成就之一，并对中国官员的务实能力持较高评价。
+第一层是**投资判断**：比特币没有内在价值，不产生现金流，不创造产品，本质是相信别人会以更高价格买入的博弈——经典的「更大傻瓜理论」（Greater Fool Theory）。这一层批评对许多人来说并不陌生。
 
-需要透明说明：阿里巴巴在他买入后继续下跌，到2022年底跌幅极大。这不是芒格第一次承受巨大浮亏，也不改变他的分析框架。但任何正在考虑中国资产的投资者，都应该独立评估政治风险、监管风险和流动性风险，而不是因为芒格买了就跟进。他能接受的永久亏损幅度，未必是你能接受的。
+第二层是**道德判断**：他把加密货币的主要功能归纳为逃税、洗钱和投机。他称其为「反社会」（anti-social）资产——不仅对投资者有害，对社会也有害。他甚至直接对比中国禁止加密货币的决定，认为这是少数几件中国政府做对的事之一。
 
----
+这是芒格式思维的典型体现：他不仅问「这个资产能赚钱吗」，还问「这个资产对社会是否有益」。两个问题他都得出了否定答案。
 
-## 每天比昨天聪明一点点
+你可以不同意他的结论。事实上，很多人不同意。但他的论证不是空穴来风，也不是老人的固执——这是一套完整的价值体系在运作。
 
-95岁以后，芒格谈人生哲学的频率明显增加。不是因为他变得感伤，而是他有越来越长的时间维度来验证自己的判断。
-
-他反复引用的操作原则：每天睡觉前，努力比早上醒来时更聪明一点点。不是读更多书，不是参加更多会议，是真正理解了某件之前不理解的事。
-
-这听起来平淡，但他是认真的。
-
-他这一生的竞争优势不是天才，是复利式的学习。每天一点，乘以几十年，形成惊人的积累。他98岁时依然能在股东会上讨论银行业结构、中美关系、软件估值，不是因为记性好，是因为从来没有停止真正地学习。
-
-他对预测能力的最终陈述，说得很直接："我没有未卜先知的能力，任何宣称能预测市场走向的人，要么是骗子，要么是自欺。我能做的，是在自己看懂的范围内做出最好的判断，在看不懂的范围内保持耐心和等待。"
-
-这是"有克制的贪婪"——《芒格之道》开篇就确立的核心命题——在98岁时的最终形态：不是放弃贪婪，是把它压缩到你真正有优势的那个角落，然后在那个角落里全力以赴。
+我没有持有任何加密货币，只是尽量如实呈现他的观点。
 
 ---
 
-*这篇读书笔记基于《芒格之道》（芒格书院编，冉冉译，中信出版社，2023年6月）以及每日期刊股东会的公开记录。本文不构成投资建议，所有判断仅代表我的个人理解。*
+## 中国：折价背后的机会
 
-*芒格于2023年11月28日辞世，距他100岁生日仅剩34天。*
+芒格在晚年对中国市场的态度，是他最具争议的立场之一。
+
+在 2020-2022 年的讲话里，他多次表示，相比高估的美国资产，中国市场因地缘政治风险而折价，反而存在更好的机会。他称赞中国的高储蓄率、强劳动意愿，以及务实而非意识形态驱动的经济政策。每日期刊持有阿里巴巴（Alibaba）的仓位，他认为阿里巴巴对于这种质地的公司来说，估值相当有吸引力。
+
+但他从未粉饰风险。他清楚知道在中国投资面临独特的政治和监管风险——2021 年科技股监管打压已经是事实。他的立场是：风险存在，价格如果足够便宜，风险可以接受。
+
+这是他一贯的框架：机会等于价格相对于价值的折扣。风险不是要回避的，而是要定价的。
+
+有一点值得补充：他对中国的欣赏，更多是基于他看到的经济事实，而不是对政治制度的背书。他同样批评威权主义，也同样批评美国的政治极化。这位老人对任何体制都没有幻想，只对结果感兴趣。
+
+---
+
+## 最后的话
+
+2022 年的每日期刊股东会，是这本书记录的最后一次。那时芒格 98 岁。
+
+有人问他：你最想留给年轻投资者的忠告是什么？
+
+他的回答没有宏大叙事：「每过完一天，努力比早上醒来时更聪明一点点。」
+
+「一点点」——不是每天要找到改变人生的洞察，而是微小的、持续的积累。复利不只是金融概念，更是认知概念。
+
+他在讲话里提到，他把每天最好的一个小时留给自己——用来读书，获取智慧——然后才把时间给其他人。这是他从年轻时就养成的习惯，一直保持到了 98 岁。
+
+读完这本书，我最深的感受不是某一条投资原则，而是一种态度：**清醒比聪明更难得。**
+
+芒格见过的泡沫、骗局、天才与蠢货，比我们大多数人见过的多得多。他的结论不是「市场很聪明」，不是「只要努力就能成功」，而是：保持清醒，持续学习，不做蠢事，等待真正好的机会。
+
+然后——等得住。
+
+他没有说「这很容易」。
+
+---
+
+*这是《芒格之道》读书笔记系列的最后一篇，记录 2019-2022 年芒格在每日期刊股东会上的讲话。本文仅为读书笔记与个人思考，不构成任何投资建议。*
