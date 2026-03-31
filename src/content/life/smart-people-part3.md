@@ -1,6 +1,8 @@
 ---
 title: "When the Framework Meets the Floor"
+subtitle: "Reading Notes · Personal Development for Smart People — Part 3"
 zh_title: "原则落地的考验：习惯、事业与金钱"
+zh_subtitle: "读书笔记 · Personal Development for Smart People 第三部分"
 description: "Pavlina's seven-principle theory collides with habits, career, and money — and the friction is instructive."
 date: 2026-03-31T10:00:00
 featured: false

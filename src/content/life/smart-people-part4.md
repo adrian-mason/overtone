@@ -1,6 +1,8 @@
 ---
-title: "The Framework's Harder Test: Reading Notes · Personal Development for Smart People — Part 4"
-zh_title: "框架走到哪里才会吃力：身体、关系与灵性的三原则检验"
+title: "The Framework's Harder Test"
+subtitle: "Reading Notes · Personal Development for Smart People — Part 4"
+zh_title: "框架走到哪里才会吃力"
+zh_subtitle: "读书笔记 · Personal Development for Smart People 第四部分"
 description: "Pavlina's Truth-Love-Power model encounters health, relationships, and spirituality — where it holds up, where it strains, and what to do with the uncertainty."
 date: 2026-03-31T10:00:00
 featured: false

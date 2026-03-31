@@ -1,6 +1,8 @@
 ---
 title: "Three Primary Principles and Why Smart People Resist All of Them"
+subtitle: "Reading Notes · Personal Development for Smart People — Part 1"
 zh_title: "所有真正的成长，都指向同一个原点"
+zh_subtitle: "读书笔记 · Personal Development for Smart People 第一部分"
 description: "Steve Pavlina's framework starts with an arrest at 19. Reading notes on Truth, Love, and Power — the three pillars beneath all genuine growth."
 date: 2026-03-31T10:00:00
 featured: false

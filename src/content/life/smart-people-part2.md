@@ -1,6 +1,8 @@
 ---
 title: "The Algebra of Character"
-zh_title: "美德可以相加吗 — 读书笔记 · Personal Development for Smart People 第二部分"
+subtitle: "Reading Notes · Personal Development for Smart People — Part 2"
+zh_title: "美德可以相加吗"
+zh_subtitle: "读书笔记 · Personal Development for Smart People 第二部分"
 description: "Pavlina derives Oneness, Authority, Courage, and Intelligence from three primitives. The framework is elegant — but does the math actually hold?"
 date: 2026-03-31T10:00:00
 featured: false
